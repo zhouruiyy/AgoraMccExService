@@ -190,9 +190,9 @@ __attribute__((visibility("default")))
 /// The maximum cache size.
 @property (nonatomic, assign, readonly) NSInteger maxCacheSize;
 /// The event delegate.
-@property (nonatomic, weak, readonly) id<AgoraMusicContentCenterExEventDelegate> eventDelegate;
+@property (nonatomic, weak, readonly) id<AgoraMusicContentCenterExEventDelegate> _Nullable eventDelegate;
 /// The score event delegate.
-@property (nonatomic, weak, readonly) id<AgoraMusicContentCenterExScoreEventDelegate> scoreEventDelegate;
+@property (nonatomic, weak, readonly) id<AgoraMusicContentCenterExScoreEventDelegate> _Nullable scoreEventDelegate;
 /// The audio frame delegate.
 @property (nonatomic, weak, readonly) id<AgoraAudioFrameDelegate> _Nullable audioFrameDelegate;
 
@@ -216,8 +216,8 @@ __attribute__((visibility("default")))
               enableSaveLogToFile:(BOOL)enableSaveLogToFile
                       logFilePath:(NSString * _Nullable)logFilePath
                      maxCacheSize:(NSInteger)maxCacheSize
-                    eventDelegate:(id<AgoraMusicContentCenterExEventDelegate>)eventDelegate
-               scoreEventDelegate:(id<AgoraMusicContentCenterExScoreEventDelegate>)scoreEventDelegate
+                    eventDelegate:(id<AgoraMusicContentCenterExEventDelegate> _Nullable)eventDelegate
+               scoreEventDelegate:(id<AgoraMusicContentCenterExScoreEventDelegate> _Nullable)scoreEventDelegate
                audioFrameDelegate:(id<AgoraAudioFrameDelegate> _Nullable)audioFrameDelegate;
 - (instancetype)init __attribute__((unavailable("Use initWithRtcEngine instead")));
 @end

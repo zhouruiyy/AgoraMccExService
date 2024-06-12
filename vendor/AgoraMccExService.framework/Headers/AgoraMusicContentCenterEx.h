@@ -153,7 +153,7 @@ __attribute__((visibility("default")))
  * - 0: Success.
  * - < 0: Failure.
  */
-- (NSInteger)registerEventDelegate:(id<AgoraMusicContentCenterExEventDelegate> _Nullable)eventDelegate;
+- (NSInteger)registerEventDelegate:(id<AgoraMusicContentCenterExEventDelegate> _Nullable)eventDelegate NS_SWIFT_NAME(register(eventDelegate:));
 
 /**
  * Register a score event delegate.
@@ -163,7 +163,7 @@ __attribute__((visibility("default")))
  * - 0: Success.
  * - < 0: Failure.
  */
-- (NSInteger)registerScoreDelegate:(id<AgoraMusicContentCenterExScoreEventDelegate> _Nullable)scoreDelegate;
+- (NSInteger)registerScoreDelegate:(id<AgoraMusicContentCenterExScoreEventDelegate> _Nullable)scoreDelegate NS_SWIFT_NAME(register(scoreDelegate:));;
 
 /**
   * Register the audio frame observer
@@ -173,7 +173,7 @@ __attribute__((visibility("default")))
   * - 0: Success.
   * - < 0: Failure.
   */
-- (NSInteger)registerAudioFrameDelegate:(id<AgoraAudioFrameDelegate> _Nullable)delegate;
+- (NSInteger)registerAudioFrameDelegate:(id<AgoraAudioFrameDelegate> _Nullable)delegate NS_SWIFT_NAME(register(audioFrameDelegate:));;
 
 /**
  * Preload a media file with specified parameters.
@@ -218,7 +218,7 @@ __attribute__((visibility("default")))
  * - The pointer to an object who realize the AgoraMusicPlayerProtocol, if the method call succeeds.
  * - The empty pointer NULL, if the method call fails.
  */
-- (id<AgoraMusicPlayerProtocolEx>)createMusicPlayerWithDelegate:(id<AgoraRtcMediaPlayerDelegate> _Nullable)delegate;
+- (id<AgoraMusicPlayerProtocolEx> _Nullable)createMusicPlayerWithDelegate:(id<AgoraRtcMediaPlayerDelegate> _Nullable)delegate;
 
 /**
  * Destroy a music player source object and return result.
@@ -268,6 +268,15 @@ __attribute__((visibility("default")))
  * - < 0: Failure.
  */
 - (NSInteger)resumeScore;
+
+/**
+ * Stop scoring.
+ *
+ * @return Returns:
+ * - 0: Success.
+ * - < 0: Failure.
+ */
+- (NSInteger)stopScore;
 
 /**
  * Set the score level.
