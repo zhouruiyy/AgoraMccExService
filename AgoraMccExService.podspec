@@ -35,7 +35,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/zhouruiyy/AgoraMccExService.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = "vendor/AgoraMccExService.framework"
-  spec.dependency 'AgoraRtcEngine_Special_iOS', '4.1.1.24'
+  spec.dependency 'AgoraRtcEngine_Special_iOS', '~> 4.1.0'
   spec.dependency 'AgoraComponetLog', '0.0.2'
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'DEFINES_MODULE' => 'YES' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'DEFINES_MODULE' => 'YES' }
