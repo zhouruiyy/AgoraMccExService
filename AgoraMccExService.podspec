@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AgoraMccExService"
-  spec.version      = "2.2.0.131"
+  spec.version      = "2.2.0.131-alpha-3"
   spec.summary      = "A short description of AgoraMccExService."
 
   # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "zhourui" => "zhourui@agora.io" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/zhouruiyy/AgoraMccExService.git", :tag => "#{spec.version}" }
-  spec.vendored_frameworks = "vendor/AgoraMccExService.framework"
+  spec.vendored_frameworks = "vendor/AgoraMccExService.xcframework"
   spec.dependency 'AgoraRtcEngine_Special_iOS', '~> 4.1.0'
   spec.dependency 'AgoraComponetLog', '0.0.2'
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'DEFINES_MODULE' => 'YES' }
