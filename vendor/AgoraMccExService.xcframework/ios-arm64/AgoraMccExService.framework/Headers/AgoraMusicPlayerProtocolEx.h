@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 * - 0: Success.
 * - < 0: Failure.
 */
-- (NSInteger)setPlayMode:(AgoraMusicPlayMode)mode NS_SWIFT_NAME(setPlayMode(mode:));
+- (NSInteger)setPlayMode:(AgoraMusicPlayModeEx)mode NS_SWIFT_NAME(setPlayMode(mode:));
 
 @end
 

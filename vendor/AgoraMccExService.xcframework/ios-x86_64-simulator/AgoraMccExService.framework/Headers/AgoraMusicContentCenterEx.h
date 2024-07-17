@@ -42,8 +42,9 @@ NS_ASSUME_NONNULL_BEGIN
  * @param percent The preload progress (0 ~ 100).
  * @param lyricPath The path to the lyric file.
  * @param pitchPath The path to the pitch file.
- * @param offsetBegin The beginning offset of the song.
- * @param offsetEnd The ending offset of the song.
+ * @param songOffsetBegin The beginning offset of the song.
+ * @param songOffsetEnd The ending offset of the song.
+ * @param lyricOffset The offset of the lyric.
  * @param state The state of the preload; see AgoraMusicContentCenterExState.
  * @param reason The reason for the preload result; see AgoraMusicContentCenterExStateReason.
  */
@@ -52,8 +53,9 @@ NS_ASSUME_NONNULL_BEGIN
                percent:(NSInteger)percent
              lyricPath:(NSString* _Nullable)lyricPath
              pitchPath:(NSString* _Nullable)pitchPath
-           offsetBegin:(NSInteger)offsetBegin
-             offsetEnd:(NSInteger)offsetEnd
+       songOffsetBegin:(NSInteger)songOffsetBegin
+         songOffsetEnd:(NSInteger)songOffsetEnd
+           lyricOffset:(NSInteger)lyricOffset
                  state:(AgoraMusicContentCenterExState)state
                 reason:(AgoraMusicContentCenterExStateReason)reason;
 
@@ -63,15 +65,17 @@ NS_ASSUME_NONNULL_BEGIN
  * @param requestId The request ID.
  * @param songCode The code of the song.
  * @param lyricPath The path to the lyric file, default path is in cache directory.
- * @param offsetBegin The beginning offset of the lyric.
- * @param offsetEnd The ending offset of the song.
+ * @param songOffsetBegin The beginning offset of the song.
+ * @param songOffsetEnd The ending offset of the song.
+ * @param lyricOffset The offset of the lyric.
  * @param reason The reason for the lyric result; see AgoraMusicContentCenterExStateReason.
  */
 - (void)onLyricResult:(NSString*)requestId
              songCode:(NSInteger)songCode
             lyricPath:(NSString* _Nullable)lyricPath
-          offsetBegin:(NSInteger)offsetBegin
-            offsetEnd:(NSInteger)offsetEnd
+      songOffsetBegin:(NSInteger)songOffsetBegin
+        songOffsetEnd:(NSInteger)songOffsetEnd
+          lyricOffset:(NSInteger)lyricOffset
                reason:(AgoraMusicContentCenterExStateReason)reason;
 
 /**
@@ -80,15 +84,15 @@ NS_ASSUME_NONNULL_BEGIN
  * @param requestId The request ID.
  * @param songCode The code of the song.
  * @param pitchPath The path to the pitch file, default path is in cache directory.
- * @param offsetBegin The beginning offset of the pitch.
- * @param offsetEnd The ending offset of the pitch.
+ * @param songOffsetBegin The beginning offset of the song.
+ * @param songOffsetEnd The ending offset of the song.
  * @param reason The reason for the pitch result; see AgoraMusicContentCenterExStateReason.
  */
 - (void)onPitchResult:(NSString*)requestId
              songCode:(NSInteger)songCode
             pitchPath:(NSString* _Nullable)pitchPath
-          offsetBegin:(NSInteger)offsetBegin
-            offsetEnd:(NSInteger)offsetEnd
+      songOffsetBegin:(NSInteger)songOffsetBegin
+        songOffsetEnd:(NSInteger)songOffsetEnd
                reason:(AgoraMusicContentCenterExStateReason)reason;
 @end
 
@@ -101,7 +105,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param data The raw score data.
  */
 -(void)onPitch:(NSInteger)songCode
-          data:(AgoraRawScoreData *)data;
+          data:(AgoraRawScoreDataEx *)data;
 
 /**
  * Callback for line score data.
@@ -110,7 +114,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param value The cumulative score data.
  */
 -(void)onLineScore:(NSInteger)songCode
-             value:(AgoraLineScoreData *)value;
+             value:(AgoraLineScoreDataEx *)value;
 
 @end
 

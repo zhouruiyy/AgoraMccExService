@@ -114,15 +114,15 @@ typedef NS_ENUM(NSUInteger, AgoraMusicContentCenterExState) {
 /**
  * Modes for playing songs.
  */
-typedef NS_ENUM(NSUInteger, AgoraMusicPlayMode) {
+typedef NS_ENUM(NSUInteger, AgoraMusicPlayModeEx) {
     /**
      * The music player is in the accompany mode, which means playing the accompaniment only.
      */
-    AgoraMusicPlayModeAccompany = 0,
+    AgoraMusicPlayModeExAccompany = 0,
     /**
      * The music player is in the origin mode, which means playing the original song.
      */
-    AgoraMusicPlayModeOriginal = 1,
+    AgoraMusicPlayModeExOriginal = 1,
 };
 
 /**
@@ -167,6 +167,8 @@ typedef NS_ENUM(NSUInteger, AgoraYSDScoreVersion) {
     AgoraYSDScoreVersionOld = 0,
     AgoraYSDScoreVersionNew = 1,
 };
+
+extern NSString * const kAgoraMusicPlayerDidPlayToEndNotification;
 
 @class AgoraRtcEngineKit;
 @class AgoraVendorConfigure;
@@ -291,7 +293,7 @@ __attribute__((visibility("default")))
 @end
 
 __attribute__((visibility("default")))
-@interface AgoraRawScoreData : NSObject
+@interface AgoraRawScoreDataEx : NSObject
 /// The progress in milliseconds.
 @property(nonatomic, assign, readonly) NSUInteger progressInMs;
 /// The speaker‘s current pitch.
@@ -305,7 +307,7 @@ __attribute__((visibility("default")))
  * @param progressInMs The progress in milliseconds.
  * @param speakerPitch The speaker pitch.
  * @param pitchScore The pitch score.
- * @return An instance of AgoraRawScoreData.
+ * @return An instance of AgoraRawScoreDataEx.
  */
 - (instancetype)initWithProgressInMs:(NSUInteger)progressInMs
                         speakerPitch:(CGFloat)speakerPitch
@@ -314,7 +316,7 @@ __attribute__((visibility("default")))
 @end
 
 __attribute__((visibility("default")))
-@interface AgoraLineScoreData : NSObject
+@interface AgoraLineScoreDataEx : NSObject
 /// The progress in milliseconds.
 @property(nonatomic, assign, readonly) NSUInteger progressInMs;
 /// The index of the performed line.
@@ -337,7 +339,7 @@ __attribute__((visibility("default")))
  * @param performedTotalLines The total performed lines.
  * @param cumulativeTotalLinePitchScores The cumulative total line pitch scores.
  * @param energyScore The energy score.
- * @return An instance of AgoraLineScoreData.
+ * @return An instance of AgoraLineScoreDataEx.
  */
 - (instancetype)initWithProgressInMs:(NSUInteger)progressInMs
                   performedLineIndex:(NSUInteger)performedLineIndex
