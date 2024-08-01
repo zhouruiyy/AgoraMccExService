@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AgoraMccExService"
-  spec.version      = "2.2.0.131-beta-1"
+  spec.version      = "2.2.0.131-beta-2"
   spec.summary      = "A short description of AgoraMccExService."
 
   # This description is used to generate tags and improve search results.
