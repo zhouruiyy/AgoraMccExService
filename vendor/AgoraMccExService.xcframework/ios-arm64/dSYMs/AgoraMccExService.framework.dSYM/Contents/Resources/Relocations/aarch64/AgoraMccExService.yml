@@ -2,11 +2,11 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Volumes/ZR/Agora/KTV/YSD/KG-YSD/MCC-Examples/SDK/BuildFramework/Build/Products/Release-iphoneos/AgoraMccExService/AgoraMccExService.framework/AgoraMccExService'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x5445C, size: 0x8, addend: 0x0, symName: _AgoraMccExServiceVersionString, symObjAddr: 0x0, symBinAddr: 0x51780, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x54491, size: 0x8, addend: 0x0, symName: _AgoraMccExServiceVersionNumber, symObjAddr: 0x30, symBinAddr: 0x517B0, symSize: 0x0 }
+  - { offsetInCU: 0x34, offset: 0x5445C, size: 0x8, addend: 0x0, symName: _AgoraMccExServiceVersionString, symObjAddr: 0x0, symBinAddr: 0x51540, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x54491, size: 0x8, addend: 0x0, symName: _AgoraMccExServiceVersionNumber, symObjAddr: 0x30, symBinAddr: 0x51570, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x544CE, size: 0x8, addend: 0x0, symName: '+[AgoraMccExCacheManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x40 }
-  - { offsetInCU: 0x79, offset: 0x54520, size: 0x8, addend: 0x0, symName: _instance, symObjAddr: 0x77E8, symBinAddr: 0x7BF20, symSize: 0x0 }
-  - { offsetInCU: 0x179, offset: 0x54620, size: 0x8, addend: 0x0, symName: _onceToken, symObjAddr: 0x77F0, symBinAddr: 0x7BF28, symSize: 0x0 }
+  - { offsetInCU: 0x79, offset: 0x54520, size: 0x8, addend: 0x0, symName: _instance, symObjAddr: 0x77E8, symBinAddr: 0x7BEB0, symSize: 0x0 }
+  - { offsetInCU: 0x179, offset: 0x54620, size: 0x8, addend: 0x0, symName: _onceToken, symObjAddr: 0x77F0, symBinAddr: 0x7BEB8, symSize: 0x0 }
   - { offsetInCU: 0x1DB, offset: 0x54682, size: 0x8, addend: 0x0, symName: '+[AgoraMccExCacheManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x40 }
   - { offsetInCU: 0x23C, offset: 0x546E3, size: 0x8, addend: 0x0, symName: '___40+[AgoraMccExCacheManager sharedInstance]_block_invoke', symObjAddr: 0x40, symBinAddr: 0x4040, symSize: 0x30 }
   - { offsetInCU: 0x263, offset: 0x5470A, size: 0x8, addend: 0x0, symName: '+[AgoraMccExCacheManager destroy]', symObjAddr: 0x70, symBinAddr: 0x4070, symSize: 0x18 }
@@ -33,8 +33,8 @@ relocations:
   - { offsetInCU: 0xC97, offset: 0x5513E, size: 0x8, addend: 0x0, symName: '-[AgoraMccExCacheManager setCacheArray:]', symObjAddr: 0x1778, symBinAddr: 0x5778, symSize: 0x8 }
   - { offsetInCU: 0xCD6, offset: 0x5517D, size: 0x8, addend: 0x0, symName: '-[AgoraMccExCacheManager .cxx_destruct]', symObjAddr: 0x1780, symBinAddr: 0x5780, symSize: 0x38 }
   - { offsetInCU: 0x27, offset: 0x5551A, size: 0x8, addend: 0x0, symName: '+[AgoraMccExDownloadManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x57B8, symSize: 0x40 }
-  - { offsetInCU: 0x41, offset: 0x55534, size: 0x8, addend: 0x0, symName: _instance, symObjAddr: 0x36F0, symBinAddr: 0x7BF30, symSize: 0x0 }
-  - { offsetInCU: 0x1BC, offset: 0x556AF, size: 0x8, addend: 0x0, symName: _onceToken, symObjAddr: 0x36F8, symBinAddr: 0x7BF38, symSize: 0x0 }
+  - { offsetInCU: 0x41, offset: 0x55534, size: 0x8, addend: 0x0, symName: _instance, symObjAddr: 0x36F0, symBinAddr: 0x7BEC0, symSize: 0x0 }
+  - { offsetInCU: 0x1BC, offset: 0x556AF, size: 0x8, addend: 0x0, symName: _onceToken, symObjAddr: 0x36F8, symBinAddr: 0x7BEC8, symSize: 0x0 }
   - { offsetInCU: 0x21D, offset: 0x55710, size: 0x8, addend: 0x0, symName: '+[AgoraMccExDownloadManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x57B8, symSize: 0x40 }
   - { offsetInCU: 0x27E, offset: 0x55771, size: 0x8, addend: 0x0, symName: '___43+[AgoraMccExDownloadManager sharedInstance]_block_invoke', symObjAddr: 0x40, symBinAddr: 0x57F8, symSize: 0x30 }
   - { offsetInCU: 0x2A5, offset: 0x55798, size: 0x8, addend: 0x0, symName: '+[AgoraMccExDownloadManager destroy]', symObjAddr: 0x70, symBinAddr: 0x5828, symSize: 0x50 }
@@ -131,8 +131,8 @@ relocations:
   - { offsetInCU: 0x320, offset: 0x57D27, size: 0x8, addend: 0x0, symName: '-[AgoraMccExLineModel .cxx_destruct]', symObjAddr: 0x100, symBinAddr: 0x7840, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0x57DD0, size: 0x8, addend: 0x0, symName: '+[AgoraMccExLog sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x7870, symSize: 0x40 }
   - { offsetInCU: 0x35, offset: 0x57DDE, size: 0x8, addend: 0x0, symName: '+[AgoraMccExLog sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x7870, symSize: 0x40 }
-  - { offsetInCU: 0x5F, offset: 0x57E08, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x3418, symBinAddr: 0x7BF40, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x57E1E, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x3420, symBinAddr: 0x7BF48, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x57E08, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x3418, symBinAddr: 0x7BED0, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x57E1E, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x3420, symBinAddr: 0x7BED8, symSize: 0x0 }
   - { offsetInCU: 0x19B, offset: 0x57F44, size: 0x8, addend: 0x0, symName: '___31+[AgoraMccExLog sharedInstance]_block_invoke', symObjAddr: 0x40, symBinAddr: 0x78B0, symSize: 0x30 }
   - { offsetInCU: 0x1C2, offset: 0x57F6B, size: 0x8, addend: 0x0, symName: '-[AgoraMccExLog init]', symObjAddr: 0x70, symBinAddr: 0x78E0, symSize: 0x70 }
   - { offsetInCU: 0x1F9, offset: 0x57FA2, size: 0x8, addend: 0x0, symName: '-[AgoraMccExLog createFileLog:]', symObjAddr: 0xE0, symBinAddr: 0x7950, symSize: 0x64 }
@@ -304,8 +304,8 @@ relocations:
   - { offsetInCU: 0x16C12, offset: 0x6FCE4, size: 0x8, addend: 0x0, symName: __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFvlRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEENS5_ISC_EEFviS9_EE6targetERKSt9type_info, symObjAddr: 0x3160, symBinAddr: 0xB3C8, symSize: 0x3C }
   - { offsetInCU: 0x16C61, offset: 0x6FD33, size: 0x8, addend: 0x0, symName: __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFvlRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEENS5_ISC_EEFviS9_EE11target_typeEv, symObjAddr: 0x319C, symBinAddr: 0xB404, symSize: 0xC }
   - { offsetInCU: 0x27, offset: 0x7079C, size: 0x8, addend: 0x0, symName: '+[AgoraMccExScoreManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xB48C, symSize: 0x40 }
-  - { offsetInCU: 0x41, offset: 0x707B6, size: 0x8, addend: 0x0, symName: _instance, symObjAddr: 0xCD30, symBinAddr: 0x7BF50, symSize: 0x0 }
-  - { offsetInCU: 0x3FB, offset: 0x70B70, size: 0x8, addend: 0x0, symName: _onceToken, symObjAddr: 0xCD38, symBinAddr: 0x7BF58, symSize: 0x0 }
+  - { offsetInCU: 0x41, offset: 0x707B6, size: 0x8, addend: 0x0, symName: _instance, symObjAddr: 0xCD30, symBinAddr: 0x7BEE0, symSize: 0x0 }
+  - { offsetInCU: 0x3FB, offset: 0x70B70, size: 0x8, addend: 0x0, symName: _onceToken, symObjAddr: 0xCD38, symBinAddr: 0x7BEE8, symSize: 0x0 }
   - { offsetInCU: 0x47E, offset: 0x70BF3, size: 0x8, addend: 0x0, symName: '+[AgoraMccExScoreManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xB48C, symSize: 0x40 }
   - { offsetInCU: 0x4DF, offset: 0x70C54, size: 0x8, addend: 0x0, symName: '___40+[AgoraMccExScoreManager sharedInstance]_block_invoke', symObjAddr: 0x40, symBinAddr: 0xB4CC, symSize: 0x30 }
   - { offsetInCU: 0x506, offset: 0x70C7B, size: 0x8, addend: 0x0, symName: '-[AgoraMccExScoreManager init]', symObjAddr: 0x70, symBinAddr: 0xB4FC, symSize: 0x10C }
@@ -448,455 +448,455 @@ relocations:
   - { offsetInCU: 0x6B4, offset: 0x743B6, size: 0x8, addend: 0x0, symName: '+[AgoraMccExUtils moveTmpFilePath:toCachePath:]', symObjAddr: 0x6F8, symBinAddr: 0xEB44, symSize: 0x110 }
   - { offsetInCU: 0x723, offset: 0x74425, size: 0x8, addend: 0x0, symName: '+[AgoraMccExUtils renameMusic:filePath:extName:]', symObjAddr: 0x808, symBinAddr: 0xEC54, symSize: 0x160 }
   - { offsetInCU: 0x7C2, offset: 0x744C4, size: 0x8, addend: 0x0, symName: '+[AgoraMccExUtils createDirectoryIfNotExist:]', symObjAddr: 0x968, symBinAddr: 0xEDB4, symSize: 0x6C }
-  - { offsetInCU: 0x41, offset: 0x745C3, size: 0x8, addend: 0x0, symName: _kAgoraMusicPlayerDidPlayToEndNotification, symObjAddr: 0x12838, symBinAddr: 0x6C8B8, symSize: 0x0 }
-  - { offsetInCU: 0x68, offset: 0x745EA, size: 0x8, addend: 0x0, symName: __ZL9kInstance, symObjAddr: 0x79DB8, symBinAddr: 0x7BF60, symSize: 0x0 }
-  - { offsetInCU: 0x6A9, offset: 0x74C2B, size: 0x8, addend: 0x0, symName: __ZL9onceToken, symObjAddr: 0x79DC0, symBinAddr: 0x7BF68, symSize: 0x0 }
-  - { offsetInCU: 0x10D1F, offset: 0x852A1, size: 0x8, addend: 0x0, symName: '+[AgoraMusicContentCenterEx sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xEE20, symSize: 0x9C }
-  - { offsetInCU: 0x10D97, offset: 0x85319, size: 0x8, addend: 0x0, symName: '___43+[AgoraMusicContentCenterEx sharedInstance]_block_invoke', symObjAddr: 0x9C, symBinAddr: 0xEEBC, symSize: 0x2C }
-  - { offsetInCU: 0x10DD6, offset: 0x85358, size: 0x8, addend: 0x0, symName: '+[AgoraMusicContentCenterEx destroy]', symObjAddr: 0xC8, symBinAddr: 0xEEE8, symSize: 0x118 }
-  - { offsetInCU: 0x10E05, offset: 0x85387, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx init]', symObjAddr: 0x1E0, symBinAddr: 0xF000, symSize: 0x1F0 }
-  - { offsetInCU: 0x10EC9, offset: 0x8544B, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx dealloc]', symObjAddr: 0x3D0, symBinAddr: 0xF1F0, symSize: 0x270 }
-  - { offsetInCU: 0x10F23, offset: 0x854A5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx reset]', symObjAddr: 0x64C, symBinAddr: 0xF460, symSize: 0x30 }
-  - { offsetInCU: 0x10F56, offset: 0x854D8, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx initialize:]', symObjAddr: 0x67C, symBinAddr: 0xF490, symSize: 0x88C }
-  - { offsetInCU: 0x11039, offset: 0x855BB, size: 0x8, addend: 0x0, symName: '___40-[AgoraMusicContentCenterEx initialize:]_block_invoke', symObjAddr: 0xF08, symBinAddr: 0xFD1C, symSize: 0x260 }
-  - { offsetInCU: 0x110F6, offset: 0x85678, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s, symObjAddr: 0x1168, symBinAddr: 0xFF7C, symSize: 0x8 }
-  - { offsetInCU: 0x1111D, offset: 0x8569F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s, symObjAddr: 0x1170, symBinAddr: 0xFF84, symSize: 0x8 }
-  - { offsetInCU: 0x1113C, offset: 0x856BE, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx renewToken:]', symObjAddr: 0x1178, symBinAddr: 0xFF8C, symSize: 0xD4 }
-  - { offsetInCU: 0x11185, offset: 0x85707, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx registerEventDelegate:]', symObjAddr: 0x124C, symBinAddr: 0x10060, symSize: 0x110 }
-  - { offsetInCU: 0x111CE, offset: 0x85750, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx registerScoreDelegate:]', symObjAddr: 0x135C, symBinAddr: 0x10170, symSize: 0x110 }
-  - { offsetInCU: 0x11217, offset: 0x85799, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx registerAudioFrameDelegate:]', symObjAddr: 0x146C, symBinAddr: 0x10280, symSize: 0x110 }
-  - { offsetInCU: 0x11260, offset: 0x857E2, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx preload:]', symObjAddr: 0x157C, symBinAddr: 0x10390, symSize: 0x2C0 }
-  - { offsetInCU: 0x112CB, offset: 0x8584D, size: 0x8, addend: 0x0, symName: '___37-[AgoraMusicContentCenterEx preload:]_block_invoke', symObjAddr: 0x183C, symBinAddr: 0x10650, symSize: 0xA0 }
-  - { offsetInCU: 0x1133C, offset: 0x858BE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40w, symObjAddr: 0x18DC, symBinAddr: 0x106F0, symSize: 0x30 }
-  - { offsetInCU: 0x11365, offset: 0x858E7, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx internalPreload:requestId:]', symObjAddr: 0x1934, symBinAddr: 0x10720, symSize: 0x18C }
-  - { offsetInCU: 0x113E1, offset: 0x85963, size: 0x8, addend: 0x0, symName: '___55-[AgoraMusicContentCenterEx internalPreload:requestId:]_block_invoke', symObjAddr: 0x1AC0, symBinAddr: 0x108AC, symSize: 0x89C }
-  - { offsetInCU: 0x114BF, offset: 0x85A41, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isPreload:]', symObjAddr: 0x235C, symBinAddr: 0x11148, symSize: 0xF4 }
-  - { offsetInCU: 0x11508, offset: 0x85A8A, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx removeCache]', symObjAddr: 0x2450, symBinAddr: 0x1123C, symSize: 0x8C }
-  - { offsetInCU: 0x11540, offset: 0x85AC2, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getCaches]', symObjAddr: 0x24DC, symBinAddr: 0x112C8, symSize: 0x84 }
-  - { offsetInCU: 0x11578, offset: 0x85AFA, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getLyricInternal:lyricType:requestId:]', symObjAddr: 0x2560, symBinAddr: 0x1134C, symSize: 0x1B8 }
-  - { offsetInCU: 0x11601, offset: 0x85B83, size: 0x8, addend: 0x0, symName: '___66-[AgoraMusicContentCenterEx getLyricInternal:lyricType:requestId:]_block_invoke', symObjAddr: 0x2718, symBinAddr: 0x11504, symSize: 0x748 }
-  - { offsetInCU: 0x11727, offset: 0x85CA9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getLyric:lyricType:]', symObjAddr: 0x2E60, symBinAddr: 0x11C4C, symSize: 0x3A4 }
-  - { offsetInCU: 0x117A3, offset: 0x85D25, size: 0x8, addend: 0x0, symName: '___48-[AgoraMusicContentCenterEx getLyric:lyricType:]_block_invoke', symObjAddr: 0x3204, symBinAddr: 0x11FF0, symSize: 0x98 }
-  - { offsetInCU: 0x11825, offset: 0x85DA7, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getPitchInternal:requestId:]', symObjAddr: 0x329C, symBinAddr: 0x12088, symSize: 0x1A8 }
-  - { offsetInCU: 0x1189D, offset: 0x85E1F, size: 0x8, addend: 0x0, symName: '___56-[AgoraMusicContentCenterEx getPitchInternal:requestId:]_block_invoke', symObjAddr: 0x3444, symBinAddr: 0x12230, symSize: 0x714 }
-  - { offsetInCU: 0x119B2, offset: 0x85F34, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getPitch:]', symObjAddr: 0x3B58, symBinAddr: 0x12944, symSize: 0x38C }
-  - { offsetInCU: 0x11A1D, offset: 0x85F9F, size: 0x8, addend: 0x0, symName: '___38-[AgoraMusicContentCenterEx getPitch:]_block_invoke', symObjAddr: 0x3EE4, symBinAddr: 0x12CD0, symSize: 0x98 }
-  - { offsetInCU: 0x11B66, offset: 0x860E8, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx createMusicPlayerWithDelegate:]', symObjAddr: 0x3F7C, symBinAddr: 0x12D68, symSize: 0x280 }
-  - { offsetInCU: 0x11E35, offset: 0x863B7, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx destroyMusicPlayer:]', symObjAddr: 0x41FC, symBinAddr: 0x12FE8, symSize: 0x3DC }
-  - { offsetInCU: 0x120D7, offset: 0x86659, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getInternalSongCode:jsonOption:]', symObjAddr: 0x45D8, symBinAddr: 0x133C4, symSize: 0x11C }
-  - { offsetInCU: 0x12142, offset: 0x866C4, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx startScore:]', symObjAddr: 0x46F4, symBinAddr: 0x134E0, symSize: 0x5A4 }
-  - { offsetInCU: 0x1222B, offset: 0x867AD, size: 0x8, addend: 0x0, symName: '___40-[AgoraMusicContentCenterEx startScore:]_block_invoke', symObjAddr: 0x4C98, symBinAddr: 0x13A84, symSize: 0x1FC }
-  - { offsetInCU: 0x1228B, offset: 0x8680D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32w, symObjAddr: 0x4E94, symBinAddr: 0x13C80, symSize: 0xC }
-  - { offsetInCU: 0x122B4, offset: 0x86836, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32w, symObjAddr: 0x4EA0, symBinAddr: 0x13C8C, symSize: 0x8 }
-  - { offsetInCU: 0x122D3, offset: 0x86855, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx pauseScore]', symObjAddr: 0x4EA8, symBinAddr: 0x13C94, symSize: 0xC8 }
-  - { offsetInCU: 0x1230B, offset: 0x8688D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx resumeScore]', symObjAddr: 0x4F70, symBinAddr: 0x13D5C, symSize: 0xCC }
-  - { offsetInCU: 0x12343, offset: 0x868C5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx stopScore]', symObjAddr: 0x503C, symBinAddr: 0x13E28, symSize: 0xC8 }
-  - { offsetInCU: 0x1237B, offset: 0x868FD, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setScoreLevel:]', symObjAddr: 0x5104, symBinAddr: 0x13EF0, symSize: 0x108 }
-  - { offsetInCU: 0x123C4, offset: 0x86946, size: 0x8, addend: 0x0, symName: '+[AgoraMusicContentCenterEx getSdkVersion]', symObjAddr: 0x520C, symBinAddr: 0x13FF8, symSize: 0x200 }
-  - { offsetInCU: 0x12436, offset: 0x869B8, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isValidConfig:]', symObjAddr: 0x540C, symBinAddr: 0x141F8, symSize: 0x1D4 }
-  - { offsetInCU: 0x1247F, offset: 0x86A01, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx ipAddress]', symObjAddr: 0x55E0, symBinAddr: 0x143CC, symSize: 0x60 }
-  - { offsetInCU: 0x124C4, offset: 0x86A46, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx _isPreload:]', symObjAddr: 0x5640, symBinAddr: 0x1442C, symSize: 0x2A0 }
-  - { offsetInCU: 0x12573, offset: 0x86AF5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isPreloading:]', symObjAddr: 0x58E0, symBinAddr: 0x146CC, symSize: 0x134 }
-  - { offsetInCU: 0x125BC, offset: 0x86B3E, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx addPreloadingSong:]', symObjAddr: 0x5A14, symBinAddr: 0x14800, symSize: 0xD4 }
-  - { offsetInCU: 0x12601, offset: 0x86B83, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx removePreloadingSong:]', symObjAddr: 0x5AE8, symBinAddr: 0x148D4, symSize: 0xD4 }
-  - { offsetInCU: 0x12646, offset: 0x86BC8, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx addPreloadingSongCallback:callback:]', symObjAddr: 0x5BBC, symBinAddr: 0x149A8, symSize: 0x128 }
-  - { offsetInCU: 0x1269C, offset: 0x86C1E, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokePreloadingSongCallback:]', symObjAddr: 0x5CE4, symBinAddr: 0x14AD0, symSize: 0x178 }
-  - { offsetInCU: 0x1270D, offset: 0x86C8F, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx addGettingLyricSongCallback:callback:]', symObjAddr: 0x5E5C, symBinAddr: 0x14C48, symSize: 0x128 }
-  - { offsetInCU: 0x12763, offset: 0x86CE5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeGettingLyricSongCallback:]', symObjAddr: 0x5F84, symBinAddr: 0x14D70, symSize: 0x178 }
-  - { offsetInCU: 0x127D4, offset: 0x86D56, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeGettingLyricWhenPreloading:reason:]', symObjAddr: 0x60FC, symBinAddr: 0x14EE8, symSize: 0x344 }
-  - { offsetInCU: 0x128AD, offset: 0x86E2F, size: 0x8, addend: 0x0, symName: '___69-[AgoraMusicContentCenterEx invokeGettingLyricWhenPreloading:reason:]_block_invoke', symObjAddr: 0x6440, symBinAddr: 0x1522C, symSize: 0xB0 }
-  - { offsetInCU: 0x12944, offset: 0x86EC6, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56s, symObjAddr: 0x64F0, symBinAddr: 0x152DC, symSize: 0x38 }
-  - { offsetInCU: 0x1296D, offset: 0x86EEF, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56s, symObjAddr: 0x6528, symBinAddr: 0x15314, symSize: 0x38 }
-  - { offsetInCU: 0x1298C, offset: 0x86F0E, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx addGettingPitchSongCallback:callback:]', symObjAddr: 0x6560, symBinAddr: 0x1534C, symSize: 0x128 }
-  - { offsetInCU: 0x129E2, offset: 0x86F64, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeGettingPitchSongCallback:]', symObjAddr: 0x6688, symBinAddr: 0x15474, symSize: 0x178 }
-  - { offsetInCU: 0x12A53, offset: 0x86FD5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeGettingPitchWhenPreloading:reason:]', symObjAddr: 0x6800, symBinAddr: 0x155EC, symSize: 0x308 }
-  - { offsetInCU: 0x12B08, offset: 0x8708A, size: 0x8, addend: 0x0, symName: '___69-[AgoraMusicContentCenterEx invokeGettingPitchWhenPreloading:reason:]_block_invoke', symObjAddr: 0x6B08, symBinAddr: 0x158F4, symSize: 0x94 }
-  - { offsetInCU: 0x12B8E, offset: 0x87110, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s, symObjAddr: 0x6B9C, symBinAddr: 0x15988, symSize: 0x30 }
-  - { offsetInCU: 0x12BB7, offset: 0x87139, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s, symObjAddr: 0x6BCC, symBinAddr: 0x159B8, symSize: 0x30 }
-  - { offsetInCU: 0x12BD6, offset: 0x87158, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx acquireMusicItem:]', symObjAddr: 0x6BFC, symBinAddr: 0x159E8, symSize: 0xE4 }
-  - { offsetInCU: 0x12C1F, offset: 0x871A1, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx acquireMediaResource:]', symObjAddr: 0x6CE0, symBinAddr: 0x15ACC, symSize: 0xE4 }
-  - { offsetInCU: 0x12C68, offset: 0x871EA, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx buildMD5ForMusicItem:]', symObjAddr: 0x6DC4, symBinAddr: 0x15BB0, symSize: 0xFC }
-  - { offsetInCU: 0x12CBE, offset: 0x87240, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx _getInternalSongCode:jsonOption:]', symObjAddr: 0x6EC0, symBinAddr: 0x15CAC, symSize: 0x20C }
-  - { offsetInCU: 0x12D4B, offset: 0x872CD, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx jsonStringToDictionary:]', symObjAddr: 0x70CC, symBinAddr: 0x15EB8, symSize: 0x108 }
-  - { offsetInCU: 0x12DC3, offset: 0x87345, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx downloadMusic:requestId:url:extName:]', symObjAddr: 0x71D4, symBinAddr: 0x15FC0, symSize: 0x28C }
-  - { offsetInCU: 0x12E5D, offset: 0x873DF, size: 0x8, addend: 0x0, symName: '___65-[AgoraMusicContentCenterEx downloadMusic:requestId:url:extName:]_block_invoke', symObjAddr: 0x7460, symBinAddr: 0x1624C, symSize: 0x64 }
-  - { offsetInCU: 0x12ECE, offset: 0x87450, size: 0x8, addend: 0x0, symName: '___65-[AgoraMusicContentCenterEx downloadMusic:requestId:url:extName:]_block_invoke.189', symObjAddr: 0x74C4, symBinAddr: 0x162B0, symSize: 0x288 }
-  - { offsetInCU: 0x12FB2, offset: 0x87534, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48w, symObjAddr: 0x774C, symBinAddr: 0x16538, symSize: 0x38 }
-  - { offsetInCU: 0x12FDB, offset: 0x8755D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48w, symObjAddr: 0x7784, symBinAddr: 0x16570, symSize: 0x30 }
-  - { offsetInCU: 0x12FFA, offset: 0x8757C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx downloadLyric:requestId:]', symObjAddr: 0x77B4, symBinAddr: 0x165A0, symSize: 0x6A8 }
-  - { offsetInCU: 0x130E9, offset: 0x8766B, size: 0x8, addend: 0x0, symName: '___53-[AgoraMusicContentCenterEx downloadLyric:requestId:]_block_invoke', symObjAddr: 0x7E5C, symBinAddr: 0x16C48, symSize: 0x41C }
-  - { offsetInCU: 0x131DF, offset: 0x87761, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx downloadPitch:requestId:]', symObjAddr: 0x8278, symBinAddr: 0x17064, symSize: 0x694 }
-  - { offsetInCU: 0x132CE, offset: 0x87850, size: 0x8, addend: 0x0, symName: '___53-[AgoraMusicContentCenterEx downloadPitch:requestId:]_block_invoke', symObjAddr: 0x890C, symBinAddr: 0x176F8, symSize: 0x3D4 }
-  - { offsetInCU: 0x133C4, offset: 0x87946, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getMusicPath:]', symObjAddr: 0x8CE0, symBinAddr: 0x17ACC, symSize: 0x1F0 }
-  - { offsetInCU: 0x13483, offset: 0x87A05, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getMediaResource:requestId:response:]', symObjAddr: 0x8ED0, symBinAddr: 0x17CBC, symSize: 0x408 }
-  - { offsetInCU: 0x13543, offset: 0x87AC5, size: 0x8, addend: 0x0, symName: '___65-[AgoraMusicContentCenterEx getMediaResource:requestId:response:]_block_invoke', symObjAddr: 0x92D8, symBinAddr: 0x180C4, symSize: 0x68 }
-  - { offsetInCU: 0x135CF, offset: 0x87B51, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32b, symObjAddr: 0x9340, symBinAddr: 0x1812C, symSize: 0x10 }
-  - { offsetInCU: 0x136F7, offset: 0x87C79, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx initializeYSDSDK:requestId:]', symObjAddr: 0x9350, symBinAddr: 0x1813C, symSize: 0x53C }
-  - { offsetInCU: 0x14246, offset: 0x887C8, size: 0x8, addend: 0x0, symName: '___56-[AgoraMusicContentCenterEx initializeYSDSDK:requestId:]_block_invoke', symObjAddr: 0x988C, symBinAddr: 0x18678, symSize: 0x294 }
-  - { offsetInCU: 0x142E4, offset: 0x88866, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getLyricData:requestId:]', symObjAddr: 0x9B20, symBinAddr: 0x1890C, symSize: 0x1BC }
-  - { offsetInCU: 0x1438A, offset: 0x8890C, size: 0x8, addend: 0x0, symName: '___52-[AgoraMusicContentCenterEx getLyricData:requestId:]_block_invoke', symObjAddr: 0x9CDC, symBinAddr: 0x18AC8, symSize: 0x2D8 }
-  - { offsetInCU: 0x1447A, offset: 0x889FC, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getPitchData:requestId:]', symObjAddr: 0x9FB4, symBinAddr: 0x18DA0, symSize: 0x644 }
-  - { offsetInCU: 0x145CD, offset: 0x88B4F, size: 0x8, addend: 0x0, symName: '___52-[AgoraMusicContentCenterEx getPitchData:requestId:]_block_invoke', symObjAddr: 0xA5F8, symBinAddr: 0x193E4, symSize: 0x26C }
-  - { offsetInCU: 0x146C5, offset: 0x88C47, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56s64s72s, symObjAddr: 0xA864, symBinAddr: 0x19650, symSize: 0x48 }
-  - { offsetInCU: 0x146EE, offset: 0x88C70, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56s64s72s, symObjAddr: 0xA8AC, symBinAddr: 0x19698, symSize: 0x48 }
-  - { offsetInCU: 0x1470D, offset: 0x88C8F, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx processScoreWithFrameBuffer:renderTimeMs:]', symObjAddr: 0xA8F4, symBinAddr: 0x196E0, symSize: 0xAC }
-  - { offsetInCU: 0x14770, offset: 0x88CF2, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx _enableLog:saveLogFile:logFilePath:]', symObjAddr: 0xA9A0, symBinAddr: 0x1978C, symSize: 0x1AC }
-  - { offsetInCU: 0x147E4, offset: 0x88D66, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx saveCache:]', symObjAddr: 0xAB4C, symBinAddr: 0x19938, symSize: 0xC0 }
-  - { offsetInCU: 0x1484B, offset: 0x88DCD, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeInitializeEvent:reason:]', symObjAddr: 0xAC0C, symBinAddr: 0x199F8, symSize: 0x1B8 }
-  - { offsetInCU: 0x148DE, offset: 0x88E60, size: 0x8, addend: 0x0, symName: '___58-[AgoraMusicContentCenterEx invokeInitializeEvent:reason:]_block_invoke', symObjAddr: 0xADC4, symBinAddr: 0x19BB0, symSize: 0x78 }
-  - { offsetInCU: 0x1493E, offset: 0x88EC0, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeStartScoreEvent:state:reason:]', symObjAddr: 0xAE3C, symBinAddr: 0x19C28, symSize: 0x1CC }
-  - { offsetInCU: 0x149E2, offset: 0x88F64, size: 0x8, addend: 0x0, symName: '___64-[AgoraMusicContentCenterEx invokeStartScoreEvent:state:reason:]_block_invoke', symObjAddr: 0xB008, symBinAddr: 0x19DF4, symSize: 0x7C }
-  - { offsetInCU: 0x14A53, offset: 0x88FD5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokePreloadEvent:songCode:percent:state:reason:]', symObjAddr: 0xB084, symBinAddr: 0x19E70, symSize: 0x408 }
-  - { offsetInCU: 0x14B56, offset: 0x890D8, size: 0x8, addend: 0x0, symName: '___78-[AgoraMusicContentCenterEx invokePreloadEvent:songCode:percent:state:reason:]_block_invoke', symObjAddr: 0xB48C, symBinAddr: 0x1A278, symSize: 0xE4 }
-  - { offsetInCU: 0x14C2D, offset: 0x891AF, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56s64s72w, symObjAddr: 0xB570, symBinAddr: 0x1A35C, symSize: 0x50 }
-  - { offsetInCU: 0x14C56, offset: 0x891D8, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56s64s72w, symObjAddr: 0xB5C0, symBinAddr: 0x1A3AC, symSize: 0x48 }
-  - { offsetInCU: 0x14C75, offset: 0x891F7, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeLyricEvent:songCode:reason:]', symObjAddr: 0xB608, symBinAddr: 0x1A3F4, symSize: 0x304 }
-  - { offsetInCU: 0x14D4C, offset: 0x892CE, size: 0x8, addend: 0x0, symName: '___62-[AgoraMusicContentCenterEx invokeLyricEvent:songCode:reason:]_block_invoke', symObjAddr: 0xB90C, symBinAddr: 0x1A6F8, symSize: 0xD8 }
-  - { offsetInCU: 0x14DF0, offset: 0x89372, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56s64w, symObjAddr: 0xB9E4, symBinAddr: 0x1A7D0, symSize: 0x48 }
-  - { offsetInCU: 0x14E19, offset: 0x8939B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56s64w, symObjAddr: 0xBA2C, symBinAddr: 0x1A818, symSize: 0x40 }
-  - { offsetInCU: 0x14E38, offset: 0x893BA, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokePitchEvent:songCode:reason:]', symObjAddr: 0xBA6C, symBinAddr: 0x1A858, symSize: 0x2C4 }
-  - { offsetInCU: 0x14EFE, offset: 0x89480, size: 0x8, addend: 0x0, symName: '___62-[AgoraMusicContentCenterEx invokePitchEvent:songCode:reason:]_block_invoke', symObjAddr: 0xBD30, symBinAddr: 0x1AB1C, symSize: 0xBC }
-  - { offsetInCU: 0x14F91, offset: 0x89513, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56w, symObjAddr: 0xBDEC, symBinAddr: 0x1ABD8, symSize: 0x40 }
-  - { offsetInCU: 0x14FBA, offset: 0x8953C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56w, symObjAddr: 0xBE2C, symBinAddr: 0x1AC18, symSize: 0x38 }
-  - { offsetInCU: 0x14FD9, offset: 0x8955B, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodeMusicMappings]', symObjAddr: 0xBE64, symBinAddr: 0x1AC50, symSize: 0x4C }
-  - { offsetInCU: 0x15011, offset: 0x89593, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodeResourceMappings]', symObjAddr: 0xBEB0, symBinAddr: 0x1AC9C, symSize: 0x4C }
-  - { offsetInCU: 0x15049, offset: 0x895CB, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx musicPlayers]', symObjAddr: 0xBEFC, symBinAddr: 0x1ACE8, symSize: 0x4C }
-  - { offsetInCU: 0x15081, offset: 0x89603, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodeMusicPlayerMappings]', symObjAddr: 0xBF48, symBinAddr: 0x1AD34, symSize: 0x4C }
-  - { offsetInCU: 0x150B9, offset: 0x8963B, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx preloadingSongs]', symObjAddr: 0xBF94, symBinAddr: 0x1AD80, symSize: 0x4C }
-  - { offsetInCU: 0x150F1, offset: 0x89673, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodePreloadCallbacks]', symObjAddr: 0xBFE0, symBinAddr: 0x1ADCC, symSize: 0x4C }
-  - { offsetInCU: 0x15129, offset: 0x896AB, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodeLyricCallbacks]', symObjAddr: 0xC02C, symBinAddr: 0x1AE18, symSize: 0x4C }
-  - { offsetInCU: 0x15161, offset: 0x896E3, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodePitchCallbacks]', symObjAddr: 0xC078, symBinAddr: 0x1AE64, symSize: 0x4C }
-  - { offsetInCU: 0x15199, offset: 0x8971B, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx preloadingSongCodeWhenGetLyric]', symObjAddr: 0xC0C4, symBinAddr: 0x1AEB0, symSize: 0x4C }
-  - { offsetInCU: 0x151D1, offset: 0x89753, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx preloadingSongCodeWhenGetPitch]', symObjAddr: 0xC110, symBinAddr: 0x1AEFC, symSize: 0x4C }
-  - { offsetInCU: 0x15209, offset: 0x8978B, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx AgoraYSDMusicPlayer:didChangedToState:error:]', symObjAddr: 0xC15C, symBinAddr: 0x1AF48, symSize: 0x4A8 }
-  - { offsetInCU: 0x15311, offset: 0x89893, size: 0x8, addend: 0x0, symName: '___73-[AgoraMusicContentCenterEx AgoraYSDMusicPlayer:didChangedToState:error:]_block_invoke', symObjAddr: 0xC604, symBinAddr: 0x1B3F0, symSize: 0x78 }
-  - { offsetInCU: 0x15393, offset: 0x89915, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40r, symObjAddr: 0xC67C, symBinAddr: 0x1B468, symSize: 0x34 }
-  - { offsetInCU: 0x153BC, offset: 0x8993E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40r, symObjAddr: 0xC6B0, symBinAddr: 0x1B49C, symSize: 0x2C }
-  - { offsetInCU: 0x153DB, offset: 0x8995D, size: 0x8, addend: 0x0, symName: '___73-[AgoraMusicContentCenterEx AgoraYSDMusicPlayer:didChangedToState:error:]_block_invoke.304', symObjAddr: 0xC6DC, symBinAddr: 0x1B4C8, symSize: 0x294 }
-  - { offsetInCU: 0x15446, offset: 0x899C8, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onStartScore:state:reason:]', symObjAddr: 0xC970, symBinAddr: 0x1B75C, symSize: 0x90 }
-  - { offsetInCU: 0x154AD, offset: 0x89A2F, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onPitch:data:]', symObjAddr: 0xCA00, symBinAddr: 0x1B7EC, symSize: 0x17C }
-  - { offsetInCU: 0x15540, offset: 0x89AC2, size: 0x8, addend: 0x0, symName: '___42-[AgoraMusicContentCenterEx onPitch:data:]_block_invoke', symObjAddr: 0xCB7C, symBinAddr: 0x1B968, symSize: 0x7C }
-  - { offsetInCU: 0x155A0, offset: 0x89B22, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onLineScore:value:]', symObjAddr: 0xCBF8, symBinAddr: 0x1B9E4, symSize: 0x218 }
-  - { offsetInCU: 0x15633, offset: 0x89BB5, size: 0x8, addend: 0x0, symName: '___47-[AgoraMusicContentCenterEx onLineScore:value:]_block_invoke', symObjAddr: 0xCE10, symBinAddr: 0x1BBFC, symSize: 0x7C }
-  - { offsetInCU: 0x15693, offset: 0x89C15, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx cacheManagerDidRemoveCache:]', symObjAddr: 0xCE8C, symBinAddr: 0x1BC78, symSize: 0x1C }
-  - { offsetInCU: 0x156D6, offset: 0x89C58, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onRecordAudioFrame:channelId:]', symObjAddr: 0xCEA8, symBinAddr: 0x1BC94, symSize: 0x24C }
-  - { offsetInCU: 0x15780, offset: 0x89D02, size: 0x8, addend: 0x0, symName: '___58-[AgoraMusicContentCenterEx onRecordAudioFrame:channelId:]_block_invoke', symObjAddr: 0xD0F4, symBinAddr: 0x1BEE0, symSize: 0xE8 }
-  - { offsetInCU: 0x1580D, offset: 0x89D8F, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onPlaybackAudioFrame:channelId:]', symObjAddr: 0xD1DC, symBinAddr: 0x1BFC8, symSize: 0x120 }
-  - { offsetInCU: 0x15867, offset: 0x89DE9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onPublishAudioFrame:channelId:]', symObjAddr: 0xD2FC, symBinAddr: 0x1C0E8, symSize: 0x120 }
-  - { offsetInCU: 0x158C1, offset: 0x89E43, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onMixedAudioFrame:channelId:]', symObjAddr: 0xD41C, symBinAddr: 0x1C208, symSize: 0x120 }
-  - { offsetInCU: 0x1591B, offset: 0x89E9D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onEarMonitoringAudioFrame:]', symObjAddr: 0xD53C, symBinAddr: 0x1C328, symSize: 0xFC }
-  - { offsetInCU: 0x15964, offset: 0x89EE6, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onPlaybackAudioFrameBeforeMixing:channelId:uid:]', symObjAddr: 0xD638, symBinAddr: 0x1C424, symSize: 0x138 }
-  - { offsetInCU: 0x159CF, offset: 0x89F51, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getObservedAudioFramePosition]', symObjAddr: 0xD770, symBinAddr: 0x1C55C, symSize: 0xC8 }
-  - { offsetInCU: 0x15A07, offset: 0x89F89, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getMixedAudioParams]', symObjAddr: 0xD838, symBinAddr: 0x1C624, symSize: 0xD0 }
-  - { offsetInCU: 0x15A3F, offset: 0x89FC1, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getRecordAudioParams]', symObjAddr: 0xD908, symBinAddr: 0x1C6F4, symSize: 0xD0 }
-  - { offsetInCU: 0x15A77, offset: 0x89FF9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getPlaybackAudioParams]', symObjAddr: 0xD9D8, symBinAddr: 0x1C7C4, symSize: 0xD0 }
-  - { offsetInCU: 0x15AAF, offset: 0x8A031, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getPublishAudioParams]', symObjAddr: 0xDAA8, symBinAddr: 0x1C894, symSize: 0xD0 }
-  - { offsetInCU: 0x15AE7, offset: 0x8A069, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getEarMonitoringAudioParams]', symObjAddr: 0xDB78, symBinAddr: 0x1C964, symSize: 0xD0 }
-  - { offsetInCU: 0x15B1F, offset: 0x8A0A1, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isInitialized]', symObjAddr: 0xDC48, symBinAddr: 0x1CA34, symSize: 0xC }
-  - { offsetInCU: 0x15B56, offset: 0x8A0D8, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setIsInitialized:]', symObjAddr: 0xDC54, symBinAddr: 0x1CA40, symSize: 0x8 }
-  - { offsetInCU: 0x15B93, offset: 0x8A115, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx agoraEngine]', symObjAddr: 0xDC5C, symBinAddr: 0x1CA48, symSize: 0x8 }
-  - { offsetInCU: 0x15BCA, offset: 0x8A14C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setAgoraEngine:]', symObjAddr: 0xDC64, symBinAddr: 0x1CA50, symSize: 0xC }
-  - { offsetInCU: 0x15C0B, offset: 0x8A18D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx configuration]', symObjAddr: 0xDC70, symBinAddr: 0x1CA5C, symSize: 0x8 }
-  - { offsetInCU: 0x15C42, offset: 0x8A1C4, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setConfiguration:]', symObjAddr: 0xDC78, symBinAddr: 0x1CA64, symSize: 0xC }
-  - { offsetInCU: 0x15C83, offset: 0x8A205, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx httpClient]', symObjAddr: 0xDC84, symBinAddr: 0x1CA70, symSize: 0x8 }
-  - { offsetInCU: 0x15CBA, offset: 0x8A23C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setHttpClient:]', symObjAddr: 0xDC8C, symBinAddr: 0x1CA78, symSize: 0xC }
-  - { offsetInCU: 0x15CFB, offset: 0x8A27D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx accessData]', symObjAddr: 0xDC98, symBinAddr: 0x1CA84, symSize: 0x8 }
-  - { offsetInCU: 0x15D32, offset: 0x8A2B4, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setAccessData:]', symObjAddr: 0xDCA0, symBinAddr: 0x1CA8C, symSize: 0xC }
-  - { offsetInCU: 0x15D73, offset: 0x8A2F5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx eventDelegate]', symObjAddr: 0xDCAC, symBinAddr: 0x1CA98, symSize: 0x18 }
-  - { offsetInCU: 0x15DAA, offset: 0x8A32C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setEventDelegate:]', symObjAddr: 0xDCC4, symBinAddr: 0x1CAB0, symSize: 0xC }
-  - { offsetInCU: 0x15DEB, offset: 0x8A36D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx scoreDelegate]', symObjAddr: 0xDCD0, symBinAddr: 0x1CABC, symSize: 0x18 }
-  - { offsetInCU: 0x15E22, offset: 0x8A3A4, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setScoreDelegate:]', symObjAddr: 0xDCE8, symBinAddr: 0x1CAD4, symSize: 0xC }
-  - { offsetInCU: 0x15E63, offset: 0x8A3E5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx audioFrameDelegate]', symObjAddr: 0xDCF4, symBinAddr: 0x1CAE0, symSize: 0x18 }
-  - { offsetInCU: 0x15E9A, offset: 0x8A41C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setAudioFrameDelegate:]', symObjAddr: 0xDD0C, symBinAddr: 0x1CAF8, symSize: 0xC }
-  - { offsetInCU: 0x15EDB, offset: 0x8A45D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodeMusicMappings:]', symObjAddr: 0xDD18, symBinAddr: 0x1CB04, symSize: 0xC }
-  - { offsetInCU: 0x15F1C, offset: 0x8A49E, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodeResourceMappings:]', symObjAddr: 0xDD24, symBinAddr: 0x1CB10, symSize: 0xC }
-  - { offsetInCU: 0x15F5D, offset: 0x8A4DF, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setMusicPlayers:]', symObjAddr: 0xDD30, symBinAddr: 0x1CB1C, symSize: 0xC }
-  - { offsetInCU: 0x15F9E, offset: 0x8A520, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodeMusicPlayerMappings:]', symObjAddr: 0xDD3C, symBinAddr: 0x1CB28, symSize: 0xC }
-  - { offsetInCU: 0x15FDF, offset: 0x8A561, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodePreloadCallbacks:]', symObjAddr: 0xDD48, symBinAddr: 0x1CB34, symSize: 0xC }
-  - { offsetInCU: 0x16020, offset: 0x8A5A2, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodeLyricCallbacks:]', symObjAddr: 0xDD54, symBinAddr: 0x1CB40, symSize: 0xC }
-  - { offsetInCU: 0x16061, offset: 0x8A5E3, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodePitchCallbacks:]', symObjAddr: 0xDD60, symBinAddr: 0x1CB4C, symSize: 0xC }
-  - { offsetInCU: 0x160A2, offset: 0x8A624, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setPreloadingSongCodeWhenGetLyric:]', symObjAddr: 0xDD6C, symBinAddr: 0x1CB58, symSize: 0xC }
-  - { offsetInCU: 0x160E3, offset: 0x8A665, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setPreloadingSongCodeWhenGetPitch:]', symObjAddr: 0xDD78, symBinAddr: 0x1CB64, symSize: 0xC }
-  - { offsetInCU: 0x16124, offset: 0x8A6A6, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setPreloadingSongs:]', symObjAddr: 0xDD84, symBinAddr: 0x1CB70, symSize: 0xC }
-  - { offsetInCU: 0x16165, offset: 0x8A6E7, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isScoreStarted]', symObjAddr: 0xDD90, symBinAddr: 0x1CB7C, symSize: 0x8 }
-  - { offsetInCU: 0x1619C, offset: 0x8A71E, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setIsScoreStarted:]', symObjAddr: 0xDD98, symBinAddr: 0x1CB84, symSize: 0x8 }
-  - { offsetInCU: 0x161D7, offset: 0x8A759, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx scoreSongCode]', symObjAddr: 0xDDA0, symBinAddr: 0x1CB8C, symSize: 0x8 }
-  - { offsetInCU: 0x1620E, offset: 0x8A790, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setScoreSongCode:]', symObjAddr: 0xDDA8, symBinAddr: 0x1CB94, symSize: 0x8 }
-  - { offsetInCU: 0x1624B, offset: 0x8A7CD, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx scorePlayer]', symObjAddr: 0xDDB0, symBinAddr: 0x1CB9C, symSize: 0x8 }
-  - { offsetInCU: 0x16282, offset: 0x8A804, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setScorePlayer:]', symObjAddr: 0xDDB8, symBinAddr: 0x1CBA4, symSize: 0x8 }
-  - { offsetInCU: 0x162BF, offset: 0x8A841, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx audioProcessQueue]', symObjAddr: 0xDDC0, symBinAddr: 0x1CBAC, symSize: 0x8 }
-  - { offsetInCU: 0x162F6, offset: 0x8A878, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setAudioProcessQueue:]', symObjAddr: 0xDDC8, symBinAddr: 0x1CBB4, symSize: 0xC }
-  - { offsetInCU: 0x16337, offset: 0x8A8B9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx ioProcessQueue]', symObjAddr: 0xDDD4, symBinAddr: 0x1CBC0, symSize: 0x8 }
-  - { offsetInCU: 0x1636E, offset: 0x8A8F0, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setIoProcessQueue:]', symObjAddr: 0xDDDC, symBinAddr: 0x1CBC8, symSize: 0xC }
-  - { offsetInCU: 0x163AF, offset: 0x8A931, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx delegateProcessQueue]', symObjAddr: 0xDDE8, symBinAddr: 0x1CBD4, symSize: 0x8 }
-  - { offsetInCU: 0x163E6, offset: 0x8A968, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setDelegateProcessQueue:]', symObjAddr: 0xDDF0, symBinAddr: 0x1CBDC, symSize: 0xC }
-  - { offsetInCU: 0x16427, offset: 0x8A9A9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx delegateScoreProcessQueue]', symObjAddr: 0xDDFC, symBinAddr: 0x1CBE8, symSize: 0x8 }
-  - { offsetInCU: 0x1645E, offset: 0x8A9E0, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setDelegateScoreProcessQueue:]', symObjAddr: 0xDE04, symBinAddr: 0x1CBF0, symSize: 0xC }
-  - { offsetInCU: 0x1649F, offset: 0x8AA21, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx preloadTaskQueue]', symObjAddr: 0xDE10, symBinAddr: 0x1CBFC, symSize: 0x8 }
-  - { offsetInCU: 0x164D6, offset: 0x8AA58, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setPreloadTaskQueue:]', symObjAddr: 0xDE18, symBinAddr: 0x1CC04, symSize: 0xC }
-  - { offsetInCU: 0x16517, offset: 0x8AA99, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx lyricTaskQueue]', symObjAddr: 0xDE24, symBinAddr: 0x1CC10, symSize: 0x8 }
-  - { offsetInCU: 0x1654E, offset: 0x8AAD0, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setLyricTaskQueue:]', symObjAddr: 0xDE2C, symBinAddr: 0x1CC18, symSize: 0xC }
-  - { offsetInCU: 0x1658F, offset: 0x8AB11, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx pitchTaskQueue]', symObjAddr: 0xDE38, symBinAddr: 0x1CC24, symSize: 0x8 }
-  - { offsetInCU: 0x165C6, offset: 0x8AB48, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setPitchTaskQueue:]', symObjAddr: 0xDE40, symBinAddr: 0x1CC2C, symSize: 0xC }
-  - { offsetInCU: 0x16607, offset: 0x8AB89, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx scOnlyForGetResource]', symObjAddr: 0xDE4C, symBinAddr: 0x1CC38, symSize: 0x8 }
-  - { offsetInCU: 0x1663E, offset: 0x8ABC0, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setScOnlyForGetResource:]', symObjAddr: 0xDE54, symBinAddr: 0x1CC40, symSize: 0xC }
-  - { offsetInCU: 0x1667F, offset: 0x8AC01, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx audioParams]', symObjAddr: 0xDE60, symBinAddr: 0x1CC4C, symSize: 0x8 }
-  - { offsetInCU: 0x166B6, offset: 0x8AC38, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setAudioParams:]', symObjAddr: 0xDE68, symBinAddr: 0x1CC54, symSize: 0xC }
-  - { offsetInCU: 0x166F7, offset: 0x8AC79, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isGettingLyric]', symObjAddr: 0xDE74, symBinAddr: 0x1CC60, symSize: 0x8 }
-  - { offsetInCU: 0x1672E, offset: 0x8ACB0, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setIsGettingLyric:]', symObjAddr: 0xDE7C, symBinAddr: 0x1CC68, symSize: 0x8 }
-  - { offsetInCU: 0x16769, offset: 0x8ACEB, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isGettingPitch]', symObjAddr: 0xDE84, symBinAddr: 0x1CC70, symSize: 0x8 }
-  - { offsetInCU: 0x167A0, offset: 0x8AD22, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setIsGettingPitch:]', symObjAddr: 0xDE8C, symBinAddr: 0x1CC78, symSize: 0x8 }
-  - { offsetInCU: 0x167DB, offset: 0x8AD5D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx logTag]', symObjAddr: 0xDE94, symBinAddr: 0x1CC80, symSize: 0x8 }
-  - { offsetInCU: 0x16812, offset: 0x8AD94, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setLogTag:]', symObjAddr: 0xDE9C, symBinAddr: 0x1CC88, symSize: 0x8 }
-  - { offsetInCU: 0x16851, offset: 0x8ADD3, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx .cxx_destruct]', symObjAddr: 0xDEA4, symBinAddr: 0x1CC90, symSize: 0x150 }
-  - { offsetInCU: 0x27, offset: 0x8C7B3, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration initWithRtcEngine:vendorConfigure:enableLog:enableSaveLogToFile:logFilePath:maxCacheSize:eventDelegate:scoreEventDelegate:audioFrameDelegate:]', symObjAddr: 0x0, symBinAddr: 0x1CDE0, symSize: 0x15C }
-  - { offsetInCU: 0x40E, offset: 0x8CB9A, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration initWithRtcEngine:vendorConfigure:enableLog:enableSaveLogToFile:logFilePath:maxCacheSize:eventDelegate:scoreEventDelegate:audioFrameDelegate:]', symObjAddr: 0x0, symBinAddr: 0x1CDE0, symSize: 0x15C }
-  - { offsetInCU: 0x4D2, offset: 0x8CC5E, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration description]', symObjAddr: 0x15C, symBinAddr: 0x1CF3C, symSize: 0x270 }
-  - { offsetInCU: 0x519, offset: 0x8CCA5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration rtcEngine]', symObjAddr: 0x3CC, symBinAddr: 0x1D1AC, symSize: 0x8 }
-  - { offsetInCU: 0x550, offset: 0x8CCDC, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration vendorConfigure]', symObjAddr: 0x3D4, symBinAddr: 0x1D1B4, symSize: 0x8 }
-  - { offsetInCU: 0x587, offset: 0x8CD13, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration enableLog]', symObjAddr: 0x3DC, symBinAddr: 0x1D1BC, symSize: 0x8 }
-  - { offsetInCU: 0x5BE, offset: 0x8CD4A, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration enableSaveLogToFile]', symObjAddr: 0x3E4, symBinAddr: 0x1D1C4, symSize: 0x8 }
-  - { offsetInCU: 0x5F5, offset: 0x8CD81, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration logFilePath]', symObjAddr: 0x3EC, symBinAddr: 0x1D1CC, symSize: 0x8 }
-  - { offsetInCU: 0x62C, offset: 0x8CDB8, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration maxCacheSize]', symObjAddr: 0x3F4, symBinAddr: 0x1D1D4, symSize: 0x8 }
-  - { offsetInCU: 0x663, offset: 0x8CDEF, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration eventDelegate]', symObjAddr: 0x3FC, symBinAddr: 0x1D1DC, symSize: 0x18 }
-  - { offsetInCU: 0x69A, offset: 0x8CE26, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration scoreEventDelegate]', symObjAddr: 0x414, symBinAddr: 0x1D1F4, symSize: 0x18 }
-  - { offsetInCU: 0x6D1, offset: 0x8CE5D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration audioFrameDelegate]', symObjAddr: 0x42C, symBinAddr: 0x1D20C, symSize: 0x18 }
-  - { offsetInCU: 0x708, offset: 0x8CE94, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration .cxx_destruct]', symObjAddr: 0x444, symBinAddr: 0x1D224, symSize: 0x54 }
-  - { offsetInCU: 0x73B, offset: 0x8CEC7, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure initWithServiceVendor:appId:appKey:token:userId:deviceId:]', symObjAddr: 0x498, symBinAddr: 0x1D278, symSize: 0x158 }
-  - { offsetInCU: 0x7D2, offset: 0x8CF5E, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure serviceVendor]', symObjAddr: 0x5F0, symBinAddr: 0x1D3D0, symSize: 0x8 }
-  - { offsetInCU: 0x809, offset: 0x8CF95, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure appId]', symObjAddr: 0x5F8, symBinAddr: 0x1D3D8, symSize: 0x8 }
-  - { offsetInCU: 0x840, offset: 0x8CFCC, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure appKey]', symObjAddr: 0x600, symBinAddr: 0x1D3E0, symSize: 0x8 }
-  - { offsetInCU: 0x877, offset: 0x8D003, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure token]', symObjAddr: 0x608, symBinAddr: 0x1D3E8, symSize: 0x8 }
-  - { offsetInCU: 0x8AE, offset: 0x8D03A, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure userId]', symObjAddr: 0x610, symBinAddr: 0x1D3F0, symSize: 0x8 }
-  - { offsetInCU: 0x8E5, offset: 0x8D071, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure deviceId]', symObjAddr: 0x618, symBinAddr: 0x1D3F8, symSize: 0x8 }
-  - { offsetInCU: 0x91C, offset: 0x8D0A8, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure .cxx_destruct]', symObjAddr: 0x620, symBinAddr: 0x1D400, symSize: 0x54 }
-  - { offsetInCU: 0x94F, offset: 0x8D0DB, size: 0x8, addend: 0x0, symName: '-[AgoraYSDVendorConfigure initWithAppId:appKey:token:userId:deviceId:urlTokenExpireTime:chargeMode:]', symObjAddr: 0x674, symBinAddr: 0x1D454, symSize: 0x78 }
-  - { offsetInCU: 0x9F5, offset: 0x8D181, size: 0x8, addend: 0x0, symName: '-[AgoraYSDVendorConfigure urlTokenExpireTime]', symObjAddr: 0x6EC, symBinAddr: 0x1D4CC, symSize: 0x10 }
-  - { offsetInCU: 0xA2D, offset: 0x8D1B9, size: 0x8, addend: 0x0, symName: '-[AgoraYSDVendorConfigure chargeMode]', symObjAddr: 0x6FC, symBinAddr: 0x1D4DC, symSize: 0x10 }
-  - { offsetInCU: 0xA65, offset: 0x8D1F1, size: 0x8, addend: 0x0, symName: '-[AgoraRawScoreDataEx initWithProgressInMs:speakerPitch:pitchScore:]', symObjAddr: 0x70C, symBinAddr: 0x1D4EC, symSize: 0x5C }
-  - { offsetInCU: 0xACC, offset: 0x8D258, size: 0x8, addend: 0x0, symName: '-[AgoraRawScoreDataEx description]', symObjAddr: 0x768, symBinAddr: 0x1D548, symSize: 0x40 }
-  - { offsetInCU: 0xB03, offset: 0x8D28F, size: 0x8, addend: 0x0, symName: '-[AgoraRawScoreDataEx progressInMs]', symObjAddr: 0x7A8, symBinAddr: 0x1D588, symSize: 0x8 }
-  - { offsetInCU: 0xB3B, offset: 0x8D2C7, size: 0x8, addend: 0x0, symName: '-[AgoraRawScoreDataEx speakerPitch]', symObjAddr: 0x7B0, symBinAddr: 0x1D590, symSize: 0x8 }
-  - { offsetInCU: 0xB71, offset: 0x8D2FD, size: 0x8, addend: 0x0, symName: '-[AgoraRawScoreDataEx pitchScore]', symObjAddr: 0x7B8, symBinAddr: 0x1D598, symSize: 0x8 }
-  - { offsetInCU: 0xBA7, offset: 0x8D333, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx initWithProgressInMs:performedLineIndex:linePitchScore:performedTotalLines:cumulativeTotalLinePitchScores:energyScore:]', symObjAddr: 0x7C0, symBinAddr: 0x1D5A0, symSize: 0x80 }
-  - { offsetInCU: 0xC3E, offset: 0x8D3CA, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx description]', symObjAddr: 0x840, symBinAddr: 0x1D620, symSize: 0x50 }
-  - { offsetInCU: 0xC75, offset: 0x8D401, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx progressInMs]', symObjAddr: 0x890, symBinAddr: 0x1D670, symSize: 0x8 }
-  - { offsetInCU: 0xCAD, offset: 0x8D439, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx performedLineIndex]', symObjAddr: 0x898, symBinAddr: 0x1D678, symSize: 0x8 }
-  - { offsetInCU: 0xCE5, offset: 0x8D471, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx linePitchScore]', symObjAddr: 0x8A0, symBinAddr: 0x1D680, symSize: 0x8 }
-  - { offsetInCU: 0xD1B, offset: 0x8D4A7, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx performedTotalLines]', symObjAddr: 0x8A8, symBinAddr: 0x1D688, symSize: 0x8 }
-  - { offsetInCU: 0xD53, offset: 0x8D4DF, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx cumulativeTotalLinePitchScores]', symObjAddr: 0x8B0, symBinAddr: 0x1D690, symSize: 0x8 }
-  - { offsetInCU: 0xD89, offset: 0x8D515, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx energyScore]', symObjAddr: 0x8B8, symBinAddr: 0x1D698, symSize: 0x8 }
-  - { offsetInCU: 0x27, offset: 0x8D5C0, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1D6A0, symSize: 0xF8 }
-  - { offsetInCU: 0x8D, offset: 0x8D626, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1D6A0, symSize: 0xF8 }
-  - { offsetInCU: 0xD4, offset: 0x8D66D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData token]', symObjAddr: 0xF8, symBinAddr: 0x1D798, symSize: 0x8 }
-  - { offsetInCU: 0x10B, offset: 0x8D6A4, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData setToken:]', symObjAddr: 0x100, symBinAddr: 0x1D7A0, symSize: 0x8 }
-  - { offsetInCU: 0x14A, offset: 0x8D6E3, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData uid]', symObjAddr: 0x108, symBinAddr: 0x1D7A8, symSize: 0x8 }
-  - { offsetInCU: 0x181, offset: 0x8D71A, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData setUid:]', symObjAddr: 0x110, symBinAddr: 0x1D7B0, symSize: 0x8 }
-  - { offsetInCU: 0x1C0, offset: 0x8D759, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData .cxx_destruct]', symObjAddr: 0x118, symBinAddr: 0x1D7B8, symSize: 0x30 }
-  - { offsetInCU: 0x27, offset: 0x8D807, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1D7E8, symSize: 0x2E8 }
-  - { offsetInCU: 0x1FB, offset: 0x8D9DB, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1D7E8, symSize: 0x2E8 }
-  - { offsetInCU: 0x242, offset: 0x8DA22, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setMediaType:]', symObjAddr: 0x2E8, symBinAddr: 0x1DAD0, symSize: 0x2C }
-  - { offsetInCU: 0x281, offset: 0x8DA61, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource accompanySize]', symObjAddr: 0x314, symBinAddr: 0x1DAFC, symSize: 0x8 }
-  - { offsetInCU: 0x2B8, offset: 0x8DA98, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setAccompanySize:]', symObjAddr: 0x31C, symBinAddr: 0x1DB04, symSize: 0x8 }
-  - { offsetInCU: 0x2F7, offset: 0x8DAD7, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource accompanyURL]', symObjAddr: 0x324, symBinAddr: 0x1DB0C, symSize: 0x8 }
-  - { offsetInCU: 0x32E, offset: 0x8DB0E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setAccompanyURL:]', symObjAddr: 0x32C, symBinAddr: 0x1DB14, symSize: 0x8 }
-  - { offsetInCU: 0x36D, offset: 0x8DB4D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource url]', symObjAddr: 0x334, symBinAddr: 0x1DB1C, symSize: 0x8 }
-  - { offsetInCU: 0x3A4, offset: 0x8DB84, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setUrl:]', symObjAddr: 0x33C, symBinAddr: 0x1DB24, symSize: 0x8 }
-  - { offsetInCU: 0x3E3, offset: 0x8DBC3, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource duration]', symObjAddr: 0x344, symBinAddr: 0x1DB2C, symSize: 0x8 }
-  - { offsetInCU: 0x41A, offset: 0x8DBFA, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setDuration:]', symObjAddr: 0x34C, symBinAddr: 0x1DB34, symSize: 0x8 }
-  - { offsetInCU: 0x457, offset: 0x8DC37, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource extName]', symObjAddr: 0x354, symBinAddr: 0x1DB3C, symSize: 0x8 }
-  - { offsetInCU: 0x48E, offset: 0x8DC6E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setExtName:]', symObjAddr: 0x35C, symBinAddr: 0x1DB44, symSize: 0x8 }
-  - { offsetInCU: 0x4CD, offset: 0x8DCAD, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource hasOriginal]', symObjAddr: 0x364, symBinAddr: 0x1DB4C, symSize: 0x8 }
-  - { offsetInCU: 0x504, offset: 0x8DCE4, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setHasOriginal:]', symObjAddr: 0x36C, symBinAddr: 0x1DB54, symSize: 0x8 }
-  - { offsetInCU: 0x53F, offset: 0x8DD1F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource hashValue]', symObjAddr: 0x374, symBinAddr: 0x1DB5C, symSize: 0x8 }
-  - { offsetInCU: 0x576, offset: 0x8DD56, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setHashValue:]', symObjAddr: 0x37C, symBinAddr: 0x1DB64, symSize: 0x8 }
-  - { offsetInCU: 0x5B5, offset: 0x8DD95, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource krcToken]', symObjAddr: 0x384, symBinAddr: 0x1DB6C, symSize: 0x8 }
-  - { offsetInCU: 0x5EC, offset: 0x8DDCC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setKrcToken:]', symObjAddr: 0x38C, symBinAddr: 0x1DB74, symSize: 0x8 }
-  - { offsetInCU: 0x62B, offset: 0x8DE0B, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource status]', symObjAddr: 0x394, symBinAddr: 0x1DB7C, symSize: 0x8 }
-  - { offsetInCU: 0x662, offset: 0x8DE42, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setStatus:]', symObjAddr: 0x39C, symBinAddr: 0x1DB84, symSize: 0x8 }
-  - { offsetInCU: 0x69F, offset: 0x8DE7F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource urlToken]', symObjAddr: 0x3A4, symBinAddr: 0x1DB8C, symSize: 0x8 }
-  - { offsetInCU: 0x6D6, offset: 0x8DEB6, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setUrlToken:]', symObjAddr: 0x3AC, symBinAddr: 0x1DB94, symSize: 0x8 }
-  - { offsetInCU: 0x715, offset: 0x8DEF5, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource fileSize]', symObjAddr: 0x3B4, symBinAddr: 0x1DB9C, symSize: 0x8 }
-  - { offsetInCU: 0x74C, offset: 0x8DF2C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setFileSize:]', symObjAddr: 0x3BC, symBinAddr: 0x1DBA4, symSize: 0x8 }
-  - { offsetInCU: 0x78B, offset: 0x8DF6B, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource segmentBegin]', symObjAddr: 0x3C4, symBinAddr: 0x1DBAC, symSize: 0x8 }
-  - { offsetInCU: 0x7C2, offset: 0x8DFA2, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setSegmentBegin:]', symObjAddr: 0x3CC, symBinAddr: 0x1DBB4, symSize: 0x8 }
-  - { offsetInCU: 0x7FF, offset: 0x8DFDF, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource segmentEnd]', symObjAddr: 0x3D4, symBinAddr: 0x1DBBC, symSize: 0x8 }
-  - { offsetInCU: 0x836, offset: 0x8E016, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setSegmentEnd:]', symObjAddr: 0x3DC, symBinAddr: 0x1DBC4, symSize: 0x8 }
-  - { offsetInCU: 0x873, offset: 0x8E053, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource mediaType]', symObjAddr: 0x3E4, symBinAddr: 0x1DBCC, symSize: 0x8 }
-  - { offsetInCU: 0x8AA, offset: 0x8E08A, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource urlTokenAccessTime]', symObjAddr: 0x3EC, symBinAddr: 0x1DBD4, symSize: 0x8 }
-  - { offsetInCU: 0x8E1, offset: 0x8E0C1, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setUrlTokenAccessTime:]', symObjAddr: 0x3F4, symBinAddr: 0x1DBDC, symSize: 0x8 }
-  - { offsetInCU: 0x91E, offset: 0x8E0FE, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource .cxx_destruct]', symObjAddr: 0x3FC, symBinAddr: 0x1DBE4, symSize: 0x78 }
-  - { offsetInCU: 0x27, offset: 0x8E1AC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo initWithMusicId:extParams:musicType:]', symObjAddr: 0x0, symBinAddr: 0x1DC5C, symSize: 0xB8 }
-  - { offsetInCU: 0x139, offset: 0x8E2BE, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo initWithMusicId:extParams:musicType:]', symObjAddr: 0x0, symBinAddr: 0x1DC5C, symSize: 0xB8 }
-  - { offsetInCU: 0x1A0, offset: 0x8E325, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo isEqual:]', symObjAddr: 0xB8, symBinAddr: 0x1DD14, symSize: 0x150 }
-  - { offsetInCU: 0x1F3, offset: 0x8E378, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo hash]', symObjAddr: 0x208, symBinAddr: 0x1DE64, symSize: 0x8C }
-  - { offsetInCU: 0x247, offset: 0x8E3CC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo musicId]', symObjAddr: 0x294, symBinAddr: 0x1DEF0, symSize: 0x8 }
-  - { offsetInCU: 0x27E, offset: 0x8E403, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setMusicId:]', symObjAddr: 0x29C, symBinAddr: 0x1DEF8, symSize: 0x8 }
-  - { offsetInCU: 0x2BD, offset: 0x8E442, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo musicType]', symObjAddr: 0x2A4, symBinAddr: 0x1DF00, symSize: 0x8 }
-  - { offsetInCU: 0x2F4, offset: 0x8E479, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setMusicType:]', symObjAddr: 0x2AC, symBinAddr: 0x1DF08, symSize: 0x8 }
-  - { offsetInCU: 0x331, offset: 0x8E4B6, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo extParams]', symObjAddr: 0x2B4, symBinAddr: 0x1DF10, symSize: 0x8 }
-  - { offsetInCU: 0x368, offset: 0x8E4ED, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setExtParams:]', symObjAddr: 0x2BC, symBinAddr: 0x1DF18, symSize: 0x8 }
-  - { offsetInCU: 0x3A7, offset: 0x8E52C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo lyricOffset]', symObjAddr: 0x2C4, symBinAddr: 0x1DF20, symSize: 0x8 }
-  - { offsetInCU: 0x3DE, offset: 0x8E563, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setLyricOffset:]', symObjAddr: 0x2CC, symBinAddr: 0x1DF28, symSize: 0x8 }
-  - { offsetInCU: 0x41B, offset: 0x8E5A0, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo lyricPath]', symObjAddr: 0x2D4, symBinAddr: 0x1DF30, symSize: 0x8 }
-  - { offsetInCU: 0x452, offset: 0x8E5D7, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setLyricPath:]', symObjAddr: 0x2DC, symBinAddr: 0x1DF38, symSize: 0x8 }
-  - { offsetInCU: 0x491, offset: 0x8E616, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo lyricEncrypt]', symObjAddr: 0x2E4, symBinAddr: 0x1DF40, symSize: 0x8 }
-  - { offsetInCU: 0x4C8, offset: 0x8E64D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setLyricEncrypt:]', symObjAddr: 0x2EC, symBinAddr: 0x1DF48, symSize: 0x8 }
-  - { offsetInCU: 0x507, offset: 0x8E68C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo pitchPath]', symObjAddr: 0x2F4, symBinAddr: 0x1DF50, symSize: 0x8 }
-  - { offsetInCU: 0x53E, offset: 0x8E6C3, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setPitchPath:]', symObjAddr: 0x2FC, symBinAddr: 0x1DF58, symSize: 0x8 }
-  - { offsetInCU: 0x57D, offset: 0x8E702, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo pitchEncrypt]', symObjAddr: 0x304, symBinAddr: 0x1DF60, symSize: 0x8 }
-  - { offsetInCU: 0x5B4, offset: 0x8E739, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setPitchEncrypt:]', symObjAddr: 0x30C, symBinAddr: 0x1DF68, symSize: 0x8 }
-  - { offsetInCU: 0x5F3, offset: 0x8E778, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo .cxx_destruct]', symObjAddr: 0x314, symBinAddr: 0x1DF70, symSize: 0x60 }
-  - { offsetInCU: 0x5F25, offset: 0x9472D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer initWithMediaPlayer:]', symObjAddr: 0x0, symBinAddr: 0x1DFD0, symSize: 0x154 }
-  - { offsetInCU: 0x60CB, offset: 0x948D3, size: 0x8, addend: 0x0, symName: __ZN5agora12agora_refptrINS_3rtc12IMediaPlayerEEaSERKS3_, symObjAddr: 0x154, symBinAddr: 0x1E124, symSize: 0x5C }
-  - { offsetInCU: 0x6166, offset: 0x9496E, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc31AgoraMediaPlayerObserverIosImplEE5resetB8ue170006IS3_vEEvPT_, symObjAddr: 0x1B0, symBinAddr: 0x1E180, symSize: 0x70 }
-  - { offsetInCU: 0x6410, offset: 0x94C18, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc31AgoraMediaPlayerObserverIosImplEEC2B8ue170006IS3_vEEPT_, symObjAddr: 0x683C, symBinAddr: 0x24800, symSize: 0x64 }
-  - { offsetInCU: 0x6571, offset: 0x94D79, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer dealloc]', symObjAddr: 0x220, symBinAddr: 0x1E1F0, symSize: 0x88 }
-  - { offsetInCU: 0x65A4, offset: 0x94DAC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer destroy]', symObjAddr: 0x2B4, symBinAddr: 0x1E278, symSize: 0xDC }
-  - { offsetInCU: 0x65ED, offset: 0x94DF5, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer registerMediaPlayerDelegate:]', symObjAddr: 0x390, symBinAddr: 0x1E354, symSize: 0x50 }
-  - { offsetInCU: 0x6687, offset: 0x94E8F, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl11setDelegateEPU38objcproto27AgoraRtcMediaPlayerDelegate11objc_object, symObjAddr: 0x3E0, symBinAddr: 0x1E3A4, symSize: 0xCC }
-  - { offsetInCU: 0x67F1, offset: 0x94FF9, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer unregistAllMediaPlayerDelegate]', symObjAddr: 0x4AC, symBinAddr: 0x1E470, symSize: 0x60 }
-  - { offsetInCU: 0x688F, offset: 0x95097, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer currentSongCode]', symObjAddr: 0x50C, symBinAddr: 0x1E4D0, symSize: 0x8 }
-  - { offsetInCU: 0x6914, offset: 0x9511C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer openMediaWithSongCode:startPos:]', symObjAddr: 0x514, symBinAddr: 0x1E4D8, symSize: 0x290 }
-  - { offsetInCU: 0x6A34, offset: 0x9523C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlayMode:]', symObjAddr: 0x7A4, symBinAddr: 0x1E768, symSize: 0x13C }
-  - { offsetInCU: 0x6AAF, offset: 0x952B7, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer play]', symObjAddr: 0x8E0, symBinAddr: 0x1E8A4, symSize: 0x13C }
-  - { offsetInCU: 0x6B27, offset: 0x9532F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer pause]', symObjAddr: 0xA1C, symBinAddr: 0x1E9E0, symSize: 0x12C }
-  - { offsetInCU: 0x6B8A, offset: 0x95392, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer stop]', symObjAddr: 0xB48, symBinAddr: 0x1EB0C, symSize: 0x130 }
-  - { offsetInCU: 0x6C00, offset: 0x95408, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer resume]', symObjAddr: 0xC78, symBinAddr: 0x1EC3C, symSize: 0x12C }
-  - { offsetInCU: 0x6C63, offset: 0x9546B, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer seekToPosition:]', symObjAddr: 0xDA4, symBinAddr: 0x1ED68, symSize: 0x134 }
-  - { offsetInCU: 0x6CDE, offset: 0x954E6, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer mute:]', symObjAddr: 0xED8, symBinAddr: 0x1EE9C, symSize: 0x138 }
-  - { offsetInCU: 0x6D59, offset: 0x95561, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getMute]', symObjAddr: 0x1010, symBinAddr: 0x1EFD4, symSize: 0x13C }
-  - { offsetInCU: 0x6DDB, offset: 0x955E3, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getDuration]', symObjAddr: 0x114C, symBinAddr: 0x1F110, symSize: 0x140 }
-  - { offsetInCU: 0x6E69, offset: 0x95671, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getPosition]', symObjAddr: 0x128C, symBinAddr: 0x1F250, symSize: 0x144 }
-  - { offsetInCU: 0x6EFC, offset: 0x95704, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer selectTrack:]', symObjAddr: 0x13D0, symBinAddr: 0x1F394, symSize: 0x134 }
-  - { offsetInCU: 0x6FC0, offset: 0x957C8, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer unregisterPlayerSourceObserver]', symObjAddr: 0x1504, symBinAddr: 0x1F4C8, symSize: 0xA0 }
-  - { offsetInCU: 0x7187, offset: 0x9598F, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc31AgoraMediaPlayerObserverIosImplEE5resetB8ue170006Ev, symObjAddr: 0x15A4, symBinAddr: 0x1F568, symSize: 0x5C }
-  - { offsetInCU: 0x728A, offset: 0x95A92, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc31AgoraMediaPlayerObserverIosImplEEaSB8ue170006EOS4_, symObjAddr: 0x1600, symBinAddr: 0x1F5C4, symSize: 0x64 }
-  - { offsetInCU: 0x74FD, offset: 0x95D05, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer unregisterCustomDataObserver]', symObjAddr: 0x1664, symBinAddr: 0x1F628, symSize: 0x80 }
-  - { offsetInCU: 0x768E, offset: 0x95E96, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc26AgoraRtcCustomDataObserverEE5resetB8ue170006Ev, symObjAddr: 0x16E4, symBinAddr: 0x1F6A8, symSize: 0x5C }
-  - { offsetInCU: 0x7791, offset: 0x95F99, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc26AgoraRtcCustomDataObserverEEaSB8ue170006EOS4_, symObjAddr: 0x1740, symBinAddr: 0x1F704, symSize: 0x64 }
-  - { offsetInCU: 0x79C8, offset: 0x961D0, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getMediaPlayer]', symObjAddr: 0x17A4, symBinAddr: 0x1F768, symSize: 0x1C }
-  - { offsetInCU: 0x7A03, offset: 0x9620B, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getMediaPlayer]', symObjAddr: 0x17A4, symBinAddr: 0x1F768, symSize: 0x1C }
-  - { offsetInCU: 0x7A94, offset: 0x9629C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer deleteMediaPlay]', symObjAddr: 0x17C0, symBinAddr: 0x1F784, symSize: 0x34 }
-  - { offsetInCU: 0x7B0B, offset: 0x96313, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getMusicCachePath:extName:]', symObjAddr: 0x17F4, symBinAddr: 0x1F7B8, symSize: 0x178 }
-  - { offsetInCU: 0x7BE7, offset: 0x963EF, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getYSDMusicInfo:]', symObjAddr: 0x196C, symBinAddr: 0x1F930, symSize: 0x1B8 }
-  - { offsetInCU: 0x7D05, offset: 0x9650D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getYSDMediaResource:]', symObjAddr: 0x1B24, symBinAddr: 0x1FAE8, symSize: 0x1B8 }
-  - { offsetInCU: 0x7DFD, offset: 0x96605, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer addObservers]', symObjAddr: 0x1CDC, symBinAddr: 0x1FCA0, symSize: 0xB4 }
-  - { offsetInCU: 0x7E42, offset: 0x9664A, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer applicationWillTerminateNotification:]', symObjAddr: 0x1D90, symBinAddr: 0x1FD54, symSize: 0x40 }
-  - { offsetInCU: 0x7EB0, offset: 0x966B8, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer applicationDidBecomeActiveNotification:]', symObjAddr: 0x1DD0, symBinAddr: 0x1FD94, symSize: 0x74 }
-  - { offsetInCU: 0x7F47, offset: 0x9674F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer applicationDidEnterBackgroundNotification:]', symObjAddr: 0x1E44, symBinAddr: 0x1FE08, symSize: 0x84 }
-  - { offsetInCU: 0x7FDE, offset: 0x967E6, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer checkIsBackgroundAuth]', symObjAddr: 0x1EC8, symBinAddr: 0x1FE8C, symSize: 0xB8 }
-  - { offsetInCU: 0x8041, offset: 0x96849, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer adjustPlayoutVolume:]', symObjAddr: 0x1F80, symBinAddr: 0x1FF44, symSize: 0x138 }
-  - { offsetInCU: 0x80C6, offset: 0x968CE, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer adjustPublishSignalVolume:]', symObjAddr: 0x20B8, symBinAddr: 0x2007C, symSize: 0x138 }
-  - { offsetInCU: 0x814B, offset: 0x96953, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer enableAutoSwitchAgoraCDN:]', symObjAddr: 0x21F0, symBinAddr: 0x201B4, symSize: 0x13C }
-  - { offsetInCU: 0x81D0, offset: 0x969D8, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getAgoraCDNLineCount]', symObjAddr: 0x232C, symBinAddr: 0x202F0, symSize: 0x130 }
-  - { offsetInCU: 0x823D, offset: 0x96A45, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getCurrentAgoraCDNIndex]', symObjAddr: 0x245C, symBinAddr: 0x20420, symSize: 0x130 }
-  - { offsetInCU: 0x82AA, offset: 0x96AB2, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getMediaPlayerId]', symObjAddr: 0x258C, symBinAddr: 0x20550, symSize: 0x130 }
-  - { offsetInCU: 0x8317, offset: 0x96B1F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getPlaySrc]', symObjAddr: 0x26BC, symBinAddr: 0x20680, symSize: 0x148 }
-  - { offsetInCU: 0x83A4, offset: 0x96BAC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getPlayerState]', symObjAddr: 0x2804, symBinAddr: 0x207C8, symSize: 0x12C }
-  - { offsetInCU: 0x8409, offset: 0x96C11, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getPlayoutVolume]', symObjAddr: 0x2930, symBinAddr: 0x208F4, symSize: 0x138 }
-  - { offsetInCU: 0x849F, offset: 0x96CA7, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getPublishSignalVolume]', symObjAddr: 0x2A68, symBinAddr: 0x20A2C, symSize: 0x138 }
-  - { offsetInCU: 0x8535, offset: 0x96D3D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getStreamCount]', symObjAddr: 0x2BA0, symBinAddr: 0x20B64, symSize: 0x138 }
-  - { offsetInCU: 0x85CB, offset: 0x96DD3, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer open:startPos:]', symObjAddr: 0x2CD8, symBinAddr: 0x20C9C, symSize: 0x184 }
-  - { offsetInCU: 0x8661, offset: 0x96E69, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer openWithAgoraCDNSrc:startPos:]', symObjAddr: 0x2E5C, symBinAddr: 0x20E20, symSize: 0x184 }
-  - { offsetInCU: 0x8745, offset: 0x96F4D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer openWithCustomSourceAtStartPos:withPlayerOnReadData:andPlayerOnSeek:]', symObjAddr: 0x2FE0, symBinAddr: 0x20FA4, symSize: 0x1F0 }
-  - { offsetInCU: 0x88AB, offset: 0x970B3, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc26AgoraRtcCustomDataObserverEE5resetB8ue170006IS3_vEEvPT_, symObjAddr: 0x31D0, symBinAddr: 0x21194, symSize: 0x70 }
-  - { offsetInCU: 0x8A6C, offset: 0x97274, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc26AgoraRtcCustomDataObserverEEC2B8ue170006IS3_vEEPT_, symObjAddr: 0x6A08, symBinAddr: 0x24984, symSize: 0x64 }
-  - { offsetInCU: 0x8C6A, offset: 0x97472, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer mediaSource:]', symObjAddr: 0x3240, symBinAddr: 0x21204, symSize: 0x1A4 }
-  - { offsetInCU: 0x8DE4, offset: 0x975EC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer openWithMediaSource:]', symObjAddr: 0x33E4, symBinAddr: 0x213A8, symSize: 0x294 }
-  - { offsetInCU: 0x8F4B, offset: 0x97753, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer playPreloadedSrc:]', symObjAddr: 0x3678, symBinAddr: 0x2163C, symSize: 0x170 }
-  - { offsetInCU: 0x8FC9, offset: 0x977D1, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer preloadSrc:startPos:]', symObjAddr: 0x37E8, symBinAddr: 0x217AC, symSize: 0x188 }
-  - { offsetInCU: 0x9058, offset: 0x97860, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer registerMediaPlayerAudioSpectrumDelegate:intervalInMS:]', symObjAddr: 0x3970, symBinAddr: 0x21934, symSize: 0x8 }
-  - { offsetInCU: 0x90A6, offset: 0x978AE, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer renewAgoraCDNSrcToken:ts:]', symObjAddr: 0x3978, symBinAddr: 0x2193C, symSize: 0x184 }
-  - { offsetInCU: 0x913C, offset: 0x97944, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer selectAudioTrack:]', symObjAddr: 0x3AFC, symBinAddr: 0x21AC0, symSize: 0x138 }
-  - { offsetInCU: 0x91C1, offset: 0x979C9, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer selectInternalSubtitle:]', symObjAddr: 0x3C34, symBinAddr: 0x21BF8, symSize: 0x138 }
-  - { offsetInCU: 0x9246, offset: 0x97A4E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer selectMultiAudioTrack:publishTrackIndex:]', symObjAddr: 0x3D6C, symBinAddr: 0x21D30, symSize: 0x14C }
-  - { offsetInCU: 0x92E3, offset: 0x97AEB, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setAudioDualMonoMode:]', symObjAddr: 0x3EB8, symBinAddr: 0x21E7C, symSize: 0x138 }
-  - { offsetInCU: 0x9368, offset: 0x97B70, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setAudioFrameDelegate:]', symObjAddr: 0x3FF0, symBinAddr: 0x21FB4, symSize: 0xAC }
-  - { offsetInCU: 0x93B1, offset: 0x97BB9, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setAudioPitch:]', symObjAddr: 0x409C, symBinAddr: 0x22060, symSize: 0x138 }
-  - { offsetInCU: 0x9436, offset: 0x97C3E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setExternalSubtitle:]', symObjAddr: 0x41D4, symBinAddr: 0x22198, symSize: 0x170 }
-  - { offsetInCU: 0x94B4, offset: 0x97CBC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setLoopCount:]', symObjAddr: 0x4344, symBinAddr: 0x22308, symSize: 0x138 }
-  - { offsetInCU: 0x9539, offset: 0x97D41, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlaybackSpeed:]', symObjAddr: 0x447C, symBinAddr: 0x22440, symSize: 0x138 }
-  - { offsetInCU: 0x95BE, offset: 0x97DC6, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlayerOption:value:]', symObjAddr: 0x45B4, symBinAddr: 0x22578, symSize: 0x184 }
-  - { offsetInCU: 0x9654, offset: 0x97E5C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlayerOptionString:value:]', symObjAddr: 0x4738, symBinAddr: 0x226FC, symSize: 0x1B0 }
-  - { offsetInCU: 0x96EA, offset: 0x97EF2, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setRenderMode:]', symObjAddr: 0x48E8, symBinAddr: 0x228AC, symSize: 0x138 }
-  - { offsetInCU: 0x976F, offset: 0x97F77, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setSpatialAudioParams:]', symObjAddr: 0x4A20, symBinAddr: 0x229E4, symSize: 0x8C }
-  - { offsetInCU: 0x97B8, offset: 0x97FC0, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setVideoFrameDelegate:]', symObjAddr: 0x4AAC, symBinAddr: 0x22A70, symSize: 0x8C }
-  - { offsetInCU: 0x9801, offset: 0x98009, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setView:]', symObjAddr: 0x4B38, symBinAddr: 0x22AFC, symSize: 0x8C }
-  - { offsetInCU: 0x984A, offset: 0x98052, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer switchAgoraCDNLineByIndex:]', symObjAddr: 0x4BC4, symBinAddr: 0x22B88, symSize: 0x138 }
-  - { offsetInCU: 0x98CF, offset: 0x980D7, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer switchAgoraCDNSrc:syncPts:]', symObjAddr: 0x4CFC, symBinAddr: 0x22CC0, symSize: 0x188 }
-  - { offsetInCU: 0x9965, offset: 0x9816D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer switchSrc:syncPts:]', symObjAddr: 0x4E84, symBinAddr: 0x22E48, symSize: 0x188 }
-  - { offsetInCU: 0x99FB, offset: 0x98203, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer takeScreenshot:]', symObjAddr: 0x500C, symBinAddr: 0x22FD0, symSize: 0x170 }
-  - { offsetInCU: 0x9A79, offset: 0x98281, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer unloadSrc:]', symObjAddr: 0x517C, symBinAddr: 0x23140, symSize: 0x170 }
-  - { offsetInCU: 0x9AF7, offset: 0x982FF, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer unregisterMediaPlayerAudioSpectrumDelegate:]', symObjAddr: 0x52EC, symBinAddr: 0x232B0, symSize: 0x8C }
-  - { offsetInCU: 0x9B40, offset: 0x98348, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer delegate]', symObjAddr: 0x5378, symBinAddr: 0x2333C, symSize: 0x18 }
-  - { offsetInCU: 0x9B77, offset: 0x9837F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setDelegate:]', symObjAddr: 0x5390, symBinAddr: 0x23354, symSize: 0xC }
-  - { offsetInCU: 0x9BB8, offset: 0x983C0, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer playerOnReadCallback]', symObjAddr: 0x539C, symBinAddr: 0x23360, symSize: 0x8 }
-  - { offsetInCU: 0x9BEF, offset: 0x983F7, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlayerOnReadCallback:]', symObjAddr: 0x53A4, symBinAddr: 0x23368, symSize: 0x8 }
-  - { offsetInCU: 0x9C2E, offset: 0x98436, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer playerOnSeekCallback]', symObjAddr: 0x53AC, symBinAddr: 0x23370, symSize: 0x8 }
-  - { offsetInCU: 0x9C65, offset: 0x9846D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlayerOnSeekCallback:]', symObjAddr: 0x53B4, symBinAddr: 0x23378, symSize: 0x8 }
-  - { offsetInCU: 0x9CA4, offset: 0x984AC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer mediaPlayerVideoFrameDelegate]', symObjAddr: 0x53BC, symBinAddr: 0x23380, symSize: 0x18 }
-  - { offsetInCU: 0x9CDB, offset: 0x984E3, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setMediaPlayerVideoFrameDelegate:]', symObjAddr: 0x53D4, symBinAddr: 0x23398, symSize: 0xC }
-  - { offsetInCU: 0x9D1C, offset: 0x98524, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer mediaPlayerAudioFrameDelegate]', symObjAddr: 0x53E0, symBinAddr: 0x233A4, symSize: 0x18 }
-  - { offsetInCU: 0x9D53, offset: 0x9855B, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setMediaPlayerAudioFrameDelegate:]', symObjAddr: 0x53F8, symBinAddr: 0x233BC, symSize: 0xC }
-  - { offsetInCU: 0x9D94, offset: 0x9859C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer audioSpectrumDelegate]', symObjAddr: 0x5404, symBinAddr: 0x233C8, symSize: 0x18 }
-  - { offsetInCU: 0x9DCB, offset: 0x985D3, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setAudioSpectrumDelegate:]', symObjAddr: 0x541C, symBinAddr: 0x233E0, symSize: 0xC }
-  - { offsetInCU: 0x9E0C, offset: 0x98614, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer mediaSource]', symObjAddr: 0x5428, symBinAddr: 0x233EC, symSize: 0x8 }
-  - { offsetInCU: 0x9E43, offset: 0x9864B, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setMediaSource:]', symObjAddr: 0x5430, symBinAddr: 0x233F4, symSize: 0xC }
-  - { offsetInCU: 0x9E84, offset: 0x9868C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setCurrentSongCode:]', symObjAddr: 0x543C, symBinAddr: 0x23400, symSize: 0x8 }
-  - { offsetInCU: 0x9EC1, offset: 0x986C9, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer currentPlayMode]', symObjAddr: 0x5444, symBinAddr: 0x23408, symSize: 0x8 }
-  - { offsetInCU: 0x9EF8, offset: 0x98700, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setCurrentPlayMode:]', symObjAddr: 0x544C, symBinAddr: 0x23410, symSize: 0x8 }
-  - { offsetInCU: 0x9F35, offset: 0x9873D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer destroying]', symObjAddr: 0x5454, symBinAddr: 0x23418, symSize: 0x8 }
-  - { offsetInCU: 0x9F6C, offset: 0x98774, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setDestroying:]', symObjAddr: 0x545C, symBinAddr: 0x23420, symSize: 0x8 }
-  - { offsetInCU: 0x9FA7, offset: 0x987AF, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer shouldRecoverFromBackground]', symObjAddr: 0x5464, symBinAddr: 0x23428, symSize: 0x8 }
-  - { offsetInCU: 0x9FDE, offset: 0x987E6, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setShouldRecoverFromBackground:]', symObjAddr: 0x546C, symBinAddr: 0x23430, symSize: 0x8 }
-  - { offsetInCU: 0xA019, offset: 0x98821, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer logTag]', symObjAddr: 0x5474, symBinAddr: 0x23438, symSize: 0x8 }
-  - { offsetInCU: 0xA050, offset: 0x98858, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setLogTag:]', symObjAddr: 0x547C, symBinAddr: 0x23440, symSize: 0x8 }
-  - { offsetInCU: 0xA0C3, offset: 0x988CB, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer .cxx_destruct]', symObjAddr: 0x5484, symBinAddr: 0x23448, symSize: 0x98 }
-  - { offsetInCU: 0xA1BA, offset: 0x989C2, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc26AgoraRtcCustomDataObserverEED2B8ue170006Ev, symObjAddr: 0x69B0, symBinAddr: 0x2492C, symSize: 0x58 }
-  - { offsetInCU: 0xA24C, offset: 0x98A54, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc31AgoraMediaPlayerObserverIosImplEED2B8ue170006Ev, symObjAddr: 0x6958, symBinAddr: 0x248D4, symSize: 0x58 }
-  - { offsetInCU: 0xA346, offset: 0x98B4E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer .cxx_construct]', symObjAddr: 0x551C, symBinAddr: 0x234E0, symSize: 0x14 }
-  - { offsetInCU: 0xA37D, offset: 0x98B85, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer .cxx_construct]', symObjAddr: 0x551C, symBinAddr: 0x234E0, symSize: 0x14 }
-  - { offsetInCU: 0xA39C, offset: 0x98BA4, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer .cxx_construct]', symObjAddr: 0x551C, symBinAddr: 0x234E0, symSize: 0x14 }
-  - { offsetInCU: 0xA3FC, offset: 0x98C04, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImplD1Ev, symObjAddr: 0x5530, symBinAddr: 0x234F4, symSize: 0x4 }
-  - { offsetInCU: 0xA420, offset: 0x98C28, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImplD1Ev, symObjAddr: 0x5530, symBinAddr: 0x234F4, symSize: 0x4 }
-  - { offsetInCU: 0xA434, offset: 0x98C3C, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImplD2Ev, symObjAddr: 0x630C, symBinAddr: 0x242D0, symSize: 0xFC }
-  - { offsetInCU: 0xA495, offset: 0x98C9D, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImplD0Ev, symObjAddr: 0x5534, symBinAddr: 0x234F8, symSize: 0x14 }
-  - { offsetInCU: 0xA4F3, offset: 0x98CFB, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl26onPlayerSourceStateChangedENS_5media4base18MEDIA_PLAYER_STATEENS3_18MEDIA_PLAYER_ERRORE, symObjAddr: 0x5548, symBinAddr: 0x2350C, symSize: 0x1C8 }
-  - { offsetInCU: 0xA586, offset: 0x98D8E, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl22getMediaPlayerObserverEv, symObjAddr: 0x6408, symBinAddr: 0x243CC, symSize: 0x40 }
-  - { offsetInCU: 0xA624, offset: 0x98E2C, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl14getMusicPlayerEv, symObjAddr: 0x6448, symBinAddr: 0x2440C, symSize: 0x40 }
-  - { offsetInCU: 0xA6C2, offset: 0x98ECA, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl17onPositionChangedExx, symObjAddr: 0x5710, symBinAddr: 0x236D4, symSize: 0x11C }
-  - { offsetInCU: 0xA755, offset: 0x98F5D, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl13onPlayerEventENS_5media4base18MEDIA_PLAYER_EVENTExPKc, symObjAddr: 0x582C, symBinAddr: 0x237F0, symSize: 0x16C }
-  - { offsetInCU: 0xA7F8, offset: 0x99000, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl10onMetaDataEPKvi, symObjAddr: 0x5998, symBinAddr: 0x2395C, symSize: 0x144 }
-  - { offsetInCU: 0xA8AA, offset: 0x990B2, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl19onPlayBufferUpdatedEx, symObjAddr: 0x5ADC, symBinAddr: 0x23AA0, symSize: 0x10C }
-  - { offsetInCU: 0xA92D, offset: 0x99135, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl14onPreloadEventEPKcNS_5media4base20PLAYER_PRELOAD_EVENTE, symObjAddr: 0x5BE8, symBinAddr: 0x23BAC, symSize: 0x11C }
-  - { offsetInCU: 0xA9C0, offset: 0x991C8, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl11onCompletedEv, symObjAddr: 0x5D04, symBinAddr: 0x23CC8, symSize: 0x4 }
-  - { offsetInCU: 0xA9E5, offset: 0x991ED, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl25onAgoraCDNTokenWillExpireEv, symObjAddr: 0x5D08, symBinAddr: 0x23CCC, symSize: 0xC8 }
-  - { offsetInCU: 0xAA32, offset: 0x9923A, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl22onPlayerSrcInfoChangedERKNS_5media4base7SrcInfoES6_, symObjAddr: 0x5DD0, symBinAddr: 0x23D94, symSize: 0x210 }
-  - { offsetInCU: 0xAB07, offset: 0x9930F, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl19onPlayerInfoUpdatedERKNS_5media4base17PlayerUpdatedInfoE, symObjAddr: 0x5FE0, symBinAddr: 0x23FA4, symSize: 0x21C }
-  - { offsetInCU: 0xABF7, offset: 0x993FF, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl23onAudioVolumeIndicationEi, symObjAddr: 0x61FC, symBinAddr: 0x241C0, symSize: 0x110 }
-  - { offsetInCU: 0xAC7A, offset: 0x99482, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc26AgoraRtcCustomDataObserver10onReadDataEPhi, symObjAddr: 0x6488, symBinAddr: 0x2444C, symSize: 0x1C0 }
-  - { offsetInCU: 0xAD13, offset: 0x9951B, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc26AgoraRtcCustomDataObserver6onSeekExi, symObjAddr: 0x6648, symBinAddr: 0x2460C, symSize: 0x194 }
-  - { offsetInCU: 0xADC6, offset: 0x995CE, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc26AgoraRtcCustomDataObserverD1Ev, symObjAddr: 0x67DC, symBinAddr: 0x247A0, symSize: 0x30 }
-  - { offsetInCU: 0xAE21, offset: 0x99629, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc26AgoraRtcCustomDataObserverD0Ev, symObjAddr: 0x680C, symBinAddr: 0x247D0, symSize: 0x30 }
-  - { offsetInCU: 0xB135, offset: 0x9993D, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED1Ev, symObjAddr: 0x68A0, symBinAddr: 0x24864, symSize: 0x4 }
-  - { offsetInCU: 0xB158, offset: 0x99960, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED1Ev, symObjAddr: 0x68A0, symBinAddr: 0x24864, symSize: 0x4 }
-  - { offsetInCU: 0xB190, offset: 0x99998, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED0Ev, symObjAddr: 0x68A4, symBinAddr: 0x24868, symSize: 0x14 }
-  - { offsetInCU: 0xB1F7, offset: 0x999FF, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE16__on_zero_sharedEv, symObjAddr: 0x68B8, symBinAddr: 0x2487C, symSize: 0x18 }
-  - { offsetInCU: 0xB24B, offset: 0x99A53, size: 0x8, addend: 0x0, symName: __ZNKSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info, symObjAddr: 0x68D0, symBinAddr: 0x24894, symSize: 0x3C }
-  - { offsetInCU: 0xB33F, offset: 0x99B47, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x690C, symBinAddr: 0x248D0, symSize: 0x4 }
-  - { offsetInCU: 0xB376, offset: 0x99B7E, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x690C, symBinAddr: 0x248D0, symSize: 0x4 }
-  - { offsetInCU: 0xB39A, offset: 0x99BA2, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x690C, symBinAddr: 0x248D0, symSize: 0x4 }
-  - { offsetInCU: 0xB3CA, offset: 0x99BD2, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x690C, symBinAddr: 0x248D0, symSize: 0x4 }
-  - { offsetInCU: 0xB3F3, offset: 0x99BFB, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x690C, symBinAddr: 0x248D0, symSize: 0x4 }
-  - { offsetInCU: 0xB6DB, offset: 0x99EE3, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED1Ev, symObjAddr: 0x6A6C, symBinAddr: 0x249E8, symSize: 0x4 }
-  - { offsetInCU: 0xB6FE, offset: 0x99F06, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED1Ev, symObjAddr: 0x6A6C, symBinAddr: 0x249E8, symSize: 0x4 }
-  - { offsetInCU: 0xB736, offset: 0x99F3E, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED0Ev, symObjAddr: 0x6A70, symBinAddr: 0x249EC, symSize: 0x14 }
-  - { offsetInCU: 0xB79D, offset: 0x99FA5, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE16__on_zero_sharedEv, symObjAddr: 0x6A84, symBinAddr: 0x24A00, symSize: 0x18 }
-  - { offsetInCU: 0xB7F1, offset: 0x99FF9, size: 0x8, addend: 0x0, symName: __ZNKSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info, symObjAddr: 0x6A9C, symBinAddr: 0x24A18, symSize: 0x3C }
-  - { offsetInCU: 0xB898, offset: 0x9A0A0, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6AD8, symBinAddr: 0x24A54, symSize: 0x4 }
-  - { offsetInCU: 0xB8CF, offset: 0x9A0D7, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6AD8, symBinAddr: 0x24A54, symSize: 0x4 }
-  - { offsetInCU: 0xB8F3, offset: 0x9A0FB, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6AD8, symBinAddr: 0x24A54, symSize: 0x4 }
-  - { offsetInCU: 0xB923, offset: 0x9A12B, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6AD8, symBinAddr: 0x24A54, symSize: 0x4 }
-  - { offsetInCU: 0xB94C, offset: 0x9A154, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6AD8, symBinAddr: 0x24A54, symSize: 0x4 }
+  - { offsetInCU: 0x41, offset: 0x745C3, size: 0x8, addend: 0x0, symName: _kAgoraMusicPlayerDidPlayToEndNotification, symObjAddr: 0x125C8, symBinAddr: 0x6C8B8, symSize: 0x0 }
+  - { offsetInCU: 0x68, offset: 0x745EA, size: 0x8, addend: 0x0, symName: __ZL9kInstance, symObjAddr: 0x7B5F0, symBinAddr: 0x7BEF0, symSize: 0x0 }
+  - { offsetInCU: 0x6A6, offset: 0x74C28, size: 0x8, addend: 0x0, symName: __ZL9onceToken, symObjAddr: 0x7B5F8, symBinAddr: 0x7BEF8, symSize: 0x0 }
+  - { offsetInCU: 0x11949, offset: 0x85ECB, size: 0x8, addend: 0x0, symName: '+[AgoraMusicContentCenterEx sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xEE20, symSize: 0x9C }
+  - { offsetInCU: 0x119C1, offset: 0x85F43, size: 0x8, addend: 0x0, symName: '___43+[AgoraMusicContentCenterEx sharedInstance]_block_invoke', symObjAddr: 0x9C, symBinAddr: 0xEEBC, symSize: 0x2C }
+  - { offsetInCU: 0x11A00, offset: 0x85F82, size: 0x8, addend: 0x0, symName: '+[AgoraMusicContentCenterEx destroy]', symObjAddr: 0xC8, symBinAddr: 0xEEE8, symSize: 0x118 }
+  - { offsetInCU: 0x11A2F, offset: 0x85FB1, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx init]', symObjAddr: 0x1E0, symBinAddr: 0xF000, symSize: 0x1F0 }
+  - { offsetInCU: 0x11AF3, offset: 0x86075, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx dealloc]', symObjAddr: 0x3D0, symBinAddr: 0xF1F0, symSize: 0x270 }
+  - { offsetInCU: 0x11B4D, offset: 0x860CF, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx reset]', symObjAddr: 0x64C, symBinAddr: 0xF460, symSize: 0x30 }
+  - { offsetInCU: 0x11B80, offset: 0x86102, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx initialize:]', symObjAddr: 0x67C, symBinAddr: 0xF490, symSize: 0x88C }
+  - { offsetInCU: 0x11C63, offset: 0x861E5, size: 0x8, addend: 0x0, symName: '___40-[AgoraMusicContentCenterEx initialize:]_block_invoke', symObjAddr: 0xF08, symBinAddr: 0xFD1C, symSize: 0x260 }
+  - { offsetInCU: 0x11D20, offset: 0x862A2, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s, symObjAddr: 0x1168, symBinAddr: 0xFF7C, symSize: 0x8 }
+  - { offsetInCU: 0x11D47, offset: 0x862C9, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s, symObjAddr: 0x1170, symBinAddr: 0xFF84, symSize: 0x8 }
+  - { offsetInCU: 0x11D66, offset: 0x862E8, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx renewToken:]', symObjAddr: 0x1178, symBinAddr: 0xFF8C, symSize: 0xD4 }
+  - { offsetInCU: 0x11DAF, offset: 0x86331, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx registerEventDelegate:]', symObjAddr: 0x124C, symBinAddr: 0x10060, symSize: 0x110 }
+  - { offsetInCU: 0x11DF8, offset: 0x8637A, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx registerScoreDelegate:]', symObjAddr: 0x135C, symBinAddr: 0x10170, symSize: 0x110 }
+  - { offsetInCU: 0x11E41, offset: 0x863C3, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx registerAudioFrameDelegate:]', symObjAddr: 0x146C, symBinAddr: 0x10280, symSize: 0x110 }
+  - { offsetInCU: 0x11E8A, offset: 0x8640C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx preload:]', symObjAddr: 0x157C, symBinAddr: 0x10390, symSize: 0x2C0 }
+  - { offsetInCU: 0x11EF5, offset: 0x86477, size: 0x8, addend: 0x0, symName: '___37-[AgoraMusicContentCenterEx preload:]_block_invoke', symObjAddr: 0x183C, symBinAddr: 0x10650, symSize: 0xA0 }
+  - { offsetInCU: 0x11F66, offset: 0x864E8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40w, symObjAddr: 0x18DC, symBinAddr: 0x106F0, symSize: 0x30 }
+  - { offsetInCU: 0x11F8F, offset: 0x86511, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx internalPreload:requestId:]', symObjAddr: 0x1934, symBinAddr: 0x10720, symSize: 0x18C }
+  - { offsetInCU: 0x1200B, offset: 0x8658D, size: 0x8, addend: 0x0, symName: '___55-[AgoraMusicContentCenterEx internalPreload:requestId:]_block_invoke', symObjAddr: 0x1AC0, symBinAddr: 0x108AC, symSize: 0x89C }
+  - { offsetInCU: 0x120E9, offset: 0x8666B, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isPreload:]', symObjAddr: 0x235C, symBinAddr: 0x11148, symSize: 0xF4 }
+  - { offsetInCU: 0x12132, offset: 0x866B4, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx removeCache]', symObjAddr: 0x2450, symBinAddr: 0x1123C, symSize: 0x8C }
+  - { offsetInCU: 0x1216A, offset: 0x866EC, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getCaches]', symObjAddr: 0x24DC, symBinAddr: 0x112C8, symSize: 0x84 }
+  - { offsetInCU: 0x121A2, offset: 0x86724, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getLyricInternal:lyricType:requestId:]', symObjAddr: 0x2560, symBinAddr: 0x1134C, symSize: 0x1B8 }
+  - { offsetInCU: 0x1222B, offset: 0x867AD, size: 0x8, addend: 0x0, symName: '___66-[AgoraMusicContentCenterEx getLyricInternal:lyricType:requestId:]_block_invoke', symObjAddr: 0x2718, symBinAddr: 0x11504, symSize: 0x748 }
+  - { offsetInCU: 0x12351, offset: 0x868D3, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getLyric:lyricType:]', symObjAddr: 0x2E60, symBinAddr: 0x11C4C, symSize: 0x3A4 }
+  - { offsetInCU: 0x123CD, offset: 0x8694F, size: 0x8, addend: 0x0, symName: '___48-[AgoraMusicContentCenterEx getLyric:lyricType:]_block_invoke', symObjAddr: 0x3204, symBinAddr: 0x11FF0, symSize: 0x98 }
+  - { offsetInCU: 0x1244F, offset: 0x869D1, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getPitchInternal:requestId:]', symObjAddr: 0x329C, symBinAddr: 0x12088, symSize: 0x1A8 }
+  - { offsetInCU: 0x124C7, offset: 0x86A49, size: 0x8, addend: 0x0, symName: '___56-[AgoraMusicContentCenterEx getPitchInternal:requestId:]_block_invoke', symObjAddr: 0x3444, symBinAddr: 0x12230, symSize: 0x714 }
+  - { offsetInCU: 0x125DC, offset: 0x86B5E, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getPitch:]', symObjAddr: 0x3B58, symBinAddr: 0x12944, symSize: 0x38C }
+  - { offsetInCU: 0x12647, offset: 0x86BC9, size: 0x8, addend: 0x0, symName: '___38-[AgoraMusicContentCenterEx getPitch:]_block_invoke', symObjAddr: 0x3EE4, symBinAddr: 0x12CD0, symSize: 0x98 }
+  - { offsetInCU: 0x12790, offset: 0x86D12, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx createMusicPlayerWithDelegate:]', symObjAddr: 0x3F7C, symBinAddr: 0x12D68, symSize: 0x280 }
+  - { offsetInCU: 0x12A5F, offset: 0x86FE1, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx destroyMusicPlayer:]', symObjAddr: 0x41FC, symBinAddr: 0x12FE8, symSize: 0x3DC }
+  - { offsetInCU: 0x12D01, offset: 0x87283, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getInternalSongCode:jsonOption:]', symObjAddr: 0x45D8, symBinAddr: 0x133C4, symSize: 0x11C }
+  - { offsetInCU: 0x12D6C, offset: 0x872EE, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx startScore:]', symObjAddr: 0x46F4, symBinAddr: 0x134E0, symSize: 0x5A4 }
+  - { offsetInCU: 0x12E55, offset: 0x873D7, size: 0x8, addend: 0x0, symName: '___40-[AgoraMusicContentCenterEx startScore:]_block_invoke', symObjAddr: 0x4C98, symBinAddr: 0x13A84, symSize: 0x1FC }
+  - { offsetInCU: 0x12EB5, offset: 0x87437, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32w, symObjAddr: 0x4E94, symBinAddr: 0x13C80, symSize: 0xC }
+  - { offsetInCU: 0x12EDE, offset: 0x87460, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32w, symObjAddr: 0x4EA0, symBinAddr: 0x13C8C, symSize: 0x8 }
+  - { offsetInCU: 0x12EFD, offset: 0x8747F, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx pauseScore]', symObjAddr: 0x4EA8, symBinAddr: 0x13C94, symSize: 0xC8 }
+  - { offsetInCU: 0x12F35, offset: 0x874B7, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx resumeScore]', symObjAddr: 0x4F70, symBinAddr: 0x13D5C, symSize: 0xCC }
+  - { offsetInCU: 0x12F6D, offset: 0x874EF, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx stopScore]', symObjAddr: 0x503C, symBinAddr: 0x13E28, symSize: 0xC8 }
+  - { offsetInCU: 0x12FA5, offset: 0x87527, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setScoreLevel:]', symObjAddr: 0x5104, symBinAddr: 0x13EF0, symSize: 0x108 }
+  - { offsetInCU: 0x12FEE, offset: 0x87570, size: 0x8, addend: 0x0, symName: '+[AgoraMusicContentCenterEx getSdkVersion]', symObjAddr: 0x520C, symBinAddr: 0x13FF8, symSize: 0x200 }
+  - { offsetInCU: 0x13060, offset: 0x875E2, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isValidConfig:]', symObjAddr: 0x540C, symBinAddr: 0x141F8, symSize: 0x1D4 }
+  - { offsetInCU: 0x130A9, offset: 0x8762B, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx ipAddress]', symObjAddr: 0x55E0, symBinAddr: 0x143CC, symSize: 0x60 }
+  - { offsetInCU: 0x130EE, offset: 0x87670, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx _isPreload:]', symObjAddr: 0x5640, symBinAddr: 0x1442C, symSize: 0x2A0 }
+  - { offsetInCU: 0x1319D, offset: 0x8771F, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isPreloading:]', symObjAddr: 0x58E0, symBinAddr: 0x146CC, symSize: 0x134 }
+  - { offsetInCU: 0x131E6, offset: 0x87768, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx addPreloadingSong:]', symObjAddr: 0x5A14, symBinAddr: 0x14800, symSize: 0xD4 }
+  - { offsetInCU: 0x1322B, offset: 0x877AD, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx removePreloadingSong:]', symObjAddr: 0x5AE8, symBinAddr: 0x148D4, symSize: 0xD4 }
+  - { offsetInCU: 0x13270, offset: 0x877F2, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx addPreloadingSongCallback:callback:]', symObjAddr: 0x5BBC, symBinAddr: 0x149A8, symSize: 0x128 }
+  - { offsetInCU: 0x132C6, offset: 0x87848, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokePreloadingSongCallback:]', symObjAddr: 0x5CE4, symBinAddr: 0x14AD0, symSize: 0x178 }
+  - { offsetInCU: 0x13337, offset: 0x878B9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx addGettingLyricSongCallback:callback:]', symObjAddr: 0x5E5C, symBinAddr: 0x14C48, symSize: 0x128 }
+  - { offsetInCU: 0x1338D, offset: 0x8790F, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeGettingLyricSongCallback:]', symObjAddr: 0x5F84, symBinAddr: 0x14D70, symSize: 0x178 }
+  - { offsetInCU: 0x133FE, offset: 0x87980, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeGettingLyricWhenPreloading:reason:]', symObjAddr: 0x60FC, symBinAddr: 0x14EE8, symSize: 0x344 }
+  - { offsetInCU: 0x134D7, offset: 0x87A59, size: 0x8, addend: 0x0, symName: '___69-[AgoraMusicContentCenterEx invokeGettingLyricWhenPreloading:reason:]_block_invoke', symObjAddr: 0x6440, symBinAddr: 0x1522C, symSize: 0xB0 }
+  - { offsetInCU: 0x1356E, offset: 0x87AF0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56s, symObjAddr: 0x64F0, symBinAddr: 0x152DC, symSize: 0x38 }
+  - { offsetInCU: 0x13597, offset: 0x87B19, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56s, symObjAddr: 0x6528, symBinAddr: 0x15314, symSize: 0x38 }
+  - { offsetInCU: 0x135B6, offset: 0x87B38, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx addGettingPitchSongCallback:callback:]', symObjAddr: 0x6560, symBinAddr: 0x1534C, symSize: 0x128 }
+  - { offsetInCU: 0x1360C, offset: 0x87B8E, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeGettingPitchSongCallback:]', symObjAddr: 0x6688, symBinAddr: 0x15474, symSize: 0x178 }
+  - { offsetInCU: 0x1367D, offset: 0x87BFF, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeGettingPitchWhenPreloading:reason:]', symObjAddr: 0x6800, symBinAddr: 0x155EC, symSize: 0x308 }
+  - { offsetInCU: 0x13732, offset: 0x87CB4, size: 0x8, addend: 0x0, symName: '___69-[AgoraMusicContentCenterEx invokeGettingPitchWhenPreloading:reason:]_block_invoke', symObjAddr: 0x6B08, symBinAddr: 0x158F4, symSize: 0x94 }
+  - { offsetInCU: 0x137B8, offset: 0x87D3A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s, symObjAddr: 0x6B9C, symBinAddr: 0x15988, symSize: 0x30 }
+  - { offsetInCU: 0x137E1, offset: 0x87D63, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s, symObjAddr: 0x6BCC, symBinAddr: 0x159B8, symSize: 0x30 }
+  - { offsetInCU: 0x13800, offset: 0x87D82, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx acquireMusicItem:]', symObjAddr: 0x6BFC, symBinAddr: 0x159E8, symSize: 0xE4 }
+  - { offsetInCU: 0x13849, offset: 0x87DCB, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx acquireMediaResource:]', symObjAddr: 0x6CE0, symBinAddr: 0x15ACC, symSize: 0xE4 }
+  - { offsetInCU: 0x13892, offset: 0x87E14, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx buildMD5ForMusicItem:]', symObjAddr: 0x6DC4, symBinAddr: 0x15BB0, symSize: 0xFC }
+  - { offsetInCU: 0x138E8, offset: 0x87E6A, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx _getInternalSongCode:jsonOption:]', symObjAddr: 0x6EC0, symBinAddr: 0x15CAC, symSize: 0x20C }
+  - { offsetInCU: 0x13975, offset: 0x87EF7, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx jsonStringToDictionary:]', symObjAddr: 0x70CC, symBinAddr: 0x15EB8, symSize: 0x108 }
+  - { offsetInCU: 0x139ED, offset: 0x87F6F, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx downloadMusic:requestId:url:extName:]', symObjAddr: 0x71D4, symBinAddr: 0x15FC0, symSize: 0x28C }
+  - { offsetInCU: 0x13A87, offset: 0x88009, size: 0x8, addend: 0x0, symName: '___65-[AgoraMusicContentCenterEx downloadMusic:requestId:url:extName:]_block_invoke', symObjAddr: 0x7460, symBinAddr: 0x1624C, symSize: 0x64 }
+  - { offsetInCU: 0x13AF8, offset: 0x8807A, size: 0x8, addend: 0x0, symName: '___65-[AgoraMusicContentCenterEx downloadMusic:requestId:url:extName:]_block_invoke.189', symObjAddr: 0x74C4, symBinAddr: 0x162B0, symSize: 0x288 }
+  - { offsetInCU: 0x13BDC, offset: 0x8815E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48w, symObjAddr: 0x774C, symBinAddr: 0x16538, symSize: 0x38 }
+  - { offsetInCU: 0x13C05, offset: 0x88187, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48w, symObjAddr: 0x7784, symBinAddr: 0x16570, symSize: 0x30 }
+  - { offsetInCU: 0x13C24, offset: 0x881A6, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx downloadLyric:requestId:]', symObjAddr: 0x77B4, symBinAddr: 0x165A0, symSize: 0x6A8 }
+  - { offsetInCU: 0x13D13, offset: 0x88295, size: 0x8, addend: 0x0, symName: '___53-[AgoraMusicContentCenterEx downloadLyric:requestId:]_block_invoke', symObjAddr: 0x7E5C, symBinAddr: 0x16C48, symSize: 0x41C }
+  - { offsetInCU: 0x13E09, offset: 0x8838B, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx downloadPitch:requestId:]', symObjAddr: 0x8278, symBinAddr: 0x17064, symSize: 0x694 }
+  - { offsetInCU: 0x13EF8, offset: 0x8847A, size: 0x8, addend: 0x0, symName: '___53-[AgoraMusicContentCenterEx downloadPitch:requestId:]_block_invoke', symObjAddr: 0x890C, symBinAddr: 0x176F8, symSize: 0x3D4 }
+  - { offsetInCU: 0x13FEE, offset: 0x88570, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getMusicPath:]', symObjAddr: 0x8CE0, symBinAddr: 0x17ACC, symSize: 0x1F0 }
+  - { offsetInCU: 0x140AD, offset: 0x8862F, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getMediaResource:requestId:response:]', symObjAddr: 0x8ED0, symBinAddr: 0x17CBC, symSize: 0x408 }
+  - { offsetInCU: 0x1416D, offset: 0x886EF, size: 0x8, addend: 0x0, symName: '___65-[AgoraMusicContentCenterEx getMediaResource:requestId:response:]_block_invoke', symObjAddr: 0x92D8, symBinAddr: 0x180C4, symSize: 0x68 }
+  - { offsetInCU: 0x141F9, offset: 0x8877B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32b, symObjAddr: 0x9340, symBinAddr: 0x1812C, symSize: 0x10 }
+  - { offsetInCU: 0x14321, offset: 0x888A3, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx initializeYSDSDK:requestId:]', symObjAddr: 0x9350, symBinAddr: 0x1813C, symSize: 0x53C }
+  - { offsetInCU: 0x14E70, offset: 0x893F2, size: 0x8, addend: 0x0, symName: '___56-[AgoraMusicContentCenterEx initializeYSDSDK:requestId:]_block_invoke', symObjAddr: 0x988C, symBinAddr: 0x18678, symSize: 0x294 }
+  - { offsetInCU: 0x14F0E, offset: 0x89490, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getLyricData:requestId:]', symObjAddr: 0x9B20, symBinAddr: 0x1890C, symSize: 0x1BC }
+  - { offsetInCU: 0x14FB4, offset: 0x89536, size: 0x8, addend: 0x0, symName: '___52-[AgoraMusicContentCenterEx getLyricData:requestId:]_block_invoke', symObjAddr: 0x9CDC, symBinAddr: 0x18AC8, symSize: 0x2D8 }
+  - { offsetInCU: 0x150A4, offset: 0x89626, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getPitchData:requestId:]', symObjAddr: 0x9FB4, symBinAddr: 0x18DA0, symSize: 0x644 }
+  - { offsetInCU: 0x151F7, offset: 0x89779, size: 0x8, addend: 0x0, symName: '___52-[AgoraMusicContentCenterEx getPitchData:requestId:]_block_invoke', symObjAddr: 0xA5F8, symBinAddr: 0x193E4, symSize: 0x26C }
+  - { offsetInCU: 0x152EF, offset: 0x89871, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56s64s72s, symObjAddr: 0xA864, symBinAddr: 0x19650, symSize: 0x48 }
+  - { offsetInCU: 0x15318, offset: 0x8989A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56s64s72s, symObjAddr: 0xA8AC, symBinAddr: 0x19698, symSize: 0x48 }
+  - { offsetInCU: 0x15337, offset: 0x898B9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx processScoreWithFrameBuffer:renderTimeMs:]', symObjAddr: 0xA8F4, symBinAddr: 0x196E0, symSize: 0xAC }
+  - { offsetInCU: 0x1539A, offset: 0x8991C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx _enableLog:saveLogFile:logFilePath:]', symObjAddr: 0xA9A0, symBinAddr: 0x1978C, symSize: 0x180 }
+  - { offsetInCU: 0x1540E, offset: 0x89990, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx saveCache:]', symObjAddr: 0xAB20, symBinAddr: 0x1990C, symSize: 0xC0 }
+  - { offsetInCU: 0x15475, offset: 0x899F7, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeInitializeEvent:reason:]', symObjAddr: 0xABE0, symBinAddr: 0x199CC, symSize: 0x1B8 }
+  - { offsetInCU: 0x15508, offset: 0x89A8A, size: 0x8, addend: 0x0, symName: '___58-[AgoraMusicContentCenterEx invokeInitializeEvent:reason:]_block_invoke', symObjAddr: 0xAD98, symBinAddr: 0x19B84, symSize: 0x78 }
+  - { offsetInCU: 0x15568, offset: 0x89AEA, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeStartScoreEvent:state:reason:]', symObjAddr: 0xAE10, symBinAddr: 0x19BFC, symSize: 0x1CC }
+  - { offsetInCU: 0x1560C, offset: 0x89B8E, size: 0x8, addend: 0x0, symName: '___64-[AgoraMusicContentCenterEx invokeStartScoreEvent:state:reason:]_block_invoke', symObjAddr: 0xAFDC, symBinAddr: 0x19DC8, symSize: 0x7C }
+  - { offsetInCU: 0x1567D, offset: 0x89BFF, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokePreloadEvent:songCode:percent:state:reason:]', symObjAddr: 0xB058, symBinAddr: 0x19E44, symSize: 0x408 }
+  - { offsetInCU: 0x15780, offset: 0x89D02, size: 0x8, addend: 0x0, symName: '___78-[AgoraMusicContentCenterEx invokePreloadEvent:songCode:percent:state:reason:]_block_invoke', symObjAddr: 0xB460, symBinAddr: 0x1A24C, symSize: 0xE4 }
+  - { offsetInCU: 0x15857, offset: 0x89DD9, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56s64s72w, symObjAddr: 0xB544, symBinAddr: 0x1A330, symSize: 0x50 }
+  - { offsetInCU: 0x15880, offset: 0x89E02, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56s64s72w, symObjAddr: 0xB594, symBinAddr: 0x1A380, symSize: 0x48 }
+  - { offsetInCU: 0x1589F, offset: 0x89E21, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokeLyricEvent:songCode:reason:]', symObjAddr: 0xB5DC, symBinAddr: 0x1A3C8, symSize: 0x304 }
+  - { offsetInCU: 0x15976, offset: 0x89EF8, size: 0x8, addend: 0x0, symName: '___62-[AgoraMusicContentCenterEx invokeLyricEvent:songCode:reason:]_block_invoke', symObjAddr: 0xB8E0, symBinAddr: 0x1A6CC, symSize: 0xD8 }
+  - { offsetInCU: 0x15A1A, offset: 0x89F9C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56s64w, symObjAddr: 0xB9B8, symBinAddr: 0x1A7A4, symSize: 0x48 }
+  - { offsetInCU: 0x15A43, offset: 0x89FC5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56s64w, symObjAddr: 0xBA00, symBinAddr: 0x1A7EC, symSize: 0x40 }
+  - { offsetInCU: 0x15A62, offset: 0x89FE4, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx invokePitchEvent:songCode:reason:]', symObjAddr: 0xBA40, symBinAddr: 0x1A82C, symSize: 0x2C4 }
+  - { offsetInCU: 0x15B28, offset: 0x8A0AA, size: 0x8, addend: 0x0, symName: '___62-[AgoraMusicContentCenterEx invokePitchEvent:songCode:reason:]_block_invoke', symObjAddr: 0xBD04, symBinAddr: 0x1AAF0, symSize: 0xBC }
+  - { offsetInCU: 0x15BBB, offset: 0x8A13D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s56w, symObjAddr: 0xBDC0, symBinAddr: 0x1ABAC, symSize: 0x40 }
+  - { offsetInCU: 0x15BE4, offset: 0x8A166, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s56w, symObjAddr: 0xBE00, symBinAddr: 0x1ABEC, symSize: 0x38 }
+  - { offsetInCU: 0x15C03, offset: 0x8A185, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodeMusicMappings]', symObjAddr: 0xBE38, symBinAddr: 0x1AC24, symSize: 0x4C }
+  - { offsetInCU: 0x15C3B, offset: 0x8A1BD, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodeResourceMappings]', symObjAddr: 0xBE84, symBinAddr: 0x1AC70, symSize: 0x4C }
+  - { offsetInCU: 0x15C73, offset: 0x8A1F5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx musicPlayers]', symObjAddr: 0xBED0, symBinAddr: 0x1ACBC, symSize: 0x4C }
+  - { offsetInCU: 0x15CAB, offset: 0x8A22D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodeMusicPlayerMappings]', symObjAddr: 0xBF1C, symBinAddr: 0x1AD08, symSize: 0x4C }
+  - { offsetInCU: 0x15CE3, offset: 0x8A265, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx preloadingSongs]', symObjAddr: 0xBF68, symBinAddr: 0x1AD54, symSize: 0x4C }
+  - { offsetInCU: 0x15D1B, offset: 0x8A29D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodePreloadCallbacks]', symObjAddr: 0xBFB4, symBinAddr: 0x1ADA0, symSize: 0x4C }
+  - { offsetInCU: 0x15D53, offset: 0x8A2D5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodeLyricCallbacks]', symObjAddr: 0xC000, symBinAddr: 0x1ADEC, symSize: 0x4C }
+  - { offsetInCU: 0x15D8B, offset: 0x8A30D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx songCodePitchCallbacks]', symObjAddr: 0xC04C, symBinAddr: 0x1AE38, symSize: 0x4C }
+  - { offsetInCU: 0x15DC3, offset: 0x8A345, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx preloadingSongCodeWhenGetLyric]', symObjAddr: 0xC098, symBinAddr: 0x1AE84, symSize: 0x4C }
+  - { offsetInCU: 0x15DFB, offset: 0x8A37D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx preloadingSongCodeWhenGetPitch]', symObjAddr: 0xC0E4, symBinAddr: 0x1AED0, symSize: 0x4C }
+  - { offsetInCU: 0x15E33, offset: 0x8A3B5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx AgoraYSDMusicPlayer:didChangedToState:reason:]', symObjAddr: 0xC130, symBinAddr: 0x1AF1C, symSize: 0x4A8 }
+  - { offsetInCU: 0x15F3B, offset: 0x8A4BD, size: 0x8, addend: 0x0, symName: '___74-[AgoraMusicContentCenterEx AgoraYSDMusicPlayer:didChangedToState:reason:]_block_invoke', symObjAddr: 0xC5D8, symBinAddr: 0x1B3C4, symSize: 0x78 }
+  - { offsetInCU: 0x15FBD, offset: 0x8A53F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40r, symObjAddr: 0xC650, symBinAddr: 0x1B43C, symSize: 0x34 }
+  - { offsetInCU: 0x15FE6, offset: 0x8A568, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40r, symObjAddr: 0xC684, symBinAddr: 0x1B470, symSize: 0x2C }
+  - { offsetInCU: 0x16005, offset: 0x8A587, size: 0x8, addend: 0x0, symName: '___74-[AgoraMusicContentCenterEx AgoraYSDMusicPlayer:didChangedToState:reason:]_block_invoke.304', symObjAddr: 0xC6B0, symBinAddr: 0x1B49C, symSize: 0x294 }
+  - { offsetInCU: 0x16070, offset: 0x8A5F2, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onStartScore:state:reason:]', symObjAddr: 0xC944, symBinAddr: 0x1B730, symSize: 0x90 }
+  - { offsetInCU: 0x160D7, offset: 0x8A659, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onPitch:data:]', symObjAddr: 0xC9D4, symBinAddr: 0x1B7C0, symSize: 0x17C }
+  - { offsetInCU: 0x1616A, offset: 0x8A6EC, size: 0x8, addend: 0x0, symName: '___42-[AgoraMusicContentCenterEx onPitch:data:]_block_invoke', symObjAddr: 0xCB50, symBinAddr: 0x1B93C, symSize: 0x7C }
+  - { offsetInCU: 0x161CA, offset: 0x8A74C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onLineScore:value:]', symObjAddr: 0xCBCC, symBinAddr: 0x1B9B8, symSize: 0x218 }
+  - { offsetInCU: 0x1625D, offset: 0x8A7DF, size: 0x8, addend: 0x0, symName: '___47-[AgoraMusicContentCenterEx onLineScore:value:]_block_invoke', symObjAddr: 0xCDE4, symBinAddr: 0x1BBD0, symSize: 0x7C }
+  - { offsetInCU: 0x162BD, offset: 0x8A83F, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx cacheManagerDidRemoveCache:]', symObjAddr: 0xCE60, symBinAddr: 0x1BC4C, symSize: 0x1C }
+  - { offsetInCU: 0x16300, offset: 0x8A882, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onRecordAudioFrame:channelId:]', symObjAddr: 0xCE7C, symBinAddr: 0x1BC68, symSize: 0x24C }
+  - { offsetInCU: 0x163AA, offset: 0x8A92C, size: 0x8, addend: 0x0, symName: '___58-[AgoraMusicContentCenterEx onRecordAudioFrame:channelId:]_block_invoke', symObjAddr: 0xD0C8, symBinAddr: 0x1BEB4, symSize: 0xE8 }
+  - { offsetInCU: 0x16437, offset: 0x8A9B9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onPlaybackAudioFrame:channelId:]', symObjAddr: 0xD1B0, symBinAddr: 0x1BF9C, symSize: 0x120 }
+  - { offsetInCU: 0x16491, offset: 0x8AA13, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onMixedAudioFrame:channelId:]', symObjAddr: 0xD2D0, symBinAddr: 0x1C0BC, symSize: 0x120 }
+  - { offsetInCU: 0x164EB, offset: 0x8AA6D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onEarMonitoringAudioFrame:]', symObjAddr: 0xD3F0, symBinAddr: 0x1C1DC, symSize: 0xFC }
+  - { offsetInCU: 0x16534, offset: 0x8AAB6, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx onPlaybackAudioFrameBeforeMixing:channelId:uid:]', symObjAddr: 0xD4EC, symBinAddr: 0x1C2D8, symSize: 0x138 }
+  - { offsetInCU: 0x1659F, offset: 0x8AB21, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getObservedAudioFramePosition]', symObjAddr: 0xD624, symBinAddr: 0x1C410, symSize: 0xC8 }
+  - { offsetInCU: 0x165D7, offset: 0x8AB59, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getMixedAudioParams]', symObjAddr: 0xD6EC, symBinAddr: 0x1C4D8, symSize: 0xD0 }
+  - { offsetInCU: 0x1660F, offset: 0x8AB91, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getRecordAudioParams]', symObjAddr: 0xD7BC, symBinAddr: 0x1C5A8, symSize: 0xD0 }
+  - { offsetInCU: 0x16647, offset: 0x8ABC9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getPlaybackAudioParams]', symObjAddr: 0xD88C, symBinAddr: 0x1C678, symSize: 0xD0 }
+  - { offsetInCU: 0x1667F, offset: 0x8AC01, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx getEarMonitoringAudioParams]', symObjAddr: 0xD95C, symBinAddr: 0x1C748, symSize: 0xD0 }
+  - { offsetInCU: 0x166B7, offset: 0x8AC39, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isInitialized]', symObjAddr: 0xDA2C, symBinAddr: 0x1C818, symSize: 0xC }
+  - { offsetInCU: 0x166EE, offset: 0x8AC70, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setIsInitialized:]', symObjAddr: 0xDA38, symBinAddr: 0x1C824, symSize: 0x8 }
+  - { offsetInCU: 0x1672B, offset: 0x8ACAD, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx agoraEngine]', symObjAddr: 0xDA40, symBinAddr: 0x1C82C, symSize: 0x8 }
+  - { offsetInCU: 0x16762, offset: 0x8ACE4, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setAgoraEngine:]', symObjAddr: 0xDA48, symBinAddr: 0x1C834, symSize: 0xC }
+  - { offsetInCU: 0x167A3, offset: 0x8AD25, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx configuration]', symObjAddr: 0xDA54, symBinAddr: 0x1C840, symSize: 0x8 }
+  - { offsetInCU: 0x167DA, offset: 0x8AD5C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setConfiguration:]', symObjAddr: 0xDA5C, symBinAddr: 0x1C848, symSize: 0xC }
+  - { offsetInCU: 0x1681B, offset: 0x8AD9D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx httpClient]', symObjAddr: 0xDA68, symBinAddr: 0x1C854, symSize: 0x8 }
+  - { offsetInCU: 0x16852, offset: 0x8ADD4, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setHttpClient:]', symObjAddr: 0xDA70, symBinAddr: 0x1C85C, symSize: 0xC }
+  - { offsetInCU: 0x16893, offset: 0x8AE15, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx accessData]', symObjAddr: 0xDA7C, symBinAddr: 0x1C868, symSize: 0x8 }
+  - { offsetInCU: 0x168CA, offset: 0x8AE4C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setAccessData:]', symObjAddr: 0xDA84, symBinAddr: 0x1C870, symSize: 0xC }
+  - { offsetInCU: 0x1690B, offset: 0x8AE8D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx eventDelegate]', symObjAddr: 0xDA90, symBinAddr: 0x1C87C, symSize: 0x18 }
+  - { offsetInCU: 0x16942, offset: 0x8AEC4, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setEventDelegate:]', symObjAddr: 0xDAA8, symBinAddr: 0x1C894, symSize: 0xC }
+  - { offsetInCU: 0x16983, offset: 0x8AF05, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx scoreDelegate]', symObjAddr: 0xDAB4, symBinAddr: 0x1C8A0, symSize: 0x18 }
+  - { offsetInCU: 0x169BA, offset: 0x8AF3C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setScoreDelegate:]', symObjAddr: 0xDACC, symBinAddr: 0x1C8B8, symSize: 0xC }
+  - { offsetInCU: 0x169FB, offset: 0x8AF7D, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx audioFrameDelegate]', symObjAddr: 0xDAD8, symBinAddr: 0x1C8C4, symSize: 0x18 }
+  - { offsetInCU: 0x16A32, offset: 0x8AFB4, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setAudioFrameDelegate:]', symObjAddr: 0xDAF0, symBinAddr: 0x1C8DC, symSize: 0xC }
+  - { offsetInCU: 0x16A73, offset: 0x8AFF5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodeMusicMappings:]', symObjAddr: 0xDAFC, symBinAddr: 0x1C8E8, symSize: 0xC }
+  - { offsetInCU: 0x16AB4, offset: 0x8B036, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodeResourceMappings:]', symObjAddr: 0xDB08, symBinAddr: 0x1C8F4, symSize: 0xC }
+  - { offsetInCU: 0x16AF5, offset: 0x8B077, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setMusicPlayers:]', symObjAddr: 0xDB14, symBinAddr: 0x1C900, symSize: 0xC }
+  - { offsetInCU: 0x16B36, offset: 0x8B0B8, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodeMusicPlayerMappings:]', symObjAddr: 0xDB20, symBinAddr: 0x1C90C, symSize: 0xC }
+  - { offsetInCU: 0x16B77, offset: 0x8B0F9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodePreloadCallbacks:]', symObjAddr: 0xDB2C, symBinAddr: 0x1C918, symSize: 0xC }
+  - { offsetInCU: 0x16BB8, offset: 0x8B13A, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodeLyricCallbacks:]', symObjAddr: 0xDB38, symBinAddr: 0x1C924, symSize: 0xC }
+  - { offsetInCU: 0x16BF9, offset: 0x8B17B, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setSongCodePitchCallbacks:]', symObjAddr: 0xDB44, symBinAddr: 0x1C930, symSize: 0xC }
+  - { offsetInCU: 0x16C3A, offset: 0x8B1BC, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setPreloadingSongCodeWhenGetLyric:]', symObjAddr: 0xDB50, symBinAddr: 0x1C93C, symSize: 0xC }
+  - { offsetInCU: 0x16C7B, offset: 0x8B1FD, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setPreloadingSongCodeWhenGetPitch:]', symObjAddr: 0xDB5C, symBinAddr: 0x1C948, symSize: 0xC }
+  - { offsetInCU: 0x16CBC, offset: 0x8B23E, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setPreloadingSongs:]', symObjAddr: 0xDB68, symBinAddr: 0x1C954, symSize: 0xC }
+  - { offsetInCU: 0x16CFD, offset: 0x8B27F, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isScoreStarted]', symObjAddr: 0xDB74, symBinAddr: 0x1C960, symSize: 0x8 }
+  - { offsetInCU: 0x16D34, offset: 0x8B2B6, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setIsScoreStarted:]', symObjAddr: 0xDB7C, symBinAddr: 0x1C968, symSize: 0x8 }
+  - { offsetInCU: 0x16D6F, offset: 0x8B2F1, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx scoreSongCode]', symObjAddr: 0xDB84, symBinAddr: 0x1C970, symSize: 0x8 }
+  - { offsetInCU: 0x16DA6, offset: 0x8B328, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setScoreSongCode:]', symObjAddr: 0xDB8C, symBinAddr: 0x1C978, symSize: 0x8 }
+  - { offsetInCU: 0x16DE3, offset: 0x8B365, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx scorePlayer]', symObjAddr: 0xDB94, symBinAddr: 0x1C980, symSize: 0x8 }
+  - { offsetInCU: 0x16E1A, offset: 0x8B39C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setScorePlayer:]', symObjAddr: 0xDB9C, symBinAddr: 0x1C988, symSize: 0x8 }
+  - { offsetInCU: 0x16E57, offset: 0x8B3D9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx audioProcessQueue]', symObjAddr: 0xDBA4, symBinAddr: 0x1C990, symSize: 0x8 }
+  - { offsetInCU: 0x16E8E, offset: 0x8B410, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setAudioProcessQueue:]', symObjAddr: 0xDBAC, symBinAddr: 0x1C998, symSize: 0xC }
+  - { offsetInCU: 0x16ECF, offset: 0x8B451, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx ioProcessQueue]', symObjAddr: 0xDBB8, symBinAddr: 0x1C9A4, symSize: 0x8 }
+  - { offsetInCU: 0x16F06, offset: 0x8B488, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setIoProcessQueue:]', symObjAddr: 0xDBC0, symBinAddr: 0x1C9AC, symSize: 0xC }
+  - { offsetInCU: 0x16F47, offset: 0x8B4C9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx delegateProcessQueue]', symObjAddr: 0xDBCC, symBinAddr: 0x1C9B8, symSize: 0x8 }
+  - { offsetInCU: 0x16F7E, offset: 0x8B500, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setDelegateProcessQueue:]', symObjAddr: 0xDBD4, symBinAddr: 0x1C9C0, symSize: 0xC }
+  - { offsetInCU: 0x16FBF, offset: 0x8B541, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx delegateScoreProcessQueue]', symObjAddr: 0xDBE0, symBinAddr: 0x1C9CC, symSize: 0x8 }
+  - { offsetInCU: 0x16FF6, offset: 0x8B578, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setDelegateScoreProcessQueue:]', symObjAddr: 0xDBE8, symBinAddr: 0x1C9D4, symSize: 0xC }
+  - { offsetInCU: 0x17037, offset: 0x8B5B9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx preloadTaskQueue]', symObjAddr: 0xDBF4, symBinAddr: 0x1C9E0, symSize: 0x8 }
+  - { offsetInCU: 0x1706E, offset: 0x8B5F0, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setPreloadTaskQueue:]', symObjAddr: 0xDBFC, symBinAddr: 0x1C9E8, symSize: 0xC }
+  - { offsetInCU: 0x170AF, offset: 0x8B631, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx lyricTaskQueue]', symObjAddr: 0xDC08, symBinAddr: 0x1C9F4, symSize: 0x8 }
+  - { offsetInCU: 0x170E6, offset: 0x8B668, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setLyricTaskQueue:]', symObjAddr: 0xDC10, symBinAddr: 0x1C9FC, symSize: 0xC }
+  - { offsetInCU: 0x17127, offset: 0x8B6A9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx pitchTaskQueue]', symObjAddr: 0xDC1C, symBinAddr: 0x1CA08, symSize: 0x8 }
+  - { offsetInCU: 0x1715E, offset: 0x8B6E0, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setPitchTaskQueue:]', symObjAddr: 0xDC24, symBinAddr: 0x1CA10, symSize: 0xC }
+  - { offsetInCU: 0x1719F, offset: 0x8B721, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx scOnlyForGetResource]', symObjAddr: 0xDC30, symBinAddr: 0x1CA1C, symSize: 0x8 }
+  - { offsetInCU: 0x171D6, offset: 0x8B758, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setScOnlyForGetResource:]', symObjAddr: 0xDC38, symBinAddr: 0x1CA24, symSize: 0xC }
+  - { offsetInCU: 0x17217, offset: 0x8B799, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx audioParams]', symObjAddr: 0xDC44, symBinAddr: 0x1CA30, symSize: 0x8 }
+  - { offsetInCU: 0x1724E, offset: 0x8B7D0, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setAudioParams:]', symObjAddr: 0xDC4C, symBinAddr: 0x1CA38, symSize: 0xC }
+  - { offsetInCU: 0x1728F, offset: 0x8B811, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isGettingLyric]', symObjAddr: 0xDC58, symBinAddr: 0x1CA44, symSize: 0x8 }
+  - { offsetInCU: 0x172C6, offset: 0x8B848, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setIsGettingLyric:]', symObjAddr: 0xDC60, symBinAddr: 0x1CA4C, symSize: 0x8 }
+  - { offsetInCU: 0x17301, offset: 0x8B883, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx isGettingPitch]', symObjAddr: 0xDC68, symBinAddr: 0x1CA54, symSize: 0x8 }
+  - { offsetInCU: 0x17338, offset: 0x8B8BA, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setIsGettingPitch:]', symObjAddr: 0xDC70, symBinAddr: 0x1CA5C, symSize: 0x8 }
+  - { offsetInCU: 0x17373, offset: 0x8B8F5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx logTag]', symObjAddr: 0xDC78, symBinAddr: 0x1CA64, symSize: 0x8 }
+  - { offsetInCU: 0x173AA, offset: 0x8B92C, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx setLogTag:]', symObjAddr: 0xDC80, symBinAddr: 0x1CA6C, symSize: 0x8 }
+  - { offsetInCU: 0x173E9, offset: 0x8B96B, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterEx .cxx_destruct]', symObjAddr: 0xDC88, symBinAddr: 0x1CA74, symSize: 0x150 }
+  - { offsetInCU: 0x27, offset: 0x8D369, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration initWithRtcEngine:vendorConfigure:enableLog:enableSaveLogToFile:logFilePath:maxCacheSize:eventDelegate:scoreEventDelegate:audioFrameDelegate:]', symObjAddr: 0x0, symBinAddr: 0x1CBC4, symSize: 0x15C }
+  - { offsetInCU: 0x40E, offset: 0x8D750, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration initWithRtcEngine:vendorConfigure:enableLog:enableSaveLogToFile:logFilePath:maxCacheSize:eventDelegate:scoreEventDelegate:audioFrameDelegate:]', symObjAddr: 0x0, symBinAddr: 0x1CBC4, symSize: 0x15C }
+  - { offsetInCU: 0x4D2, offset: 0x8D814, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration description]', symObjAddr: 0x15C, symBinAddr: 0x1CD20, symSize: 0x270 }
+  - { offsetInCU: 0x519, offset: 0x8D85B, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration rtcEngine]', symObjAddr: 0x3CC, symBinAddr: 0x1CF90, symSize: 0x8 }
+  - { offsetInCU: 0x550, offset: 0x8D892, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration vendorConfigure]', symObjAddr: 0x3D4, symBinAddr: 0x1CF98, symSize: 0x8 }
+  - { offsetInCU: 0x587, offset: 0x8D8C9, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration enableLog]', symObjAddr: 0x3DC, symBinAddr: 0x1CFA0, symSize: 0x8 }
+  - { offsetInCU: 0x5BE, offset: 0x8D900, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration enableSaveLogToFile]', symObjAddr: 0x3E4, symBinAddr: 0x1CFA8, symSize: 0x8 }
+  - { offsetInCU: 0x5F5, offset: 0x8D937, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration logFilePath]', symObjAddr: 0x3EC, symBinAddr: 0x1CFB0, symSize: 0x8 }
+  - { offsetInCU: 0x62C, offset: 0x8D96E, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration maxCacheSize]', symObjAddr: 0x3F4, symBinAddr: 0x1CFB8, symSize: 0x8 }
+  - { offsetInCU: 0x663, offset: 0x8D9A5, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration eventDelegate]', symObjAddr: 0x3FC, symBinAddr: 0x1CFC0, symSize: 0x18 }
+  - { offsetInCU: 0x69A, offset: 0x8D9DC, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration scoreEventDelegate]', symObjAddr: 0x414, symBinAddr: 0x1CFD8, symSize: 0x18 }
+  - { offsetInCU: 0x6D1, offset: 0x8DA13, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration audioFrameDelegate]', symObjAddr: 0x42C, symBinAddr: 0x1CFF0, symSize: 0x18 }
+  - { offsetInCU: 0x708, offset: 0x8DA4A, size: 0x8, addend: 0x0, symName: '-[AgoraMusicContentCenterExConfiguration .cxx_destruct]', symObjAddr: 0x444, symBinAddr: 0x1D008, symSize: 0x54 }
+  - { offsetInCU: 0x73B, offset: 0x8DA7D, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure initWithServiceVendor:appId:appKey:token:userId:deviceId:]', symObjAddr: 0x498, symBinAddr: 0x1D05C, symSize: 0x158 }
+  - { offsetInCU: 0x7D2, offset: 0x8DB14, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure serviceVendor]', symObjAddr: 0x5F0, symBinAddr: 0x1D1B4, symSize: 0x8 }
+  - { offsetInCU: 0x809, offset: 0x8DB4B, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure appId]', symObjAddr: 0x5F8, symBinAddr: 0x1D1BC, symSize: 0x8 }
+  - { offsetInCU: 0x840, offset: 0x8DB82, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure appKey]', symObjAddr: 0x600, symBinAddr: 0x1D1C4, symSize: 0x8 }
+  - { offsetInCU: 0x877, offset: 0x8DBB9, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure token]', symObjAddr: 0x608, symBinAddr: 0x1D1CC, symSize: 0x8 }
+  - { offsetInCU: 0x8AE, offset: 0x8DBF0, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure userId]', symObjAddr: 0x610, symBinAddr: 0x1D1D4, symSize: 0x8 }
+  - { offsetInCU: 0x8E5, offset: 0x8DC27, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure deviceId]', symObjAddr: 0x618, symBinAddr: 0x1D1DC, symSize: 0x8 }
+  - { offsetInCU: 0x91C, offset: 0x8DC5E, size: 0x8, addend: 0x0, symName: '-[AgoraVendorConfigure .cxx_destruct]', symObjAddr: 0x620, symBinAddr: 0x1D1E4, symSize: 0x54 }
+  - { offsetInCU: 0x94F, offset: 0x8DC91, size: 0x8, addend: 0x0, symName: '-[AgoraYSDVendorConfigure initWithAppId:appKey:token:userId:deviceId:urlTokenExpireTime:chargeMode:]', symObjAddr: 0x674, symBinAddr: 0x1D238, symSize: 0x78 }
+  - { offsetInCU: 0x9F5, offset: 0x8DD37, size: 0x8, addend: 0x0, symName: '-[AgoraYSDVendorConfigure urlTokenExpireTime]', symObjAddr: 0x6EC, symBinAddr: 0x1D2B0, symSize: 0x10 }
+  - { offsetInCU: 0xA2D, offset: 0x8DD6F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDVendorConfigure chargeMode]', symObjAddr: 0x6FC, symBinAddr: 0x1D2C0, symSize: 0x10 }
+  - { offsetInCU: 0xA65, offset: 0x8DDA7, size: 0x8, addend: 0x0, symName: '-[AgoraRawScoreDataEx initWithProgressInMs:speakerPitch:pitchScore:]', symObjAddr: 0x70C, symBinAddr: 0x1D2D0, symSize: 0x5C }
+  - { offsetInCU: 0xACC, offset: 0x8DE0E, size: 0x8, addend: 0x0, symName: '-[AgoraRawScoreDataEx description]', symObjAddr: 0x768, symBinAddr: 0x1D32C, symSize: 0x40 }
+  - { offsetInCU: 0xB03, offset: 0x8DE45, size: 0x8, addend: 0x0, symName: '-[AgoraRawScoreDataEx progressInMs]', symObjAddr: 0x7A8, symBinAddr: 0x1D36C, symSize: 0x8 }
+  - { offsetInCU: 0xB3B, offset: 0x8DE7D, size: 0x8, addend: 0x0, symName: '-[AgoraRawScoreDataEx speakerPitch]', symObjAddr: 0x7B0, symBinAddr: 0x1D374, symSize: 0x8 }
+  - { offsetInCU: 0xB71, offset: 0x8DEB3, size: 0x8, addend: 0x0, symName: '-[AgoraRawScoreDataEx pitchScore]', symObjAddr: 0x7B8, symBinAddr: 0x1D37C, symSize: 0x8 }
+  - { offsetInCU: 0xBA7, offset: 0x8DEE9, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx initWithProgressInMs:performedLineIndex:linePitchScore:performedTotalLines:cumulativeTotalLinePitchScores:energyScore:]', symObjAddr: 0x7C0, symBinAddr: 0x1D384, symSize: 0x80 }
+  - { offsetInCU: 0xC3E, offset: 0x8DF80, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx description]', symObjAddr: 0x840, symBinAddr: 0x1D404, symSize: 0x50 }
+  - { offsetInCU: 0xC75, offset: 0x8DFB7, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx progressInMs]', symObjAddr: 0x890, symBinAddr: 0x1D454, symSize: 0x8 }
+  - { offsetInCU: 0xCAD, offset: 0x8DFEF, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx performedLineIndex]', symObjAddr: 0x898, symBinAddr: 0x1D45C, symSize: 0x8 }
+  - { offsetInCU: 0xCE5, offset: 0x8E027, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx linePitchScore]', symObjAddr: 0x8A0, symBinAddr: 0x1D464, symSize: 0x8 }
+  - { offsetInCU: 0xD1B, offset: 0x8E05D, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx performedTotalLines]', symObjAddr: 0x8A8, symBinAddr: 0x1D46C, symSize: 0x8 }
+  - { offsetInCU: 0xD53, offset: 0x8E095, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx cumulativeTotalLinePitchScores]', symObjAddr: 0x8B0, symBinAddr: 0x1D474, symSize: 0x8 }
+  - { offsetInCU: 0xD89, offset: 0x8E0CB, size: 0x8, addend: 0x0, symName: '-[AgoraLineScoreDataEx energyScore]', symObjAddr: 0x8B8, symBinAddr: 0x1D47C, symSize: 0x8 }
+  - { offsetInCU: 0x27, offset: 0x8E176, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1D484, symSize: 0xF8 }
+  - { offsetInCU: 0x8D, offset: 0x8E1DC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1D484, symSize: 0xF8 }
+  - { offsetInCU: 0xD4, offset: 0x8E223, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData token]', symObjAddr: 0xF8, symBinAddr: 0x1D57C, symSize: 0x8 }
+  - { offsetInCU: 0x10B, offset: 0x8E25A, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData setToken:]', symObjAddr: 0x100, symBinAddr: 0x1D584, symSize: 0x8 }
+  - { offsetInCU: 0x14A, offset: 0x8E299, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData uid]', symObjAddr: 0x108, symBinAddr: 0x1D58C, symSize: 0x8 }
+  - { offsetInCU: 0x181, offset: 0x8E2D0, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData setUid:]', symObjAddr: 0x110, symBinAddr: 0x1D594, symSize: 0x8 }
+  - { offsetInCU: 0x1C0, offset: 0x8E30F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDAccessData .cxx_destruct]', symObjAddr: 0x118, symBinAddr: 0x1D59C, symSize: 0x30 }
+  - { offsetInCU: 0x27, offset: 0x8E3BD, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1D5CC, symSize: 0x2E8 }
+  - { offsetInCU: 0x1FB, offset: 0x8E591, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1D5CC, symSize: 0x2E8 }
+  - { offsetInCU: 0x242, offset: 0x8E5D8, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setMediaType:]', symObjAddr: 0x2E8, symBinAddr: 0x1D8B4, symSize: 0x2C }
+  - { offsetInCU: 0x281, offset: 0x8E617, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource accompanySize]', symObjAddr: 0x314, symBinAddr: 0x1D8E0, symSize: 0x8 }
+  - { offsetInCU: 0x2B8, offset: 0x8E64E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setAccompanySize:]', symObjAddr: 0x31C, symBinAddr: 0x1D8E8, symSize: 0x8 }
+  - { offsetInCU: 0x2F7, offset: 0x8E68D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource accompanyURL]', symObjAddr: 0x324, symBinAddr: 0x1D8F0, symSize: 0x8 }
+  - { offsetInCU: 0x32E, offset: 0x8E6C4, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setAccompanyURL:]', symObjAddr: 0x32C, symBinAddr: 0x1D8F8, symSize: 0x8 }
+  - { offsetInCU: 0x36D, offset: 0x8E703, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource url]', symObjAddr: 0x334, symBinAddr: 0x1D900, symSize: 0x8 }
+  - { offsetInCU: 0x3A4, offset: 0x8E73A, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setUrl:]', symObjAddr: 0x33C, symBinAddr: 0x1D908, symSize: 0x8 }
+  - { offsetInCU: 0x3E3, offset: 0x8E779, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource duration]', symObjAddr: 0x344, symBinAddr: 0x1D910, symSize: 0x8 }
+  - { offsetInCU: 0x41A, offset: 0x8E7B0, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setDuration:]', symObjAddr: 0x34C, symBinAddr: 0x1D918, symSize: 0x8 }
+  - { offsetInCU: 0x457, offset: 0x8E7ED, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource extName]', symObjAddr: 0x354, symBinAddr: 0x1D920, symSize: 0x8 }
+  - { offsetInCU: 0x48E, offset: 0x8E824, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setExtName:]', symObjAddr: 0x35C, symBinAddr: 0x1D928, symSize: 0x8 }
+  - { offsetInCU: 0x4CD, offset: 0x8E863, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource hasOriginal]', symObjAddr: 0x364, symBinAddr: 0x1D930, symSize: 0x8 }
+  - { offsetInCU: 0x504, offset: 0x8E89A, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setHasOriginal:]', symObjAddr: 0x36C, symBinAddr: 0x1D938, symSize: 0x8 }
+  - { offsetInCU: 0x53F, offset: 0x8E8D5, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource hashValue]', symObjAddr: 0x374, symBinAddr: 0x1D940, symSize: 0x8 }
+  - { offsetInCU: 0x576, offset: 0x8E90C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setHashValue:]', symObjAddr: 0x37C, symBinAddr: 0x1D948, symSize: 0x8 }
+  - { offsetInCU: 0x5B5, offset: 0x8E94B, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource krcToken]', symObjAddr: 0x384, symBinAddr: 0x1D950, symSize: 0x8 }
+  - { offsetInCU: 0x5EC, offset: 0x8E982, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setKrcToken:]', symObjAddr: 0x38C, symBinAddr: 0x1D958, symSize: 0x8 }
+  - { offsetInCU: 0x62B, offset: 0x8E9C1, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource status]', symObjAddr: 0x394, symBinAddr: 0x1D960, symSize: 0x8 }
+  - { offsetInCU: 0x662, offset: 0x8E9F8, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setStatus:]', symObjAddr: 0x39C, symBinAddr: 0x1D968, symSize: 0x8 }
+  - { offsetInCU: 0x69F, offset: 0x8EA35, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource urlToken]', symObjAddr: 0x3A4, symBinAddr: 0x1D970, symSize: 0x8 }
+  - { offsetInCU: 0x6D6, offset: 0x8EA6C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setUrlToken:]', symObjAddr: 0x3AC, symBinAddr: 0x1D978, symSize: 0x8 }
+  - { offsetInCU: 0x715, offset: 0x8EAAB, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource fileSize]', symObjAddr: 0x3B4, symBinAddr: 0x1D980, symSize: 0x8 }
+  - { offsetInCU: 0x74C, offset: 0x8EAE2, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setFileSize:]', symObjAddr: 0x3BC, symBinAddr: 0x1D988, symSize: 0x8 }
+  - { offsetInCU: 0x78B, offset: 0x8EB21, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource segmentBegin]', symObjAddr: 0x3C4, symBinAddr: 0x1D990, symSize: 0x8 }
+  - { offsetInCU: 0x7C2, offset: 0x8EB58, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setSegmentBegin:]', symObjAddr: 0x3CC, symBinAddr: 0x1D998, symSize: 0x8 }
+  - { offsetInCU: 0x7FF, offset: 0x8EB95, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource segmentEnd]', symObjAddr: 0x3D4, symBinAddr: 0x1D9A0, symSize: 0x8 }
+  - { offsetInCU: 0x836, offset: 0x8EBCC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setSegmentEnd:]', symObjAddr: 0x3DC, symBinAddr: 0x1D9A8, symSize: 0x8 }
+  - { offsetInCU: 0x873, offset: 0x8EC09, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource mediaType]', symObjAddr: 0x3E4, symBinAddr: 0x1D9B0, symSize: 0x8 }
+  - { offsetInCU: 0x8AA, offset: 0x8EC40, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource urlTokenAccessTime]', symObjAddr: 0x3EC, symBinAddr: 0x1D9B8, symSize: 0x8 }
+  - { offsetInCU: 0x8E1, offset: 0x8EC77, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource setUrlTokenAccessTime:]', symObjAddr: 0x3F4, symBinAddr: 0x1D9C0, symSize: 0x8 }
+  - { offsetInCU: 0x91E, offset: 0x8ECB4, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMediaResource .cxx_destruct]', symObjAddr: 0x3FC, symBinAddr: 0x1D9C8, symSize: 0x78 }
+  - { offsetInCU: 0x27, offset: 0x8ED62, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo initWithMusicId:extParams:musicType:]', symObjAddr: 0x0, symBinAddr: 0x1DA40, symSize: 0xB8 }
+  - { offsetInCU: 0x139, offset: 0x8EE74, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo initWithMusicId:extParams:musicType:]', symObjAddr: 0x0, symBinAddr: 0x1DA40, symSize: 0xB8 }
+  - { offsetInCU: 0x1A0, offset: 0x8EEDB, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo isEqual:]', symObjAddr: 0xB8, symBinAddr: 0x1DAF8, symSize: 0x150 }
+  - { offsetInCU: 0x1F3, offset: 0x8EF2E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo hash]', symObjAddr: 0x208, symBinAddr: 0x1DC48, symSize: 0x8C }
+  - { offsetInCU: 0x247, offset: 0x8EF82, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo musicId]', symObjAddr: 0x294, symBinAddr: 0x1DCD4, symSize: 0x8 }
+  - { offsetInCU: 0x27E, offset: 0x8EFB9, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setMusicId:]', symObjAddr: 0x29C, symBinAddr: 0x1DCDC, symSize: 0x8 }
+  - { offsetInCU: 0x2BD, offset: 0x8EFF8, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo musicType]', symObjAddr: 0x2A4, symBinAddr: 0x1DCE4, symSize: 0x8 }
+  - { offsetInCU: 0x2F4, offset: 0x8F02F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setMusicType:]', symObjAddr: 0x2AC, symBinAddr: 0x1DCEC, symSize: 0x8 }
+  - { offsetInCU: 0x331, offset: 0x8F06C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo extParams]', symObjAddr: 0x2B4, symBinAddr: 0x1DCF4, symSize: 0x8 }
+  - { offsetInCU: 0x368, offset: 0x8F0A3, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setExtParams:]', symObjAddr: 0x2BC, symBinAddr: 0x1DCFC, symSize: 0x8 }
+  - { offsetInCU: 0x3A7, offset: 0x8F0E2, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo lyricOffset]', symObjAddr: 0x2C4, symBinAddr: 0x1DD04, symSize: 0x8 }
+  - { offsetInCU: 0x3DE, offset: 0x8F119, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setLyricOffset:]', symObjAddr: 0x2CC, symBinAddr: 0x1DD0C, symSize: 0x8 }
+  - { offsetInCU: 0x41B, offset: 0x8F156, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo lyricPath]', symObjAddr: 0x2D4, symBinAddr: 0x1DD14, symSize: 0x8 }
+  - { offsetInCU: 0x452, offset: 0x8F18D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setLyricPath:]', symObjAddr: 0x2DC, symBinAddr: 0x1DD1C, symSize: 0x8 }
+  - { offsetInCU: 0x491, offset: 0x8F1CC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo lyricEncrypt]', symObjAddr: 0x2E4, symBinAddr: 0x1DD24, symSize: 0x8 }
+  - { offsetInCU: 0x4C8, offset: 0x8F203, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setLyricEncrypt:]', symObjAddr: 0x2EC, symBinAddr: 0x1DD2C, symSize: 0x8 }
+  - { offsetInCU: 0x507, offset: 0x8F242, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo pitchPath]', symObjAddr: 0x2F4, symBinAddr: 0x1DD34, symSize: 0x8 }
+  - { offsetInCU: 0x53E, offset: 0x8F279, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setPitchPath:]', symObjAddr: 0x2FC, symBinAddr: 0x1DD3C, symSize: 0x8 }
+  - { offsetInCU: 0x57D, offset: 0x8F2B8, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo pitchEncrypt]', symObjAddr: 0x304, symBinAddr: 0x1DD44, symSize: 0x8 }
+  - { offsetInCU: 0x5B4, offset: 0x8F2EF, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo setPitchEncrypt:]', symObjAddr: 0x30C, symBinAddr: 0x1DD4C, symSize: 0x8 }
+  - { offsetInCU: 0x5F3, offset: 0x8F32E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicInfo .cxx_destruct]', symObjAddr: 0x314, symBinAddr: 0x1DD54, symSize: 0x60 }
+  - { offsetInCU: 0x5CC8, offset: 0x95086, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer initWithMediaPlayer:]', symObjAddr: 0x0, symBinAddr: 0x1DDB4, symSize: 0x154 }
+  - { offsetInCU: 0x5E6E, offset: 0x9522C, size: 0x8, addend: 0x0, symName: __ZN5agora12agora_refptrINS_3rtc12IMediaPlayerEEaSERKS3_, symObjAddr: 0x154, symBinAddr: 0x1DF08, symSize: 0x5C }
+  - { offsetInCU: 0x5F09, offset: 0x952C7, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc31AgoraMediaPlayerObserverIosImplEE5resetB8ue170006IS3_vEEvPT_, symObjAddr: 0x1B0, symBinAddr: 0x1DF64, symSize: 0x70 }
+  - { offsetInCU: 0x61B3, offset: 0x95571, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc31AgoraMediaPlayerObserverIosImplEEC2B8ue170006IS3_vEEPT_, symObjAddr: 0x6844, symBinAddr: 0x245EC, symSize: 0x64 }
+  - { offsetInCU: 0x6314, offset: 0x956D2, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer dealloc]', symObjAddr: 0x220, symBinAddr: 0x1DFD4, symSize: 0x88 }
+  - { offsetInCU: 0x6347, offset: 0x95705, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer destroy]', symObjAddr: 0x2B4, symBinAddr: 0x1E05C, symSize: 0xDC }
+  - { offsetInCU: 0x6390, offset: 0x9574E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer registerMediaPlayerDelegate:]', symObjAddr: 0x390, symBinAddr: 0x1E138, symSize: 0x50 }
+  - { offsetInCU: 0x642A, offset: 0x957E8, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl11setDelegateEPU38objcproto27AgoraRtcMediaPlayerDelegate11objc_object, symObjAddr: 0x3E0, symBinAddr: 0x1E188, symSize: 0xCC }
+  - { offsetInCU: 0x6594, offset: 0x95952, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer unregistAllMediaPlayerDelegate]', symObjAddr: 0x4AC, symBinAddr: 0x1E254, symSize: 0x60 }
+  - { offsetInCU: 0x6632, offset: 0x959F0, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer currentSongCode]', symObjAddr: 0x50C, symBinAddr: 0x1E2B4, symSize: 0x8 }
+  - { offsetInCU: 0x66B7, offset: 0x95A75, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer openMediaWithSongCode:startPos:]', symObjAddr: 0x514, symBinAddr: 0x1E2BC, symSize: 0x290 }
+  - { offsetInCU: 0x67D7, offset: 0x95B95, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlayMode:]', symObjAddr: 0x7A4, symBinAddr: 0x1E54C, symSize: 0x13C }
+  - { offsetInCU: 0x6852, offset: 0x95C10, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer play]', symObjAddr: 0x8E0, symBinAddr: 0x1E688, symSize: 0x13C }
+  - { offsetInCU: 0x68CA, offset: 0x95C88, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer pause]', symObjAddr: 0xA1C, symBinAddr: 0x1E7C4, symSize: 0x12C }
+  - { offsetInCU: 0x692D, offset: 0x95CEB, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer stop]', symObjAddr: 0xB48, symBinAddr: 0x1E8F0, symSize: 0x130 }
+  - { offsetInCU: 0x69A3, offset: 0x95D61, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer resume]', symObjAddr: 0xC78, symBinAddr: 0x1EA20, symSize: 0x12C }
+  - { offsetInCU: 0x6A06, offset: 0x95DC4, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer seekToPosition:]', symObjAddr: 0xDA4, symBinAddr: 0x1EB4C, symSize: 0x134 }
+  - { offsetInCU: 0x6A81, offset: 0x95E3F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer mute:]', symObjAddr: 0xED8, symBinAddr: 0x1EC80, symSize: 0x138 }
+  - { offsetInCU: 0x6AFC, offset: 0x95EBA, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getMute]', symObjAddr: 0x1010, symBinAddr: 0x1EDB8, symSize: 0x13C }
+  - { offsetInCU: 0x6B7E, offset: 0x95F3C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getDuration]', symObjAddr: 0x114C, symBinAddr: 0x1EEF4, symSize: 0x140 }
+  - { offsetInCU: 0x6C0C, offset: 0x95FCA, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getPosition]', symObjAddr: 0x128C, symBinAddr: 0x1F034, symSize: 0x144 }
+  - { offsetInCU: 0x6C9F, offset: 0x9605D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer selectTrack:]', symObjAddr: 0x13D0, symBinAddr: 0x1F178, symSize: 0x134 }
+  - { offsetInCU: 0x6D63, offset: 0x96121, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer unregisterPlayerSourceObserver]', symObjAddr: 0x1504, symBinAddr: 0x1F2AC, symSize: 0xA0 }
+  - { offsetInCU: 0x6F2A, offset: 0x962E8, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc31AgoraMediaPlayerObserverIosImplEE5resetB8ue170006Ev, symObjAddr: 0x15A4, symBinAddr: 0x1F34C, symSize: 0x5C }
+  - { offsetInCU: 0x702D, offset: 0x963EB, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc31AgoraMediaPlayerObserverIosImplEEaSB8ue170006EOS4_, symObjAddr: 0x1600, symBinAddr: 0x1F3A8, symSize: 0x64 }
+  - { offsetInCU: 0x72A0, offset: 0x9665E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer unregisterCustomDataObserver]', symObjAddr: 0x1664, symBinAddr: 0x1F40C, symSize: 0x80 }
+  - { offsetInCU: 0x7431, offset: 0x967EF, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc26AgoraRtcCustomDataObserverEE5resetB8ue170006Ev, symObjAddr: 0x16E4, symBinAddr: 0x1F48C, symSize: 0x5C }
+  - { offsetInCU: 0x7534, offset: 0x968F2, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc26AgoraRtcCustomDataObserverEEaSB8ue170006EOS4_, symObjAddr: 0x1740, symBinAddr: 0x1F4E8, symSize: 0x64 }
+  - { offsetInCU: 0x776B, offset: 0x96B29, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getMediaPlayer]', symObjAddr: 0x17A4, symBinAddr: 0x1F54C, symSize: 0x1C }
+  - { offsetInCU: 0x77A6, offset: 0x96B64, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getMediaPlayer]', symObjAddr: 0x17A4, symBinAddr: 0x1F54C, symSize: 0x1C }
+  - { offsetInCU: 0x7837, offset: 0x96BF5, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer deleteMediaPlay]', symObjAddr: 0x17C0, symBinAddr: 0x1F568, symSize: 0x34 }
+  - { offsetInCU: 0x78AE, offset: 0x96C6C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getMusicCachePath:extName:]', symObjAddr: 0x17F4, symBinAddr: 0x1F59C, symSize: 0x178 }
+  - { offsetInCU: 0x798A, offset: 0x96D48, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getYSDMusicInfo:]', symObjAddr: 0x196C, symBinAddr: 0x1F714, symSize: 0x1B8 }
+  - { offsetInCU: 0x7AA8, offset: 0x96E66, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getYSDMediaResource:]', symObjAddr: 0x1B24, symBinAddr: 0x1F8CC, symSize: 0x1B8 }
+  - { offsetInCU: 0x7BA0, offset: 0x96F5E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer addObservers]', symObjAddr: 0x1CDC, symBinAddr: 0x1FA84, symSize: 0xB4 }
+  - { offsetInCU: 0x7BE5, offset: 0x96FA3, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer applicationWillTerminateNotification:]', symObjAddr: 0x1D90, symBinAddr: 0x1FB38, symSize: 0x40 }
+  - { offsetInCU: 0x7C53, offset: 0x97011, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer applicationDidBecomeActiveNotification:]', symObjAddr: 0x1DD0, symBinAddr: 0x1FB78, symSize: 0x74 }
+  - { offsetInCU: 0x7CEA, offset: 0x970A8, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer applicationDidEnterBackgroundNotification:]', symObjAddr: 0x1E44, symBinAddr: 0x1FBEC, symSize: 0x84 }
+  - { offsetInCU: 0x7D81, offset: 0x9713F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer checkIsBackgroundAuth]', symObjAddr: 0x1EC8, symBinAddr: 0x1FC70, symSize: 0xB8 }
+  - { offsetInCU: 0x7DE4, offset: 0x971A2, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer adjustPlayoutVolume:]', symObjAddr: 0x1F80, symBinAddr: 0x1FD28, symSize: 0x138 }
+  - { offsetInCU: 0x7E69, offset: 0x97227, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer adjustPublishSignalVolume:]', symObjAddr: 0x20B8, symBinAddr: 0x1FE60, symSize: 0x138 }
+  - { offsetInCU: 0x7EEE, offset: 0x972AC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer enableAutoSwitchAgoraCDN:]', symObjAddr: 0x21F0, symBinAddr: 0x1FF98, symSize: 0x13C }
+  - { offsetInCU: 0x7F73, offset: 0x97331, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getAgoraCDNLineCount]', symObjAddr: 0x232C, symBinAddr: 0x200D4, symSize: 0x130 }
+  - { offsetInCU: 0x7FE0, offset: 0x9739E, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getCurrentAgoraCDNIndex]', symObjAddr: 0x245C, symBinAddr: 0x20204, symSize: 0x130 }
+  - { offsetInCU: 0x804D, offset: 0x9740B, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getMediaPlayerId]', symObjAddr: 0x258C, symBinAddr: 0x20334, symSize: 0x130 }
+  - { offsetInCU: 0x80BA, offset: 0x97478, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getPlaySrc]', symObjAddr: 0x26BC, symBinAddr: 0x20464, symSize: 0x148 }
+  - { offsetInCU: 0x8147, offset: 0x97505, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getPlayerState]', symObjAddr: 0x2804, symBinAddr: 0x205AC, symSize: 0x12C }
+  - { offsetInCU: 0x81AC, offset: 0x9756A, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getPlayoutVolume]', symObjAddr: 0x2930, symBinAddr: 0x206D8, symSize: 0x138 }
+  - { offsetInCU: 0x8242, offset: 0x97600, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getPublishSignalVolume]', symObjAddr: 0x2A68, symBinAddr: 0x20810, symSize: 0x138 }
+  - { offsetInCU: 0x82D8, offset: 0x97696, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer getStreamCount]', symObjAddr: 0x2BA0, symBinAddr: 0x20948, symSize: 0x138 }
+  - { offsetInCU: 0x836E, offset: 0x9772C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer open:startPos:]', symObjAddr: 0x2CD8, symBinAddr: 0x20A80, symSize: 0x184 }
+  - { offsetInCU: 0x8404, offset: 0x977C2, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer openWithAgoraCDNSrc:startPos:]', symObjAddr: 0x2E5C, symBinAddr: 0x20C04, symSize: 0x184 }
+  - { offsetInCU: 0x84E8, offset: 0x978A6, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer openWithCustomSourceAtStartPos:withPlayerOnReadData:andPlayerOnSeek:]', symObjAddr: 0x2FE0, symBinAddr: 0x20D88, symSize: 0x1F0 }
+  - { offsetInCU: 0x864E, offset: 0x97A0C, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc26AgoraRtcCustomDataObserverEE5resetB8ue170006IS3_vEEvPT_, symObjAddr: 0x31D0, symBinAddr: 0x20F78, symSize: 0x70 }
+  - { offsetInCU: 0x880F, offset: 0x97BCD, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc26AgoraRtcCustomDataObserverEEC2B8ue170006IS3_vEEPT_, symObjAddr: 0x6A10, symBinAddr: 0x24770, symSize: 0x64 }
+  - { offsetInCU: 0x8A0D, offset: 0x97DCB, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer mediaSource:]', symObjAddr: 0x3240, symBinAddr: 0x20FE8, symSize: 0x1A4 }
+  - { offsetInCU: 0x8B87, offset: 0x97F45, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer openWithMediaSource:]', symObjAddr: 0x33E4, symBinAddr: 0x2118C, symSize: 0x294 }
+  - { offsetInCU: 0x8CEE, offset: 0x980AC, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer playPreloadedSrc:]', symObjAddr: 0x3678, symBinAddr: 0x21420, symSize: 0x170 }
+  - { offsetInCU: 0x8D6C, offset: 0x9812A, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer preloadSrc:startPos:]', symObjAddr: 0x37E8, symBinAddr: 0x21590, symSize: 0x188 }
+  - { offsetInCU: 0x8DFB, offset: 0x981B9, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer registerMediaPlayerAudioSpectrumDelegate:intervalInMS:]', symObjAddr: 0x3970, symBinAddr: 0x21718, symSize: 0x8 }
+  - { offsetInCU: 0x8E49, offset: 0x98207, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer renewAgoraCDNSrcToken:ts:]', symObjAddr: 0x3978, symBinAddr: 0x21720, symSize: 0x184 }
+  - { offsetInCU: 0x8EDF, offset: 0x9829D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer selectAudioTrack:]', symObjAddr: 0x3AFC, symBinAddr: 0x218A4, symSize: 0x138 }
+  - { offsetInCU: 0x8F64, offset: 0x98322, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer selectInternalSubtitle:]', symObjAddr: 0x3C34, symBinAddr: 0x219DC, symSize: 0x138 }
+  - { offsetInCU: 0x8FE9, offset: 0x983A7, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer selectMultiAudioTrack:publishTrackIndex:]', symObjAddr: 0x3D6C, symBinAddr: 0x21B14, symSize: 0x14C }
+  - { offsetInCU: 0x9086, offset: 0x98444, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setAudioDualMonoMode:]', symObjAddr: 0x3EB8, symBinAddr: 0x21C60, symSize: 0x138 }
+  - { offsetInCU: 0x910B, offset: 0x984C9, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setAudioFrameDelegate:]', symObjAddr: 0x3FF0, symBinAddr: 0x21D98, symSize: 0xAC }
+  - { offsetInCU: 0x9154, offset: 0x98512, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setAudioPitch:]', symObjAddr: 0x409C, symBinAddr: 0x21E44, symSize: 0x138 }
+  - { offsetInCU: 0x91D9, offset: 0x98597, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setExternalSubtitle:]', symObjAddr: 0x41D4, symBinAddr: 0x21F7C, symSize: 0x170 }
+  - { offsetInCU: 0x9257, offset: 0x98615, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setLoopCount:]', symObjAddr: 0x4344, symBinAddr: 0x220EC, symSize: 0x138 }
+  - { offsetInCU: 0x92DC, offset: 0x9869A, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlaybackSpeed:]', symObjAddr: 0x447C, symBinAddr: 0x22224, symSize: 0x138 }
+  - { offsetInCU: 0x9361, offset: 0x9871F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlayerOption:value:]', symObjAddr: 0x45B4, symBinAddr: 0x2235C, symSize: 0x184 }
+  - { offsetInCU: 0x93F7, offset: 0x987B5, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlayerOptionString:value:]', symObjAddr: 0x4738, symBinAddr: 0x224E0, symSize: 0x1B0 }
+  - { offsetInCU: 0x948D, offset: 0x9884B, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setRenderMode:]', symObjAddr: 0x48E8, symBinAddr: 0x22690, symSize: 0x138 }
+  - { offsetInCU: 0x9512, offset: 0x988D0, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setSpatialAudioParams:]', symObjAddr: 0x4A20, symBinAddr: 0x227C8, symSize: 0x8C }
+  - { offsetInCU: 0x955B, offset: 0x98919, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setVideoFrameDelegate:]', symObjAddr: 0x4AAC, symBinAddr: 0x22854, symSize: 0x8C }
+  - { offsetInCU: 0x95A4, offset: 0x98962, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setView:]', symObjAddr: 0x4B38, symBinAddr: 0x228E0, symSize: 0x8C }
+  - { offsetInCU: 0x95ED, offset: 0x989AB, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer switchAgoraCDNLineByIndex:]', symObjAddr: 0x4BC4, symBinAddr: 0x2296C, symSize: 0x138 }
+  - { offsetInCU: 0x9672, offset: 0x98A30, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer switchAgoraCDNSrc:syncPts:]', symObjAddr: 0x4CFC, symBinAddr: 0x22AA4, symSize: 0x188 }
+  - { offsetInCU: 0x9708, offset: 0x98AC6, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer switchSrc:syncPts:]', symObjAddr: 0x4E84, symBinAddr: 0x22C2C, symSize: 0x188 }
+  - { offsetInCU: 0x979E, offset: 0x98B5C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer takeScreenshot:]', symObjAddr: 0x500C, symBinAddr: 0x22DB4, symSize: 0x170 }
+  - { offsetInCU: 0x981C, offset: 0x98BDA, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer unloadSrc:]', symObjAddr: 0x517C, symBinAddr: 0x22F24, symSize: 0x170 }
+  - { offsetInCU: 0x989A, offset: 0x98C58, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer unregisterMediaPlayerAudioSpectrumDelegate:]', symObjAddr: 0x52EC, symBinAddr: 0x23094, symSize: 0x8C }
+  - { offsetInCU: 0x98E3, offset: 0x98CA1, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer delegate]', symObjAddr: 0x5378, symBinAddr: 0x23120, symSize: 0x18 }
+  - { offsetInCU: 0x991A, offset: 0x98CD8, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setDelegate:]', symObjAddr: 0x5390, symBinAddr: 0x23138, symSize: 0xC }
+  - { offsetInCU: 0x995B, offset: 0x98D19, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer playerOnReadCallback]', symObjAddr: 0x539C, symBinAddr: 0x23144, symSize: 0x8 }
+  - { offsetInCU: 0x9992, offset: 0x98D50, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlayerOnReadCallback:]', symObjAddr: 0x53A4, symBinAddr: 0x2314C, symSize: 0x8 }
+  - { offsetInCU: 0x99D1, offset: 0x98D8F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer playerOnSeekCallback]', symObjAddr: 0x53AC, symBinAddr: 0x23154, symSize: 0x8 }
+  - { offsetInCU: 0x9A08, offset: 0x98DC6, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setPlayerOnSeekCallback:]', symObjAddr: 0x53B4, symBinAddr: 0x2315C, symSize: 0x8 }
+  - { offsetInCU: 0x9A47, offset: 0x98E05, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer mediaPlayerVideoFrameDelegate]', symObjAddr: 0x53BC, symBinAddr: 0x23164, symSize: 0x18 }
+  - { offsetInCU: 0x9A7E, offset: 0x98E3C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setMediaPlayerVideoFrameDelegate:]', symObjAddr: 0x53D4, symBinAddr: 0x2317C, symSize: 0xC }
+  - { offsetInCU: 0x9ABF, offset: 0x98E7D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer mediaPlayerAudioFrameDelegate]', symObjAddr: 0x53E0, symBinAddr: 0x23188, symSize: 0x18 }
+  - { offsetInCU: 0x9AF6, offset: 0x98EB4, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setMediaPlayerAudioFrameDelegate:]', symObjAddr: 0x53F8, symBinAddr: 0x231A0, symSize: 0xC }
+  - { offsetInCU: 0x9B37, offset: 0x98EF5, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer audioSpectrumDelegate]', symObjAddr: 0x5404, symBinAddr: 0x231AC, symSize: 0x18 }
+  - { offsetInCU: 0x9B6E, offset: 0x98F2C, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setAudioSpectrumDelegate:]', symObjAddr: 0x541C, symBinAddr: 0x231C4, symSize: 0xC }
+  - { offsetInCU: 0x9BAF, offset: 0x98F6D, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer mediaSource]', symObjAddr: 0x5428, symBinAddr: 0x231D0, symSize: 0x8 }
+  - { offsetInCU: 0x9BE6, offset: 0x98FA4, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setMediaSource:]', symObjAddr: 0x5430, symBinAddr: 0x231D8, symSize: 0xC }
+  - { offsetInCU: 0x9C27, offset: 0x98FE5, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setCurrentSongCode:]', symObjAddr: 0x543C, symBinAddr: 0x231E4, symSize: 0x8 }
+  - { offsetInCU: 0x9C64, offset: 0x99022, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer currentPlayMode]', symObjAddr: 0x5444, symBinAddr: 0x231EC, symSize: 0x8 }
+  - { offsetInCU: 0x9C9B, offset: 0x99059, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setCurrentPlayMode:]', symObjAddr: 0x544C, symBinAddr: 0x231F4, symSize: 0x8 }
+  - { offsetInCU: 0x9CD8, offset: 0x99096, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer destroying]', symObjAddr: 0x5454, symBinAddr: 0x231FC, symSize: 0x8 }
+  - { offsetInCU: 0x9D0F, offset: 0x990CD, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setDestroying:]', symObjAddr: 0x545C, symBinAddr: 0x23204, symSize: 0x8 }
+  - { offsetInCU: 0x9D4A, offset: 0x99108, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer shouldRecoverFromBackground]', symObjAddr: 0x5464, symBinAddr: 0x2320C, symSize: 0x8 }
+  - { offsetInCU: 0x9D81, offset: 0x9913F, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setShouldRecoverFromBackground:]', symObjAddr: 0x546C, symBinAddr: 0x23214, symSize: 0x8 }
+  - { offsetInCU: 0x9DBC, offset: 0x9917A, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer logTag]', symObjAddr: 0x5474, symBinAddr: 0x2321C, symSize: 0x8 }
+  - { offsetInCU: 0x9DF3, offset: 0x991B1, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer setLogTag:]', symObjAddr: 0x547C, symBinAddr: 0x23224, symSize: 0x8 }
+  - { offsetInCU: 0x9E66, offset: 0x99224, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer .cxx_destruct]', symObjAddr: 0x5484, symBinAddr: 0x2322C, symSize: 0x98 }
+  - { offsetInCU: 0x9F5D, offset: 0x9931B, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc26AgoraRtcCustomDataObserverEED2B8ue170006Ev, symObjAddr: 0x69B8, symBinAddr: 0x24718, symSize: 0x58 }
+  - { offsetInCU: 0x9FEF, offset: 0x993AD, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5agora3rtc31AgoraMediaPlayerObserverIosImplEED2B8ue170006Ev, symObjAddr: 0x6960, symBinAddr: 0x246C0, symSize: 0x58 }
+  - { offsetInCU: 0xA0E9, offset: 0x994A7, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer .cxx_construct]', symObjAddr: 0x551C, symBinAddr: 0x232C4, symSize: 0x14 }
+  - { offsetInCU: 0xA120, offset: 0x994DE, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer .cxx_construct]', symObjAddr: 0x551C, symBinAddr: 0x232C4, symSize: 0x14 }
+  - { offsetInCU: 0xA13F, offset: 0x994FD, size: 0x8, addend: 0x0, symName: '-[AgoraYSDMusicPlayer .cxx_construct]', symObjAddr: 0x551C, symBinAddr: 0x232C4, symSize: 0x14 }
+  - { offsetInCU: 0xA19F, offset: 0x9955D, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImplD1Ev, symObjAddr: 0x5530, symBinAddr: 0x232D8, symSize: 0x4 }
+  - { offsetInCU: 0xA1C3, offset: 0x99581, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImplD1Ev, symObjAddr: 0x5530, symBinAddr: 0x232D8, symSize: 0x4 }
+  - { offsetInCU: 0xA1D7, offset: 0x99595, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImplD2Ev, symObjAddr: 0x6314, symBinAddr: 0x240BC, symSize: 0xFC }
+  - { offsetInCU: 0xA238, offset: 0x995F6, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImplD0Ev, symObjAddr: 0x5534, symBinAddr: 0x232DC, symSize: 0x14 }
+  - { offsetInCU: 0xA296, offset: 0x99654, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl26onPlayerSourceStateChangedENS_5media4base18MEDIA_PLAYER_STATEENS3_19MEDIA_PLAYER_REASONE, symObjAddr: 0x5548, symBinAddr: 0x232F0, symSize: 0x1C8 }
+  - { offsetInCU: 0xA329, offset: 0x996E7, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl22getMediaPlayerObserverEv, symObjAddr: 0x6410, symBinAddr: 0x241B8, symSize: 0x40 }
+  - { offsetInCU: 0xA3C7, offset: 0x99785, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl14getMusicPlayerEv, symObjAddr: 0x6450, symBinAddr: 0x241F8, symSize: 0x40 }
+  - { offsetInCU: 0xA465, offset: 0x99823, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl17onPositionChangedExx, symObjAddr: 0x5710, symBinAddr: 0x234B8, symSize: 0x11C }
+  - { offsetInCU: 0xA4F8, offset: 0x998B6, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl13onPlayerEventENS_5media4base18MEDIA_PLAYER_EVENTExPKc, symObjAddr: 0x582C, symBinAddr: 0x235D4, symSize: 0x16C }
+  - { offsetInCU: 0xA59B, offset: 0x99959, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl10onMetaDataEPKvi, symObjAddr: 0x5998, symBinAddr: 0x23740, symSize: 0x144 }
+  - { offsetInCU: 0xA64D, offset: 0x99A0B, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl19onPlayBufferUpdatedEx, symObjAddr: 0x5ADC, symBinAddr: 0x23884, symSize: 0x10C }
+  - { offsetInCU: 0xA6D0, offset: 0x99A8E, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl14onPreloadEventEPKcNS_5media4base20PLAYER_PRELOAD_EVENTE, symObjAddr: 0x5BE8, symBinAddr: 0x23990, symSize: 0x11C }
+  - { offsetInCU: 0xA763, offset: 0x99B21, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl11onCompletedEv, symObjAddr: 0x5D04, symBinAddr: 0x23AAC, symSize: 0x4 }
+  - { offsetInCU: 0xA788, offset: 0x99B46, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl25onAgoraCDNTokenWillExpireEv, symObjAddr: 0x5D08, symBinAddr: 0x23AB0, symSize: 0xC8 }
+  - { offsetInCU: 0xA7D5, offset: 0x99B93, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl22onPlayerSrcInfoChangedERKNS_5media4base7SrcInfoES6_, symObjAddr: 0x5DD0, symBinAddr: 0x23B78, symSize: 0x210 }
+  - { offsetInCU: 0xA88F, offset: 0x99C4D, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl19onPlayerInfoUpdatedERKNS_5media4base17PlayerUpdatedInfoE, symObjAddr: 0x5FE0, symBinAddr: 0x23D88, symSize: 0x21C }
+  - { offsetInCU: 0xA929, offset: 0x99CE7, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc26IMediaPlayerSourceObserver18onPlayerCacheStatsERKNS_5media4base15CacheStatisticsE, symObjAddr: 0x61FC, symBinAddr: 0x23FA4, symSize: 0x4 }
+  - { offsetInCU: 0xA95D, offset: 0x99D1B, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc26IMediaPlayerSourceObserver21onPlayerPlaybackStatsERKNS_5media4base19PlayerPlaybackStatsE, symObjAddr: 0x6200, symBinAddr: 0x23FA8, symSize: 0x4 }
+  - { offsetInCU: 0xA991, offset: 0x99D4F, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc31AgoraMediaPlayerObserverIosImpl23onAudioVolumeIndicationEi, symObjAddr: 0x6204, symBinAddr: 0x23FAC, symSize: 0x110 }
+  - { offsetInCU: 0xAA14, offset: 0x99DD2, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc26AgoraRtcCustomDataObserver10onReadDataEPhi, symObjAddr: 0x6490, symBinAddr: 0x24238, symSize: 0x1C0 }
+  - { offsetInCU: 0xAAAD, offset: 0x99E6B, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc26AgoraRtcCustomDataObserver6onSeekExi, symObjAddr: 0x6650, symBinAddr: 0x243F8, symSize: 0x194 }
+  - { offsetInCU: 0xAB60, offset: 0x99F1E, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc26AgoraRtcCustomDataObserverD1Ev, symObjAddr: 0x67E4, symBinAddr: 0x2458C, symSize: 0x30 }
+  - { offsetInCU: 0xABBB, offset: 0x99F79, size: 0x8, addend: 0x0, symName: __ZN5agora3rtc26AgoraRtcCustomDataObserverD0Ev, symObjAddr: 0x6814, symBinAddr: 0x245BC, symSize: 0x30 }
+  - { offsetInCU: 0xAECF, offset: 0x9A28D, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED1Ev, symObjAddr: 0x68A8, symBinAddr: 0x24650, symSize: 0x4 }
+  - { offsetInCU: 0xAEF2, offset: 0x9A2B0, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED1Ev, symObjAddr: 0x68A8, symBinAddr: 0x24650, symSize: 0x4 }
+  - { offsetInCU: 0xAF2A, offset: 0x9A2E8, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED0Ev, symObjAddr: 0x68AC, symBinAddr: 0x24654, symSize: 0x14 }
+  - { offsetInCU: 0xAF91, offset: 0x9A34F, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE16__on_zero_sharedEv, symObjAddr: 0x68C0, symBinAddr: 0x24668, symSize: 0x18 }
+  - { offsetInCU: 0xAFE5, offset: 0x9A3A3, size: 0x8, addend: 0x0, symName: __ZNKSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info, symObjAddr: 0x68D8, symBinAddr: 0x24680, symSize: 0x3C }
+  - { offsetInCU: 0xB0D9, offset: 0x9A497, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6914, symBinAddr: 0x246BC, symSize: 0x4 }
+  - { offsetInCU: 0xB110, offset: 0x9A4CE, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6914, symBinAddr: 0x246BC, symSize: 0x4 }
+  - { offsetInCU: 0xB134, offset: 0x9A4F2, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6914, symBinAddr: 0x246BC, symSize: 0x4 }
+  - { offsetInCU: 0xB164, offset: 0x9A522, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6914, symBinAddr: 0x246BC, symSize: 0x4 }
+  - { offsetInCU: 0xB18D, offset: 0x9A54B, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc31AgoraMediaPlayerObserverIosImplENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6914, symBinAddr: 0x246BC, symSize: 0x4 }
+  - { offsetInCU: 0xB475, offset: 0x9A833, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED1Ev, symObjAddr: 0x6A74, symBinAddr: 0x247D4, symSize: 0x4 }
+  - { offsetInCU: 0xB498, offset: 0x9A856, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED1Ev, symObjAddr: 0x6A74, symBinAddr: 0x247D4, symSize: 0x4 }
+  - { offsetInCU: 0xB4D0, offset: 0x9A88E, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED0Ev, symObjAddr: 0x6A78, symBinAddr: 0x247D8, symSize: 0x14 }
+  - { offsetInCU: 0xB537, offset: 0x9A8F5, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE16__on_zero_sharedEv, symObjAddr: 0x6A8C, symBinAddr: 0x247EC, symSize: 0x18 }
+  - { offsetInCU: 0xB58B, offset: 0x9A949, size: 0x8, addend: 0x0, symName: __ZNKSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info, symObjAddr: 0x6AA4, symBinAddr: 0x24804, symSize: 0x3C }
+  - { offsetInCU: 0xB632, offset: 0x9A9F0, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6AE0, symBinAddr: 0x24840, symSize: 0x4 }
+  - { offsetInCU: 0xB669, offset: 0x9AA27, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6AE0, symBinAddr: 0x24840, symSize: 0x4 }
+  - { offsetInCU: 0xB68D, offset: 0x9AA4B, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6AE0, symBinAddr: 0x24840, symSize: 0x4 }
+  - { offsetInCU: 0xB6BD, offset: 0x9AA7B, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6AE0, symBinAddr: 0x24840, symSize: 0x4 }
+  - { offsetInCU: 0xB6E6, offset: 0x9AAA4, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5agora3rtc26AgoraRtcCustomDataObserverENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6AE0, symBinAddr: 0x24840, symSize: 0x4 }
 ...
