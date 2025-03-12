@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AgoraMccExService"
-  spec.version      = "2.2.0.131-beta4-5"
-  spec.summary      = "A short description of AgoraMccExService."
+  spec.version      = "2.2.0.133-beta-2"
+  spec.summary      = "A short description of AgoraMccExService. FOR RTC SDK FULL PACKAGE."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -35,7 +35,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/zhouruiyy/AgoraMccExService.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = "vendor/AgoraMccExService.xcframework"
-  spec.dependency 'AgoraAudio_Special_iOS', '~> 4.4.0'
+  spec.dependency 'AgoraRtcEngine_Special_iOS', '~> 4.1.0'
   spec.dependency 'AgoraComponetLog', '~> 0.0.3'
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'DEFINES_MODULE' => 'YES' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'DEFINES_MODULE' => 'YES' }
