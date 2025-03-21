@@ -265,8 +265,6 @@ __attribute__((visibility("default")))
 __attribute__((visibility("default")))
 @interface AgoraYSDVendorConfigure : AgoraVendorConfigure
 
-/// The room ID of vendor.
-@property (nonatomic, copy, readonly) NSString *roomId;
 /// The expire time(in seconds) of url token, different from the above token.
 @property (nonatomic, assign, readonly) NSInteger urlTokenExpireTime;
 /// The charge mode specific to YSD.
@@ -280,7 +278,6 @@ __attribute__((visibility("default")))
  * @param token The token of vendor for authentication.
  * @param userId The user ID of vendor.
  * @param deviceId The device ID of vendor.
- * @param roomId The room ID of vendor.
  * @param urlTokenExpireTime The expire time of url token.
  * @param chargeMode The charge mode specific to YSD.
  * @return An instance of AgoraYSDVendorConfigure.
@@ -290,7 +287,6 @@ __attribute__((visibility("default")))
                         token:(nonnull NSString *)token
                        userId:(nonnull NSString *)userId
                      deviceId:(nonnull NSString *)deviceId
-                       roomId:(nonnull NSString *)roomId
            urlTokenExpireTime:(NSInteger)urlTokenExpireTime
                    chargeMode:(AgoraYSDChargeMode)chargeMode;
 - (instancetype)init __attribute__((unavailable("Use initWithAppid instead")));
