@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AgoraMccExService"
-  spec.version      = "2.2.0.133-LITE-2"
+  spec.version      = "2.2.0.133-LITE-3"
   spec.summary      = "A short description of AgoraMccExService. FOR RTC SDK FULL PACKAGE."
 
   # This description is used to generate tags and improve search results.
