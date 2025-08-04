@@ -66,6 +66,14 @@ typedef NS_ENUM(NSInteger, AgoraMusicContentCenterExStateReason) {
      * 3: Invalid signature.
      */
     AgoraMusicContentCenterExStateReasonErrorInvalidSignature = 3,
+    /**
+     * 4: Disk space not enough.
+     */
+    AgoraMusicContentCenterExStateReasonErrorDiskSpaceNotEnough = 4,
+    /**
+     * 5: Not support.
+     */
+    AgoraMusicContentCenterExStateReasonErrorNotSupport = 5,
 };
 
 /**
