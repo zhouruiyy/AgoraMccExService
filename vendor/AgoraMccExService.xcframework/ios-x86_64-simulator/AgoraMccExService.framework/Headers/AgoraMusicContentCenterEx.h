@@ -40,7 +40,6 @@ NS_ASSUME_NONNULL_BEGIN
  * @param requestId The request ID, same as returned by preload.
  * @param songCode The code of the song.
  * @param percent The preload progress (0 ~ 100).
- * @param musicPath The path to the music file.
  * @param lyricPath The path to the lyric file.
  * @param pitchPath The path to the pitch file.
  * @param songOffsetBegin The beginning offset of the song.
@@ -52,7 +51,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)onPreLoadEvent:(NSString*)requestId
               songCode:(NSInteger)songCode
                percent:(NSInteger)percent
-             musicPath:(NSString* _Nullable)musicPath
              lyricPath:(NSString* _Nullable)lyricPath
              pitchPath:(NSString* _Nullable)pitchPath
        songOffsetBegin:(NSInteger)songOffsetBegin
