@@ -185,6 +185,31 @@ extern NSString * const kAgoraMusicPlayerDidPlayToEndNotification;
 @protocol AgoraAudioFrameDelegate;
 
 __attribute__((visibility("default")))
+@interface AgoraMusicContentCenterExAudioParameter : NSObject
+
+/// The sample rate.
+@property (nonatomic, assign, readonly) NSUInteger sampleRate;
+/// The channels.
+@property (nonatomic, assign, readonly) NSUInteger channels;
+/// The audio frame interval.
+@property (nonatomic, assign, readonly) NSUInteger audioFrameInterval;
+/// The pitch audio frame interval.
+@property (nonatomic, assign, readonly) NSUInteger pitchAudioFrameInterval;
+
+/**
+ * Initializes the audio params.
+ *
+ * @param sampleRate The sample rate.
+ * @param channels The channels.
+ * @param audioFrameInterval The audio frame interval.
+ * @param pitchAudioFrameInterval The pitch audio frame interval.
+ * @return An instance of AgoraMusicContentCenterExAudioParameter.
+ */
+- (instancetype)initWithSampleRate:(NSUInteger)sampleRate channels:(NSUInteger)channels audioFrameInterval:(NSUInteger)audioFrameInterval pitchAudioFrameInterval:(NSUInteger)pitchAudioFrameInterval;
+- (instancetype)init __attribute__((unavailable("Use initWithSampleRate instead")));
+@end
+
+__attribute__((visibility("default")))
 @interface AgoraMusicContentCenterExConfiguration : NSObject
 
 /// The AgoraRtcEngineKit instance.
@@ -199,6 +224,8 @@ __attribute__((visibility("default")))
 @property (nonatomic, copy, readonly) NSString * _Nullable logFilePath;
 /// The maximum cache size.
 @property (nonatomic, assign, readonly) NSInteger maxCacheSize;
+/// The audio params.
+@property (nonatomic, strong, readonly) AgoraMusicContentCenterExAudioParameter *audioParameter;
 /// The event delegate.
 @property (nonatomic, weak, readonly) id<AgoraMusicContentCenterExEventDelegate> _Nullable eventDelegate;
 /// The score event delegate.
@@ -215,6 +242,7 @@ __attribute__((visibility("default")))
  * @param enableSaveLogToFile Whether to save log to file.
  * @param logFilePath The file path for logging.
  * @param maxCacheSize The maximum cache size.
+ * @param audioParameter The audio parameter.
  * @param eventDelegate The event delegate.
  * @param scoreEventDelegate The score event delegate.
  * @param audioFrameDelegate The audio frame delegate.
@@ -226,6 +254,7 @@ __attribute__((visibility("default")))
               enableSaveLogToFile:(BOOL)enableSaveLogToFile
                       logFilePath:(NSString * _Nullable)logFilePath
                      maxCacheSize:(NSInteger)maxCacheSize
+                    audioParameter:(AgoraMusicContentCenterExAudioParameter * _Nullable)audioParameter
                     eventDelegate:(id<AgoraMusicContentCenterExEventDelegate> _Nullable)eventDelegate
                scoreEventDelegate:(id<AgoraMusicContentCenterExScoreEventDelegate> _Nullable)scoreEventDelegate
                audioFrameDelegate:(id<AgoraAudioFrameDelegate> _Nullable)audioFrameDelegate;
