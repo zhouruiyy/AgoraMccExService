@@ -19,9 +19,13 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @param state The state of initialization; see AgoraMusicContentCenterExState.
  * @param reason The reason for the state of initialization; see AgoraMusicContentCenterExStateReason.
+ * @param errorCode The vendor error code. 0 means success; non-zero means vendor-specific error.
+ * @param errorMessage The error description. Empty string when errorCode is 0.
  */
 - (void)onInitializeResult:(AgoraMusicContentCenterExState)state
-                    reason:(AgoraMusicContentCenterExStateReason)reason;
+                    reason:(AgoraMusicContentCenterExStateReason)reason
+                 errorCode:(NSInteger)errorCode
+              errorMessage:(NSString *)errorMessage;
 
 /**
  * Callback for start score result.
@@ -29,10 +33,14 @@ NS_ASSUME_NONNULL_BEGIN
  * @param songCode The code of the song.
  * @param state The state of starting score; see AgoraMusicContentCenterExState.
  * @param reason The reason for the state of starting score; see AgoraMusicContentCenterExStateReason.
+ * @param errorCode The vendor error code. 0 means success; non-zero means vendor-specific error.
+ * @param errorMessage The error description. Empty string when errorCode is 0.
  */
 - (void)onStartScoreResult:(NSInteger)songCode
                      state:(AgoraMusicContentCenterExState)state
-                    reason:(AgoraMusicContentCenterExStateReason)reason;
+                    reason:(AgoraMusicContentCenterExStateReason)reason
+                 errorCode:(NSInteger)errorCode
+              errorMessage:(NSString *)errorMessage;
 
 /**
  * Callback for preload process.
@@ -47,6 +55,8 @@ NS_ASSUME_NONNULL_BEGIN
  * @param lyricOffset The offset of the lyric.
  * @param state The state of the preload; see AgoraMusicContentCenterExState.
  * @param reason The reason for the preload result; see AgoraMusicContentCenterExStateReason.
+ * @param errorCode The vendor error code. 0 means success; non-zero means vendor-specific error.
+ * @param errorMessage The error description. Empty string when errorCode is 0.
  */
 - (void)onPreLoadEvent:(NSString*)requestId
               songCode:(NSInteger)songCode
@@ -57,7 +67,9 @@ NS_ASSUME_NONNULL_BEGIN
          songOffsetEnd:(NSInteger)songOffsetEnd
            lyricOffset:(NSInteger)lyricOffset
                  state:(AgoraMusicContentCenterExState)state
-                reason:(AgoraMusicContentCenterExStateReason)reason;
+                reason:(AgoraMusicContentCenterExStateReason)reason
+             errorCode:(NSInteger)errorCode
+          errorMessage:(NSString *)errorMessage;
 
 /**
  * Callback for lyric request result.
@@ -69,6 +81,8 @@ NS_ASSUME_NONNULL_BEGIN
  * @param songOffsetEnd The ending offset of the song.
  * @param lyricOffset The offset of the lyric.
  * @param reason The reason for the lyric result; see AgoraMusicContentCenterExStateReason.
+ * @param errorCode The vendor error code. 0 means success; non-zero means vendor-specific error.
+ * @param errorMessage The error description. Empty string when errorCode is 0.
  */
 - (void)onLyricResult:(NSString*)requestId
              songCode:(NSInteger)songCode
@@ -76,7 +90,9 @@ NS_ASSUME_NONNULL_BEGIN
       songOffsetBegin:(NSInteger)songOffsetBegin
         songOffsetEnd:(NSInteger)songOffsetEnd
           lyricOffset:(NSInteger)lyricOffset
-               reason:(AgoraMusicContentCenterExStateReason)reason;
+               reason:(AgoraMusicContentCenterExStateReason)reason
+            errorCode:(NSInteger)errorCode
+         errorMessage:(NSString *)errorMessage;
 
 /**
  * Callback for pitch request result.
@@ -87,13 +103,17 @@ NS_ASSUME_NONNULL_BEGIN
  * @param songOffsetBegin The beginning offset of the song.
  * @param songOffsetEnd The ending offset of the song.
  * @param reason The reason for the pitch result; see AgoraMusicContentCenterExStateReason.
+ * @param errorCode The vendor error code. 0 means success; non-zero means vendor-specific error.
+ * @param errorMessage The error description. Empty string when errorCode is 0.
  */
 - (void)onPitchResult:(NSString*)requestId
              songCode:(NSInteger)songCode
             pitchPath:(NSString* _Nullable)pitchPath
       songOffsetBegin:(NSInteger)songOffsetBegin
         songOffsetEnd:(NSInteger)songOffsetEnd
-               reason:(AgoraMusicContentCenterExStateReason)reason;
+               reason:(AgoraMusicContentCenterExStateReason)reason
+            errorCode:(NSInteger)errorCode
+         errorMessage:(NSString *)errorMessage;
 @end
 
 @protocol AgoraMusicContentCenterExScoreEventDelegate <NSObject>

@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/AgoraMusicContentCenterEx.h</key>
 		<data>
-		0LWzyDR50EoI0luwc2J6BsMDJQw=
+		wJSu4J50UKKKyCodVnkpstw7poI=
 		</data>
 		<key>Headers/AgoraMusicContentCenterExObjects.h</key>
 		<data>
-		9aPPLX+qqHFbS++W6a2AJc50AdE=
+		QTbgtVEMnrzuPsYyU4zM9v9C1Ys=
 		</data>
 		<key>Headers/AgoraMusicPlayerProtocolEx.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kVZxPSHjdLgiQZrcmh1YDGrTSqE=
+		ihgXgnEOH877Gm1m3eEwLRS8yu0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,14 +42,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a29Hzrhms+a7qd2oYpYXKE8UHiFJgbY5ctaQL7kflnw=
+			DWikvmXdf0JRZcweL+JuVrx3JnwDNjV7+h/HNMArYlQ=
 			</data>
 		</dict>
 		<key>Headers/AgoraMusicContentCenterExObjects.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nHfoAWzgW4bdTKUNakSamIKfU6+Wg8XFxN1U3bDqrBI=
+			O+nQ/J7fv3MQQGWVWu5sMg0gXJK9qPhbfKRaIHfmBBY=
 			</data>
 		</dict>
 		<key>Headers/AgoraMusicPlayerProtocolEx.h</key>

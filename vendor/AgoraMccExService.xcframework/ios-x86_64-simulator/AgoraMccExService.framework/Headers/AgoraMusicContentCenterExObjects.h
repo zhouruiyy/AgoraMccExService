@@ -55,25 +55,29 @@ typedef NS_ENUM(NSInteger, AgoraMusicContentCenterExStateReason) {
      */
     AgoraMusicContentCenterExStateReasonOK = 0,
     /**
-     * 1: The general error.
+     * 8001: The general error.
      */
-    AgoraMusicContentCenterExStateReasonError = 1,
+    AgoraMusicContentCenterExStateReasonError = 8001,
     /**
-     * 2: Http internal error. Please retry later.
+     * 8002: Http internal error. Please retry later.
      */
-    AgoraMusicContentCenterExStateReasonErrorHttpInternalError = 2,
+    AgoraMusicContentCenterExStateReasonErrorHttpInternalError = 8002,
     /**
-     * 3: Invalid signature.
+     * 8003: Invalid signature.
      */
-    AgoraMusicContentCenterExStateReasonErrorInvalidSignature = 3,
+    AgoraMusicContentCenterExStateReasonErrorInvalidSignature = 8003,
     /**
-     * 4: Disk space not enough.
+     * 8004: Disk space not enough.
      */
-    AgoraMusicContentCenterExStateReasonErrorDiskSpaceNotEnough = 4,
+    AgoraMusicContentCenterExStateReasonErrorDiskSpaceNotEnough = 8004,
     /**
-     * 5: Not support.
+     * 8005: Not support score.
      */
-    AgoraMusicContentCenterExStateReasonErrorNotSupport = 5,
+    AgoraMusicContentCenterExStateReasonErrorNotSupportScore = 8005,
+    /**
+     * 8006: Resource not exist.
+     */
+    AgoraMusicContentCenterExStateReasonErrorResourceNotExist = 8006,
 };
 
 /**
